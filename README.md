@@ -12,4 +12,10 @@ pip install transformers
 pip install ptyprocess ipykernel pyzmq -U --force-reinstall
 ```
 
+# Settings
+We implement the model with PyTorch Geometric.
+The batch size is set to 1024, embedding dimension to 64, the number of layers is 4, learning rate to 1e-3, and the training runs for 1000 epochs.
+The model is evaluated on the validation set at each epoch, and early stopping is applied if no improvement in recall@20 is observed over 50 consecutive epochs.
+The experiments are conducted using a single NVIDIA RTX A6000 GPU.
+
 # Run
