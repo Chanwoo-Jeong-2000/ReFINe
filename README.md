@@ -33,12 +33,12 @@ The model is evaluated on the validation set at each epoch, and early stopping i
 The experiments are conducted using a single NVIDIA RTX A6000 GPU.
 
 # Datasets
-Download **ml-100k.inter** and **ml-100k.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-100k.zip)
+Download **ml-100k.inter** and **ml-100k.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-100k.zip).
 
-Download **ml-1m.inter** and **ml-1m.item** from [here](from https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-1m.zip)
+Download **ml-1m.inter** and **ml-1m.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-1m.zip).
 
-Download **netflix.inter** from [here](from https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Netflix/netflix.zip)
+Download **netflix.inter** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/Netflix/netflix.zip).
 
-Download **movie_titles.csv** from [here](from https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?select=movie_titles.csv)
+Download **movie_titles.csv** from [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?select=movie_titles.csv).
 
-Download **netflix_genres.csv** from [here](from https://github.com/tommasocarraro/netflix-prize-with-genres)
+Download **netflix_genres.csv** from [here](https://github.com/tommasocarraro/netflix-prize-with-genres).
