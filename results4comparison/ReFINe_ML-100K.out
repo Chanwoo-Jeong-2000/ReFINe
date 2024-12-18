@@ -1,0 +1,3345 @@
+#############################################################################
+ramdom_seed: 2024
+gpu_id: 4
+dataset: ML-100K
+dataset_augment: 1
+batch_size: 1024
+test_batch_size: 8192
+embedding_dim: 64
+layers: 4
+learning_rate: 0.001
+evaluation_step: 1
+early_stopping_step: 50
+top_k: [5, 10, 15, 20]
+epochs: 1000
+real_negative_sampling_probabilities: 1.5
+p: 1.5
+q: 0.75
+r: 100
+s: 5
+t: 50
+path_name: nothing
+#############################################################################
+
+#############################################################################
+data loading...
+train set: train_augment
+user: 938,  item: 1008
+train interations: 52984
+valid interations: 5018
+test interations: 10514
+done!
+#############################################################################
+
+Epoch: 001, Loss: 0.6857
+Precision@5:  0.0674, Recall@5:  0.0912, NDCG@5:  0.0950
+Precision@10: 0.0602, Recall@10: 0.1392, NDCG@10: 0.1105
+Precision@15: 0.0555, Recall@15: 0.1825, NDCG@15: 0.1247
+Precision@20: 0.0527, Recall@20: 0.2170, NDCG@20: 0.1377
+Save: result/ML-100K/nothing.pt
+
+Epoch: 002, Loss: 0.6138
+Precision@5:  0.0656, Recall@5:  0.0888, NDCG@5:  0.0934
+Precision@10: 0.0590, Recall@10: 0.1374, NDCG@10: 0.1091
+Precision@15: 0.0558, Recall@15: 0.1840, NDCG@15: 0.1246
+Precision@20: 0.0517, Recall@20: 0.2154, NDCG@20: 0.1362
+EarlyStopping counter: 1 out of 50
+
+Epoch: 003, Loss: 0.5172
+Precision@5:  0.0647, Recall@5:  0.0860, NDCG@5:  0.0922
+Precision@10: 0.0596, Recall@10: 0.1378, NDCG@10: 0.1093
+Precision@15: 0.0561, Recall@15: 0.1841, NDCG@15: 0.1248
+Precision@20: 0.0518, Recall@20: 0.2146, NDCG@20: 0.1360
+EarlyStopping counter: 2 out of 50
+
+Epoch: 004, Loss: 0.4788
+Precision@5:  0.0694, Recall@5:  0.0906, NDCG@5:  0.0971
+Precision@10: 0.0619, Recall@10: 0.1414, NDCG@10: 0.1124
+Precision@15: 0.0576, Recall@15: 0.1854, NDCG@15: 0.1270
+Precision@20: 0.0527, Recall@20: 0.2154, NDCG@20: 0.1380
+EarlyStopping counter: 3 out of 50
+
+Epoch: 005, Loss: 0.4661
+Precision@5:  0.0721, Recall@5:  0.0930, NDCG@5:  0.0997
+Precision@10: 0.0630, Recall@10: 0.1426, NDCG@10: 0.1140
+Precision@15: 0.0582, Recall@15: 0.1837, NDCG@15: 0.1277
+Precision@20: 0.0531, Recall@20: 0.2163, NDCG@20: 0.1392
+EarlyStopping counter: 4 out of 50
+
+Epoch: 006, Loss: 0.4644
+Precision@5:  0.0761, Recall@5:  0.0938, NDCG@5:  0.1023
+Precision@10: 0.0639, Recall@10: 0.1442, NDCG@10: 0.1154
+Precision@15: 0.0597, Recall@15: 0.1864, NDCG@15: 0.1299
+Precision@20: 0.0540, Recall@20: 0.2197, NDCG@20: 0.1413
+Save: result/ML-100K/nothing.pt
+
+Epoch: 007, Loss: 0.4588
+Precision@5:  0.0779, Recall@5:  0.0958, NDCG@5:  0.1058
+Precision@10: 0.0657, Recall@10: 0.1493, NDCG@10: 0.1194
+Precision@15: 0.0605, Recall@15: 0.1906, NDCG@15: 0.1332
+Precision@20: 0.0548, Recall@20: 0.2216, NDCG@20: 0.1443
+Save: result/ML-100K/nothing.pt
+
+Epoch: 008, Loss: 0.4538
+Precision@5:  0.0809, Recall@5:  0.0967, NDCG@5:  0.1098
+Precision@10: 0.0679, Recall@10: 0.1535, NDCG@10: 0.1240
+Precision@15: 0.0610, Recall@15: 0.1924, NDCG@15: 0.1368
+Precision@20: 0.0562, Recall@20: 0.2280, NDCG@20: 0.1495
+Save: result/ML-100K/nothing.pt
+
+Epoch: 009, Loss: 0.4492
+Precision@5:  0.0844, Recall@5:  0.1001, NDCG@5:  0.1163
+Precision@10: 0.0695, Recall@10: 0.1579, NDCG@10: 0.1299
+Precision@15: 0.0632, Recall@15: 0.2013, NDCG@15: 0.1440
+Precision@20: 0.0582, Recall@20: 0.2431, NDCG@20: 0.1581
+Save: result/ML-100K/nothing.pt
+
+Epoch: 010, Loss: 0.4448
+Precision@5:  0.0873, Recall@5:  0.1038, NDCG@5:  0.1233
+Precision@10: 0.0731, Recall@10: 0.1633, NDCG@10: 0.1373
+Precision@15: 0.0665, Recall@15: 0.2161, NDCG@15: 0.1540
+Precision@20: 0.0602, Recall@20: 0.2571, NDCG@20: 0.1676
+Save: result/ML-100K/nothing.pt
+
+Epoch: 011, Loss: 0.4337
+Precision@5:  0.0912, Recall@5:  0.1093, NDCG@5:  0.1289
+Precision@10: 0.0760, Recall@10: 0.1737, NDCG@10: 0.1437
+Precision@15: 0.0688, Recall@15: 0.2288, NDCG@15: 0.1609
+Precision@20: 0.0615, Recall@20: 0.2648, NDCG@20: 0.1732
+Save: result/ML-100K/nothing.pt
+
+Epoch: 012, Loss: 0.4297
+Precision@5:  0.0925, Recall@5:  0.1111, NDCG@5:  0.1315
+Precision@10: 0.0788, Recall@10: 0.1810, NDCG@10: 0.1487
+Precision@15: 0.0706, Recall@15: 0.2373, NDCG@15: 0.1661
+Precision@20: 0.0636, Recall@20: 0.2775, NDCG@20: 0.1797
+Save: result/ML-100K/nothing.pt
+
+Epoch: 013, Loss: 0.4231
+Precision@5:  0.0938, Recall@5:  0.1136, NDCG@5:  0.1333
+Precision@10: 0.0793, Recall@10: 0.1864, NDCG@10: 0.1511
+Precision@15: 0.0724, Recall@15: 0.2452, NDCG@15: 0.1698
+Precision@20: 0.0649, Recall@20: 0.2832, NDCG@20: 0.1829
+Save: result/ML-100K/nothing.pt
+
+Epoch: 014, Loss: 0.4179
+Precision@5:  0.0959, Recall@5:  0.1168, NDCG@5:  0.1350
+Precision@10: 0.0809, Recall@10: 0.1871, NDCG@10: 0.1519
+Precision@15: 0.0735, Recall@15: 0.2486, NDCG@15: 0.1712
+Precision@20: 0.0655, Recall@20: 0.2883, NDCG@20: 0.1845
+Save: result/ML-100K/nothing.pt
+
+Epoch: 015, Loss: 0.4130
+Precision@5:  0.0970, Recall@5:  0.1166, NDCG@5:  0.1365
+Precision@10: 0.0815, Recall@10: 0.1871, NDCG@10: 0.1530
+Precision@15: 0.0722, Recall@15: 0.2475, NDCG@15: 0.1712
+Precision@20: 0.0658, Recall@20: 0.2965, NDCG@20: 0.1873
+Save: result/ML-100K/nothing.pt
+
+Epoch: 016, Loss: 0.4018
+Precision@5:  0.0932, Recall@5:  0.1113, NDCG@5:  0.1338
+Precision@10: 0.0819, Recall@10: 0.1912, NDCG@10: 0.1543
+Precision@15: 0.0732, Recall@15: 0.2494, NDCG@15: 0.1721
+Precision@20: 0.0656, Recall@20: 0.2949, NDCG@20: 0.1869
+EarlyStopping counter: 1 out of 50
+
+Epoch: 017, Loss: 0.4012
+Precision@5:  0.0947, Recall@5:  0.1116, NDCG@5:  0.1347
+Precision@10: 0.0823, Recall@10: 0.1895, NDCG@10: 0.1540
+Precision@15: 0.0728, Recall@15: 0.2481, NDCG@15: 0.1715
+Precision@20: 0.0665, Recall@20: 0.2990, NDCG@20: 0.1881
+Save: result/ML-100K/nothing.pt
+
+Epoch: 018, Loss: 0.3955
+Precision@5:  0.0936, Recall@5:  0.1088, NDCG@5:  0.1337
+Precision@10: 0.0820, Recall@10: 0.1885, NDCG@10: 0.1540
+Precision@15: 0.0732, Recall@15: 0.2495, NDCG@15: 0.1723
+Precision@20: 0.0670, Recall@20: 0.2987, NDCG@20: 0.1888
+EarlyStopping counter: 1 out of 50
+
+Epoch: 019, Loss: 0.3890
+Precision@5:  0.0936, Recall@5:  0.1080, NDCG@5:  0.1336
+Precision@10: 0.0830, Recall@10: 0.1895, NDCG@10: 0.1545
+Precision@15: 0.0726, Recall@15: 0.2451, NDCG@15: 0.1707
+Precision@20: 0.0671, Recall@20: 0.2975, NDCG@20: 0.1882
+EarlyStopping counter: 2 out of 50
+
+Epoch: 020, Loss: 0.3901
+Precision@5:  0.0945, Recall@5:  0.1087, NDCG@5:  0.1351
+Precision@10: 0.0828, Recall@10: 0.1889, NDCG@10: 0.1550
+Precision@15: 0.0735, Recall@15: 0.2455, NDCG@15: 0.1721
+Precision@20: 0.0672, Recall@20: 0.2988, NDCG@20: 0.1894
+EarlyStopping counter: 3 out of 50
+
+Epoch: 021, Loss: 0.3871
+Precision@5:  0.0923, Recall@5:  0.1071, NDCG@5:  0.1327
+Precision@10: 0.0819, Recall@10: 0.1866, NDCG@10: 0.1529
+Precision@15: 0.0735, Recall@15: 0.2452, NDCG@15: 0.1709
+Precision@20: 0.0673, Recall@20: 0.2958, NDCG@20: 0.1876
+EarlyStopping counter: 4 out of 50
+
+Epoch: 022, Loss: 0.3819
+Precision@5:  0.0927, Recall@5:  0.1064, NDCG@5:  0.1328
+Precision@10: 0.0819, Recall@10: 0.1858, NDCG@10: 0.1528
+Precision@15: 0.0736, Recall@15: 0.2428, NDCG@15: 0.1704
+Precision@20: 0.0674, Recall@20: 0.2960, NDCG@20: 0.1877
+EarlyStopping counter: 5 out of 50
+
+Epoch: 023, Loss: 0.3800
+Precision@5:  0.0923, Recall@5:  0.1064, NDCG@5:  0.1327
+Precision@10: 0.0814, Recall@10: 0.1854, NDCG@10: 0.1525
+Precision@15: 0.0732, Recall@15: 0.2411, NDCG@15: 0.1697
+Precision@20: 0.0673, Recall@20: 0.2961, NDCG@20: 0.1876
+EarlyStopping counter: 6 out of 50
+
+Epoch: 024, Loss: 0.3801
+Precision@5:  0.0923, Recall@5:  0.1071, NDCG@5:  0.1322
+Precision@10: 0.0821, Recall@10: 0.1878, NDCG@10: 0.1528
+Precision@15: 0.0735, Recall@15: 0.2427, NDCG@15: 0.1696
+Precision@20: 0.0674, Recall@20: 0.2933, NDCG@20: 0.1864
+EarlyStopping counter: 7 out of 50
+
+Epoch: 025, Loss: 0.3779
+Precision@5:  0.0927, Recall@5:  0.1075, NDCG@5:  0.1326
+Precision@10: 0.0824, Recall@10: 0.1884, NDCG@10: 0.1534
+Precision@15: 0.0729, Recall@15: 0.2412, NDCG@15: 0.1693
+Precision@20: 0.0672, Recall@20: 0.2927, NDCG@20: 0.1865
+EarlyStopping counter: 8 out of 50
+
+Epoch: 026, Loss: 0.3773
+Precision@5:  0.0938, Recall@5:  0.1110, NDCG@5:  0.1339
+Precision@10: 0.0829, Recall@10: 0.1900, NDCG@10: 0.1539
+Precision@15: 0.0736, Recall@15: 0.2423, NDCG@15: 0.1698
+Precision@20: 0.0670, Recall@20: 0.2920, NDCG@20: 0.1862
+EarlyStopping counter: 9 out of 50
+
+Epoch: 027, Loss: 0.3769
+Precision@5:  0.0938, Recall@5:  0.1086, NDCG@5:  0.1333
+Precision@10: 0.0831, Recall@10: 0.1897, NDCG@10: 0.1540
+Precision@15: 0.0736, Recall@15: 0.2426, NDCG@15: 0.1699
+Precision@20: 0.0679, Recall@20: 0.2940, NDCG@20: 0.1871
+EarlyStopping counter: 10 out of 50
+
+Epoch: 028, Loss: 0.3717
+Precision@5:  0.0932, Recall@5:  0.1092, NDCG@5:  0.1335
+Precision@10: 0.0830, Recall@10: 0.1873, NDCG@10: 0.1535
+Precision@15: 0.0735, Recall@15: 0.2414, NDCG@15: 0.1697
+Precision@20: 0.0681, Recall@20: 0.2939, NDCG@20: 0.1873
+EarlyStopping counter: 11 out of 50
+
+Epoch: 029, Loss: 0.3734
+Precision@5:  0.0927, Recall@5:  0.1102, NDCG@5:  0.1336
+Precision@10: 0.0821, Recall@10: 0.1861, NDCG@10: 0.1530
+Precision@15: 0.0737, Recall@15: 0.2422, NDCG@15: 0.1701
+Precision@20: 0.0680, Recall@20: 0.2938, NDCG@20: 0.1874
+EarlyStopping counter: 12 out of 50
+
+Epoch: 030, Loss: 0.3670
+Precision@5:  0.0934, Recall@5:  0.1119, NDCG@5:  0.1355
+Precision@10: 0.0824, Recall@10: 0.1873, NDCG@10: 0.1546
+Precision@15: 0.0737, Recall@15: 0.2405, NDCG@15: 0.1711
+Precision@20: 0.0680, Recall@20: 0.2935, NDCG@20: 0.1886
+EarlyStopping counter: 13 out of 50
+
+Epoch: 031, Loss: 0.3680
+Precision@5:  0.0943, Recall@5:  0.1125, NDCG@5:  0.1361
+Precision@10: 0.0828, Recall@10: 0.1874, NDCG@10: 0.1549
+Precision@15: 0.0740, Recall@15: 0.2407, NDCG@15: 0.1714
+Precision@20: 0.0680, Recall@20: 0.2958, NDCG@20: 0.1891
+EarlyStopping counter: 14 out of 50
+
+Epoch: 032, Loss: 0.3677
+Precision@5:  0.0952, Recall@5:  0.1132, NDCG@5:  0.1363
+Precision@10: 0.0829, Recall@10: 0.1901, NDCG@10: 0.1554
+Precision@15: 0.0742, Recall@15: 0.2420, NDCG@15: 0.1716
+Precision@20: 0.0692, Recall@20: 0.3003, NDCG@20: 0.1909
+Save: result/ML-100K/nothing.pt
+
+Epoch: 033, Loss: 0.3644
+Precision@5:  0.0936, Recall@5:  0.1103, NDCG@5:  0.1352
+Precision@10: 0.0831, Recall@10: 0.1896, NDCG@10: 0.1556
+Precision@15: 0.0742, Recall@15: 0.2436, NDCG@15: 0.1722
+Precision@20: 0.0688, Recall@20: 0.2974, NDCG@20: 0.1902
+EarlyStopping counter: 1 out of 50
+
+Epoch: 034, Loss: 0.3614
+Precision@5:  0.0950, Recall@5:  0.1122, NDCG@5:  0.1359
+Precision@10: 0.0833, Recall@10: 0.1885, NDCG@10: 0.1550
+Precision@15: 0.0747, Recall@15: 0.2439, NDCG@15: 0.1722
+Precision@20: 0.0693, Recall@20: 0.2982, NDCG@20: 0.1903
+EarlyStopping counter: 2 out of 50
+
+Epoch: 035, Loss: 0.3582
+Precision@5:  0.0968, Recall@5:  0.1121, NDCG@5:  0.1378
+Precision@10: 0.0847, Recall@10: 0.1901, NDCG@10: 0.1570
+Precision@15: 0.0758, Recall@15: 0.2494, NDCG@15: 0.1751
+Precision@20: 0.0702, Recall@20: 0.3031, NDCG@20: 0.1931
+Save: result/ML-100K/nothing.pt
+
+Epoch: 036, Loss: 0.3582
+Precision@5:  0.0972, Recall@5:  0.1131, NDCG@5:  0.1390
+Precision@10: 0.0860, Recall@10: 0.1922, NDCG@10: 0.1590
+Precision@15: 0.0770, Recall@15: 0.2526, NDCG@15: 0.1774
+Precision@20: 0.0705, Recall@20: 0.3038, NDCG@20: 0.1945
+Save: result/ML-100K/nothing.pt
+
+Epoch: 037, Loss: 0.3516
+Precision@5:  0.0988, Recall@5:  0.1148, NDCG@5:  0.1408
+Precision@10: 0.0862, Recall@10: 0.1929, NDCG@10: 0.1597
+Precision@15: 0.0778, Recall@15: 0.2536, NDCG@15: 0.1784
+Precision@20: 0.0711, Recall@20: 0.3064, NDCG@20: 0.1959
+Save: result/ML-100K/nothing.pt
+
+Epoch: 038, Loss: 0.3503
+Precision@5:  0.0997, Recall@5:  0.1131, NDCG@5:  0.1410
+Precision@10: 0.0873, Recall@10: 0.1955, NDCG@10: 0.1613
+Precision@15: 0.0785, Recall@15: 0.2576, NDCG@15: 0.1803
+Precision@20: 0.0720, Recall@20: 0.3112, NDCG@20: 0.1981
+Save: result/ML-100K/nothing.pt
+
+Epoch: 039, Loss: 0.3458
+Precision@5:  0.1010, Recall@5:  0.1151, NDCG@5:  0.1443
+Precision@10: 0.0869, Recall@10: 0.1950, NDCG@10: 0.1631
+Precision@15: 0.0791, Recall@15: 0.2594, NDCG@15: 0.1830
+Precision@20: 0.0718, Recall@20: 0.3089, NDCG@20: 0.1997
+EarlyStopping counter: 1 out of 50
+
+Epoch: 040, Loss: 0.3425
+Precision@5:  0.1026, Recall@5:  0.1156, NDCG@5:  0.1459
+Precision@10: 0.0878, Recall@10: 0.1962, NDCG@10: 0.1649
+Precision@15: 0.0804, Recall@15: 0.2613, NDCG@15: 0.1854
+Precision@20: 0.0727, Recall@20: 0.3130, NDCG@20: 0.2025
+Save: result/ML-100K/nothing.pt
+
+Epoch: 041, Loss: 0.3380
+Precision@5:  0.1035, Recall@5:  0.1174, NDCG@5:  0.1472
+Precision@10: 0.0890, Recall@10: 0.1984, NDCG@10: 0.1666
+Precision@15: 0.0807, Recall@15: 0.2632, NDCG@15: 0.1867
+Precision@20: 0.0733, Recall@20: 0.3182, NDCG@20: 0.2046
+Save: result/ML-100K/nothing.pt
+
+Epoch: 042, Loss: 0.3385
+Precision@5:  0.1068, Recall@5:  0.1202, NDCG@5:  0.1494
+Precision@10: 0.0879, Recall@10: 0.1982, NDCG@10: 0.1661
+Precision@15: 0.0813, Recall@15: 0.2641, NDCG@15: 0.1873
+Precision@20: 0.0733, Recall@20: 0.3165, NDCG@20: 0.2044
+EarlyStopping counter: 1 out of 50
+
+Epoch: 043, Loss: 0.3345
+Precision@5:  0.1073, Recall@5:  0.1217, NDCG@5:  0.1509
+Precision@10: 0.0887, Recall@10: 0.2020, NDCG@10: 0.1686
+Precision@15: 0.0812, Recall@15: 0.2655, NDCG@15: 0.1889
+Precision@20: 0.0741, Recall@20: 0.3208, NDCG@20: 0.2071
+Save: result/ML-100K/nothing.pt
+
+Epoch: 044, Loss: 0.3304
+Precision@5:  0.1062, Recall@5:  0.1209, NDCG@5:  0.1497
+Precision@10: 0.0905, Recall@10: 0.2090, NDCG@10: 0.1707
+Precision@15: 0.0815, Recall@15: 0.2671, NDCG@15: 0.1891
+Precision@20: 0.0742, Recall@20: 0.3233, NDCG@20: 0.2075
+Save: result/ML-100K/nothing.pt
+
+Epoch: 045, Loss: 0.3273
+Precision@5:  0.1066, Recall@5:  0.1219, NDCG@5:  0.1511
+Precision@10: 0.0901, Recall@10: 0.2097, NDCG@10: 0.1718
+Precision@15: 0.0816, Recall@15: 0.2691, NDCG@15: 0.1906
+Precision@20: 0.0742, Recall@20: 0.3246, NDCG@20: 0.2088
+Save: result/ML-100K/nothing.pt
+
+Epoch: 046, Loss: 0.3257
+Precision@5:  0.1068, Recall@5:  0.1233, NDCG@5:  0.1524
+Precision@10: 0.0914, Recall@10: 0.2119, NDCG@10: 0.1739
+Precision@15: 0.0817, Recall@15: 0.2704, NDCG@15: 0.1920
+Precision@20: 0.0747, Recall@20: 0.3289, NDCG@20: 0.2111
+Save: result/ML-100K/nothing.pt
+
+Epoch: 047, Loss: 0.3212
+Precision@5:  0.1075, Recall@5:  0.1242, NDCG@5:  0.1539
+Precision@10: 0.0919, Recall@10: 0.2131, NDCG@10: 0.1756
+Precision@15: 0.0822, Recall@15: 0.2720, NDCG@15: 0.1938
+Precision@20: 0.0748, Recall@20: 0.3279, NDCG@20: 0.2122
+EarlyStopping counter: 1 out of 50
+
+Epoch: 048, Loss: 0.3193
+Precision@5:  0.1077, Recall@5:  0.1253, NDCG@5:  0.1532
+Precision@10: 0.0925, Recall@10: 0.2151, NDCG@10: 0.1756
+Precision@15: 0.0829, Recall@15: 0.2776, NDCG@15: 0.1948
+Precision@20: 0.0754, Recall@20: 0.3331, NDCG@20: 0.2130
+Save: result/ML-100K/nothing.pt
+
+Epoch: 049, Loss: 0.3188
+Precision@5:  0.1064, Recall@5:  0.1229, NDCG@5:  0.1515
+Precision@10: 0.0931, Recall@10: 0.2143, NDCG@10: 0.1755
+Precision@15: 0.0827, Recall@15: 0.2782, NDCG@15: 0.1947
+Precision@20: 0.0758, Recall@20: 0.3358, NDCG@20: 0.2138
+Save: result/ML-100K/nothing.pt
+
+Epoch: 050, Loss: 0.3371
+Precision@5:  0.1077, Recall@5:  0.1235, NDCG@5:  0.1517
+Precision@10: 0.0944, Recall@10: 0.2191, NDCG@10: 0.1769
+Precision@15: 0.0829, Recall@15: 0.2775, NDCG@15: 0.1943
+Precision@20: 0.0756, Recall@20: 0.3361, NDCG@20: 0.2134
+Save: result/ML-100K/nothing.pt
+
+Epoch: 051, Loss: 0.3338
+Precision@5:  0.1100, Recall@5:  0.1266, NDCG@5:  0.1547
+Precision@10: 0.0931, Recall@10: 0.2155, NDCG@10: 0.1763
+Precision@15: 0.0830, Recall@15: 0.2813, NDCG@15: 0.1961
+Precision@20: 0.0757, Recall@20: 0.3337, NDCG@20: 0.2138
+EarlyStopping counter: 1 out of 50
+
+Epoch: 052, Loss: 0.3314
+Precision@5:  0.1100, Recall@5:  0.1270, NDCG@5:  0.1559
+Precision@10: 0.0932, Recall@10: 0.2160, NDCG@10: 0.1777
+Precision@15: 0.0835, Recall@15: 0.2823, NDCG@15: 0.1979
+Precision@20: 0.0760, Recall@20: 0.3371, NDCG@20: 0.2161
+Save: result/ML-100K/nothing.pt
+
+Epoch: 053, Loss: 0.3313
+Precision@5:  0.1093, Recall@5:  0.1270, NDCG@5:  0.1556
+Precision@10: 0.0926, Recall@10: 0.2149, NDCG@10: 0.1773
+Precision@15: 0.0835, Recall@15: 0.2823, NDCG@15: 0.1979
+Precision@20: 0.0758, Recall@20: 0.3373, NDCG@20: 0.2161
+Save: result/ML-100K/nothing.pt
+
+Epoch: 054, Loss: 0.3291
+Precision@5:  0.1100, Recall@5:  0.1279, NDCG@5:  0.1561
+Precision@10: 0.0927, Recall@10: 0.2155, NDCG@10: 0.1775
+Precision@15: 0.0832, Recall@15: 0.2834, NDCG@15: 0.1980
+Precision@20: 0.0764, Recall@20: 0.3397, NDCG@20: 0.2170
+Save: result/ML-100K/nothing.pt
+
+Epoch: 055, Loss: 0.3282
+Precision@5:  0.1102, Recall@5:  0.1298, NDCG@5:  0.1569
+Precision@10: 0.0932, Recall@10: 0.2201, NDCG@10: 0.1790
+Precision@15: 0.0838, Recall@15: 0.2857, NDCG@15: 0.1992
+Precision@20: 0.0764, Recall@20: 0.3422, NDCG@20: 0.2179
+Save: result/ML-100K/nothing.pt
+
+Epoch: 056, Loss: 0.3251
+Precision@5:  0.1100, Recall@5:  0.1304, NDCG@5:  0.1571
+Precision@10: 0.0937, Recall@10: 0.2222, NDCG@10: 0.1800
+Precision@15: 0.0834, Recall@15: 0.2869, NDCG@15: 0.1996
+Precision@20: 0.0762, Recall@20: 0.3409, NDCG@20: 0.2179
+EarlyStopping counter: 1 out of 50
+
+Epoch: 057, Loss: 0.3257
+Precision@5:  0.1102, Recall@5:  0.1299, NDCG@5:  0.1571
+Precision@10: 0.0931, Recall@10: 0.2218, NDCG@10: 0.1794
+Precision@15: 0.0832, Recall@15: 0.2887, NDCG@15: 0.1996
+Precision@20: 0.0762, Recall@20: 0.3405, NDCG@20: 0.2175
+EarlyStopping counter: 2 out of 50
+
+Epoch: 058, Loss: 0.3262
+Precision@5:  0.1097, Recall@5:  0.1289, NDCG@5:  0.1563
+Precision@10: 0.0931, Recall@10: 0.2193, NDCG@10: 0.1785
+Precision@15: 0.0833, Recall@15: 0.2874, NDCG@15: 0.1991
+Precision@20: 0.0765, Recall@20: 0.3427, NDCG@20: 0.2178
+Save: result/ML-100K/nothing.pt
+
+Epoch: 059, Loss: 0.3228
+Precision@5:  0.1111, Recall@5:  0.1303, NDCG@5:  0.1575
+Precision@10: 0.0928, Recall@10: 0.2210, NDCG@10: 0.1791
+Precision@15: 0.0834, Recall@15: 0.2856, NDCG@15: 0.1991
+Precision@20: 0.0765, Recall@20: 0.3440, NDCG@20: 0.2183
+Save: result/ML-100K/nothing.pt
+
+Epoch: 060, Loss: 0.3259
+Precision@5:  0.1109, Recall@5:  0.1299, NDCG@5:  0.1577
+Precision@10: 0.0934, Recall@10: 0.2217, NDCG@10: 0.1800
+Precision@15: 0.0844, Recall@15: 0.2918, NDCG@15: 0.2015
+Precision@20: 0.0767, Recall@20: 0.3427, NDCG@20: 0.2188
+EarlyStopping counter: 1 out of 50
+
+Epoch: 061, Loss: 0.3227
+Precision@5:  0.1113, Recall@5:  0.1314, NDCG@5:  0.1586
+Precision@10: 0.0941, Recall@10: 0.2233, NDCG@10: 0.1811
+Precision@15: 0.0847, Recall@15: 0.2918, NDCG@15: 0.2021
+Precision@20: 0.0769, Recall@20: 0.3448, NDCG@20: 0.2198
+Save: result/ML-100K/nothing.pt
+
+Epoch: 062, Loss: 0.3225
+Precision@5:  0.1111, Recall@5:  0.1334, NDCG@5:  0.1587
+Precision@10: 0.0933, Recall@10: 0.2232, NDCG@10: 0.1805
+Precision@15: 0.0842, Recall@15: 0.2902, NDCG@15: 0.2013
+Precision@20: 0.0768, Recall@20: 0.3446, NDCG@20: 0.2196
+EarlyStopping counter: 1 out of 50
+
+Epoch: 063, Loss: 0.3211
+Precision@5:  0.1109, Recall@5:  0.1341, NDCG@5:  0.1586
+Precision@10: 0.0947, Recall@10: 0.2264, NDCG@10: 0.1819
+Precision@15: 0.0842, Recall@15: 0.2891, NDCG@15: 0.2011
+Precision@20: 0.0769, Recall@20: 0.3451, NDCG@20: 0.2198
+Save: result/ML-100K/nothing.pt
+
+Epoch: 064, Loss: 0.3212
+Precision@5:  0.1111, Recall@5:  0.1334, NDCG@5:  0.1580
+Precision@10: 0.0945, Recall@10: 0.2263, NDCG@10: 0.1813
+Precision@15: 0.0847, Recall@15: 0.2926, NDCG@15: 0.2016
+Precision@20: 0.0767, Recall@20: 0.3438, NDCG@20: 0.2189
+EarlyStopping counter: 1 out of 50
+
+Epoch: 065, Loss: 0.3180
+Precision@5:  0.1111, Recall@5:  0.1328, NDCG@5:  0.1577
+Precision@10: 0.0943, Recall@10: 0.2261, NDCG@10: 0.1810
+Precision@15: 0.0850, Recall@15: 0.2955, NDCG@15: 0.2024
+Precision@20: 0.0763, Recall@20: 0.3428, NDCG@20: 0.2185
+EarlyStopping counter: 2 out of 50
+
+Epoch: 066, Loss: 0.3191
+Precision@5:  0.1111, Recall@5:  0.1334, NDCG@5:  0.1581
+Precision@10: 0.0936, Recall@10: 0.2234, NDCG@10: 0.1802
+Precision@15: 0.0856, Recall@15: 0.2981, NDCG@15: 0.2035
+Precision@20: 0.0763, Recall@20: 0.3428, NDCG@20: 0.2187
+EarlyStopping counter: 3 out of 50
+
+Epoch: 067, Loss: 0.3157
+Precision@5:  0.1118, Recall@5:  0.1351, NDCG@5:  0.1586
+Precision@10: 0.0945, Recall@10: 0.2259, NDCG@10: 0.1811
+Precision@15: 0.0857, Recall@15: 0.2992, NDCG@15: 0.2038
+Precision@20: 0.0766, Recall@20: 0.3444, NDCG@20: 0.2192
+EarlyStopping counter: 4 out of 50
+
+Epoch: 068, Loss: 0.3154
+Precision@5:  0.1118, Recall@5:  0.1355, NDCG@5:  0.1592
+Precision@10: 0.0941, Recall@10: 0.2248, NDCG@10: 0.1811
+Precision@15: 0.0862, Recall@15: 0.3025, NDCG@15: 0.2054
+Precision@20: 0.0765, Recall@20: 0.3455, NDCG@20: 0.2200
+Save: result/ML-100K/nothing.pt
+
+Epoch: 069, Loss: 0.3152
+Precision@5:  0.1129, Recall@5:  0.1373, NDCG@5:  0.1599
+Precision@10: 0.0947, Recall@10: 0.2266, NDCG@10: 0.1818
+Precision@15: 0.0858, Recall@15: 0.3002, NDCG@15: 0.2046
+Precision@20: 0.0768, Recall@20: 0.3456, NDCG@20: 0.2201
+Save: result/ML-100K/nothing.pt
+
+Epoch: 070, Loss: 0.3120
+Precision@5:  0.1129, Recall@5:  0.1375, NDCG@5:  0.1596
+Precision@10: 0.0948, Recall@10: 0.2271, NDCG@10: 0.1816
+Precision@15: 0.0858, Recall@15: 0.3007, NDCG@15: 0.2045
+Precision@20: 0.0771, Recall@20: 0.3478, NDCG@20: 0.2206
+Save: result/ML-100K/nothing.pt
+
+Epoch: 071, Loss: 0.3142
+Precision@5:  0.1138, Recall@5:  0.1409, NDCG@5:  0.1607
+Precision@10: 0.0942, Recall@10: 0.2257, NDCG@10: 0.1810
+Precision@15: 0.0858, Recall@15: 0.2992, NDCG@15: 0.2041
+Precision@20: 0.0771, Recall@20: 0.3489, NDCG@20: 0.2208
+Save: result/ML-100K/nothing.pt
+
+Epoch: 072, Loss: 0.3118
+Precision@5:  0.1144, Recall@5:  0.1421, NDCG@5:  0.1613
+Precision@10: 0.0955, Recall@10: 0.2316, NDCG@10: 0.1830
+Precision@15: 0.0859, Recall@15: 0.2995, NDCG@15: 0.2043
+Precision@20: 0.0772, Recall@20: 0.3514, NDCG@20: 0.2215
+Save: result/ML-100K/nothing.pt
+
+Epoch: 073, Loss: 0.3130
+Precision@5:  0.1144, Recall@5:  0.1420, NDCG@5:  0.1613
+Precision@10: 0.0966, Recall@10: 0.2340, NDCG@10: 0.1844
+Precision@15: 0.0857, Recall@15: 0.2993, NDCG@15: 0.2045
+Precision@20: 0.0771, Recall@20: 0.3494, NDCG@20: 0.2213
+EarlyStopping counter: 1 out of 50
+
+Epoch: 074, Loss: 0.3095
+Precision@5:  0.1135, Recall@5:  0.1426, NDCG@5:  0.1612
+Precision@10: 0.0963, Recall@10: 0.2353, NDCG@10: 0.1851
+Precision@15: 0.0858, Recall@15: 0.3002, NDCG@15: 0.2052
+Precision@20: 0.0769, Recall@20: 0.3493, NDCG@20: 0.2217
+EarlyStopping counter: 2 out of 50
+
+Epoch: 075, Loss: 0.3104
+Precision@5:  0.1135, Recall@5:  0.1434, NDCG@5:  0.1606
+Precision@10: 0.0960, Recall@10: 0.2345, NDCG@10: 0.1840
+Precision@15: 0.0859, Recall@15: 0.2993, NDCG@15: 0.2045
+Precision@20: 0.0772, Recall@20: 0.3515, NDCG@20: 0.2217
+Save: result/ML-100K/nothing.pt
+
+Epoch: 076, Loss: 0.3119
+Precision@5:  0.1144, Recall@5:  0.1448, NDCG@5:  0.1617
+Precision@10: 0.0964, Recall@10: 0.2359, NDCG@10: 0.1850
+Precision@15: 0.0863, Recall@15: 0.3001, NDCG@15: 0.2053
+Precision@20: 0.0773, Recall@20: 0.3499, NDCG@20: 0.2219
+EarlyStopping counter: 1 out of 50
+
+Epoch: 077, Loss: 0.3091
+Precision@5:  0.1140, Recall@5:  0.1452, NDCG@5:  0.1604
+Precision@10: 0.0961, Recall@10: 0.2341, NDCG@10: 0.1835
+Precision@15: 0.0864, Recall@15: 0.3007, NDCG@15: 0.2047
+Precision@20: 0.0772, Recall@20: 0.3491, NDCG@20: 0.2209
+EarlyStopping counter: 2 out of 50
+
+Epoch: 078, Loss: 0.3072
+Precision@5:  0.1133, Recall@5:  0.1453, NDCG@5:  0.1606
+Precision@10: 0.0961, Recall@10: 0.2350, NDCG@10: 0.1843
+Precision@15: 0.0863, Recall@15: 0.3022, NDCG@15: 0.2056
+Precision@20: 0.0772, Recall@20: 0.3518, NDCG@20: 0.2220
+Save: result/ML-100K/nothing.pt
+
+Epoch: 079, Loss: 0.3051
+Precision@5:  0.1135, Recall@5:  0.1463, NDCG@5:  0.1613
+Precision@10: 0.0964, Recall@10: 0.2347, NDCG@10: 0.1849
+Precision@15: 0.0865, Recall@15: 0.3012, NDCG@15: 0.2060
+Precision@20: 0.0771, Recall@20: 0.3493, NDCG@20: 0.2220
+EarlyStopping counter: 1 out of 50
+
+Epoch: 080, Loss: 0.3062
+Precision@5:  0.1147, Recall@5:  0.1473, NDCG@5:  0.1619
+Precision@10: 0.0954, Recall@10: 0.2337, NDCG@10: 0.1840
+Precision@15: 0.0867, Recall@15: 0.3023, NDCG@15: 0.2063
+Precision@20: 0.0773, Recall@20: 0.3506, NDCG@20: 0.2223
+EarlyStopping counter: 2 out of 50
+
+Epoch: 081, Loss: 0.3025
+Precision@5:  0.1138, Recall@5:  0.1468, NDCG@5:  0.1618
+Precision@10: 0.0960, Recall@10: 0.2350, NDCG@10: 0.1850
+Precision@15: 0.0865, Recall@15: 0.3008, NDCG@15: 0.2062
+Precision@20: 0.0774, Recall@20: 0.3503, NDCG@20: 0.2227
+EarlyStopping counter: 3 out of 50
+
+Epoch: 082, Loss: 0.3041
+Precision@5:  0.1151, Recall@5:  0.1481, NDCG@5:  0.1622
+Precision@10: 0.0966, Recall@10: 0.2362, NDCG@10: 0.1852
+Precision@15: 0.0869, Recall@15: 0.3046, NDCG@15: 0.2068
+Precision@20: 0.0772, Recall@20: 0.3500, NDCG@20: 0.2222
+EarlyStopping counter: 4 out of 50
+
+Epoch: 083, Loss: 0.3030
+Precision@5:  0.1149, Recall@5:  0.1474, NDCG@5:  0.1622
+Precision@10: 0.0965, Recall@10: 0.2361, NDCG@10: 0.1854
+Precision@15: 0.0868, Recall@15: 0.3036, NDCG@15: 0.2068
+Precision@20: 0.0778, Recall@20: 0.3543, NDCG@20: 0.2236
+Save: result/ML-100K/nothing.pt
+
+Epoch: 084, Loss: 0.3011
+Precision@5:  0.1171, Recall@5:  0.1490, NDCG@5:  0.1649
+Precision@10: 0.0974, Recall@10: 0.2382, NDCG@10: 0.1877
+Precision@15: 0.0868, Recall@15: 0.3036, NDCG@15: 0.2082
+Precision@20: 0.0782, Recall@20: 0.3537, NDCG@20: 0.2252
+EarlyStopping counter: 1 out of 50
+
+Epoch: 085, Loss: 0.2991
+Precision@5:  0.1174, Recall@5:  0.1507, NDCG@5:  0.1650
+Precision@10: 0.0973, Recall@10: 0.2373, NDCG@10: 0.1872
+Precision@15: 0.0870, Recall@15: 0.3043, NDCG@15: 0.2084
+Precision@20: 0.0783, Recall@20: 0.3536, NDCG@20: 0.2251
+EarlyStopping counter: 2 out of 50
+
+Epoch: 086, Loss: 0.2987
+Precision@5:  0.1174, Recall@5:  0.1510, NDCG@5:  0.1654
+Precision@10: 0.0972, Recall@10: 0.2385, NDCG@10: 0.1877
+Precision@15: 0.0873, Recall@15: 0.3072, NDCG@15: 0.2094
+Precision@20: 0.0782, Recall@20: 0.3535, NDCG@20: 0.2253
+EarlyStopping counter: 3 out of 50
+
+Epoch: 087, Loss: 0.2985
+Precision@5:  0.1180, Recall@5:  0.1513, NDCG@5:  0.1663
+Precision@10: 0.0983, Recall@10: 0.2397, NDCG@10: 0.1892
+Precision@15: 0.0882, Recall@15: 0.3096, NDCG@15: 0.2111
+Precision@20: 0.0782, Recall@20: 0.3546, NDCG@20: 0.2262
+Save: result/ML-100K/nothing.pt
+
+Epoch: 088, Loss: 0.2937
+Precision@5:  0.1174, Recall@5:  0.1487, NDCG@5:  0.1653
+Precision@10: 0.0979, Recall@10: 0.2394, NDCG@10: 0.1888
+Precision@15: 0.0876, Recall@15: 0.3085, NDCG@15: 0.2105
+Precision@20: 0.0787, Recall@20: 0.3572, NDCG@20: 0.2269
+Save: result/ML-100K/nothing.pt
+
+Epoch: 089, Loss: 0.2977
+Precision@5:  0.1176, Recall@5:  0.1512, NDCG@5:  0.1661
+Precision@10: 0.0979, Recall@10: 0.2395, NDCG@10: 0.1892
+Precision@15: 0.0875, Recall@15: 0.3090, NDCG@15: 0.2108
+Precision@20: 0.0786, Recall@20: 0.3579, NDCG@20: 0.2274
+Save: result/ML-100K/nothing.pt
+
+Epoch: 090, Loss: 0.2937
+Precision@5:  0.1189, Recall@5:  0.1524, NDCG@5:  0.1666
+Precision@10: 0.0988, Recall@10: 0.2412, NDCG@10: 0.1896
+Precision@15: 0.0879, Recall@15: 0.3095, NDCG@15: 0.2108
+Precision@20: 0.0789, Recall@20: 0.3588, NDCG@20: 0.2275
+Save: result/ML-100K/nothing.pt
+
+Epoch: 091, Loss: 0.2920
+Precision@5:  0.1180, Recall@5:  0.1497, NDCG@5:  0.1655
+Precision@10: 0.0984, Recall@10: 0.2396, NDCG@10: 0.1891
+Precision@15: 0.0880, Recall@15: 0.3089, NDCG@15: 0.2107
+Precision@20: 0.0790, Recall@20: 0.3593, NDCG@20: 0.2277
+Save: result/ML-100K/nothing.pt
+
+Epoch: 092, Loss: 0.2935
+Precision@5:  0.1167, Recall@5:  0.1489, NDCG@5:  0.1647
+Precision@10: 0.0984, Recall@10: 0.2393, NDCG@10: 0.1891
+Precision@15: 0.0888, Recall@15: 0.3111, NDCG@15: 0.2116
+Precision@20: 0.0794, Recall@20: 0.3605, NDCG@20: 0.2282
+Save: result/ML-100K/nothing.pt
+
+Epoch: 093, Loss: 0.2929
+Precision@5:  0.1165, Recall@5:  0.1490, NDCG@5:  0.1644
+Precision@10: 0.0982, Recall@10: 0.2371, NDCG@10: 0.1880
+Precision@15: 0.0885, Recall@15: 0.3109, NDCG@15: 0.2109
+Precision@20: 0.0792, Recall@20: 0.3602, NDCG@20: 0.2275
+EarlyStopping counter: 1 out of 50
+
+Epoch: 094, Loss: 0.2943
+Precision@5:  0.1174, Recall@5:  0.1502, NDCG@5:  0.1654
+Precision@10: 0.0981, Recall@10: 0.2375, NDCG@10: 0.1885
+Precision@15: 0.0884, Recall@15: 0.3090, NDCG@15: 0.2110
+Precision@20: 0.0798, Recall@20: 0.3613, NDCG@20: 0.2286
+Save: result/ML-100K/nothing.pt
+
+Epoch: 095, Loss: 0.2902
+Precision@5:  0.1178, Recall@5:  0.1499, NDCG@5:  0.1654
+Precision@10: 0.0987, Recall@10: 0.2388, NDCG@10: 0.1889
+Precision@15: 0.0888, Recall@15: 0.3118, NDCG@15: 0.2116
+Precision@20: 0.0797, Recall@20: 0.3610, NDCG@20: 0.2285
+EarlyStopping counter: 1 out of 50
+
+Epoch: 096, Loss: 0.2857
+Precision@5:  0.1185, Recall@5:  0.1529, NDCG@5:  0.1663
+Precision@10: 0.0985, Recall@10: 0.2367, NDCG@10: 0.1884
+Precision@15: 0.0887, Recall@15: 0.3106, NDCG@15: 0.2114
+Precision@20: 0.0801, Recall@20: 0.3645, NDCG@20: 0.2295
+Save: result/ML-100K/nothing.pt
+
+Epoch: 097, Loss: 0.2900
+Precision@5:  0.1171, Recall@5:  0.1501, NDCG@5:  0.1646
+Precision@10: 0.0983, Recall@10: 0.2360, NDCG@10: 0.1877
+Precision@15: 0.0889, Recall@15: 0.3114, NDCG@15: 0.2112
+Precision@20: 0.0804, Recall@20: 0.3671, NDCG@20: 0.2297
+Save: result/ML-100K/nothing.pt
+
+Epoch: 098, Loss: 0.2894
+Precision@5:  0.1174, Recall@5:  0.1495, NDCG@5:  0.1651
+Precision@10: 0.0989, Recall@10: 0.2373, NDCG@10: 0.1887
+Precision@15: 0.0887, Recall@15: 0.3131, NDCG@15: 0.2120
+Precision@20: 0.0803, Recall@20: 0.3660, NDCG@20: 0.2299
+EarlyStopping counter: 1 out of 50
+
+Epoch: 099, Loss: 0.2892
+Precision@5:  0.1183, Recall@5:  0.1504, NDCG@5:  0.1662
+Precision@10: 0.0989, Recall@10: 0.2379, NDCG@10: 0.1893
+Precision@15: 0.0886, Recall@15: 0.3113, NDCG@15: 0.2120
+Precision@20: 0.0807, Recall@20: 0.3665, NDCG@20: 0.2308
+EarlyStopping counter: 2 out of 50
+
+Epoch: 100, Loss: 0.2896
+Precision@5:  0.1191, Recall@5:  0.1512, NDCG@5:  0.1667
+Precision@10: 0.0988, Recall@10: 0.2363, NDCG@10: 0.1888
+Precision@15: 0.0891, Recall@15: 0.3132, NDCG@15: 0.2128
+Precision@20: 0.0804, Recall@20: 0.3653, NDCG@20: 0.2304
+EarlyStopping counter: 3 out of 50
+
+Epoch: 101, Loss: 0.2869
+Precision@5:  0.1183, Recall@5:  0.1497, NDCG@5:  0.1659
+Precision@10: 0.0989, Recall@10: 0.2370, NDCG@10: 0.1893
+Precision@15: 0.0894, Recall@15: 0.3132, NDCG@15: 0.2130
+Precision@20: 0.0804, Recall@20: 0.3630, NDCG@20: 0.2302
+EarlyStopping counter: 4 out of 50
+
+Epoch: 102, Loss: 0.2866
+Precision@5:  0.1185, Recall@5:  0.1515, NDCG@5:  0.1670
+Precision@10: 0.0990, Recall@10: 0.2388, NDCG@10: 0.1902
+Precision@15: 0.0891, Recall@15: 0.3141, NDCG@15: 0.2136
+Precision@20: 0.0809, Recall@20: 0.3650, NDCG@20: 0.2313
+EarlyStopping counter: 5 out of 50
+
+Epoch: 103, Loss: 0.2865
+Precision@5:  0.1191, Recall@5:  0.1524, NDCG@5:  0.1673
+Precision@10: 0.0990, Recall@10: 0.2391, NDCG@10: 0.1898
+Precision@15: 0.0891, Recall@15: 0.3151, NDCG@15: 0.2134
+Precision@20: 0.0806, Recall@20: 0.3628, NDCG@20: 0.2303
+EarlyStopping counter: 6 out of 50
+
+Epoch: 104, Loss: 0.2853
+Precision@5:  0.1189, Recall@5:  0.1522, NDCG@5:  0.1677
+Precision@10: 0.0996, Recall@10: 0.2403, NDCG@10: 0.1911
+Precision@15: 0.0893, Recall@15: 0.3154, NDCG@15: 0.2142
+Precision@20: 0.0807, Recall@20: 0.3632, NDCG@20: 0.2312
+EarlyStopping counter: 7 out of 50
+
+Epoch: 105, Loss: 0.2834
+Precision@5:  0.1196, Recall@5:  0.1531, NDCG@5:  0.1689
+Precision@10: 0.0997, Recall@10: 0.2402, NDCG@10: 0.1918
+Precision@15: 0.0895, Recall@15: 0.3157, NDCG@15: 0.2151
+Precision@20: 0.0810, Recall@20: 0.3636, NDCG@20: 0.2321
+EarlyStopping counter: 8 out of 50
+
+Epoch: 106, Loss: 0.2851
+Precision@5:  0.1198, Recall@5:  0.1533, NDCG@5:  0.1694
+Precision@10: 0.0990, Recall@10: 0.2389, NDCG@10: 0.1914
+Precision@15: 0.0898, Recall@15: 0.3159, NDCG@15: 0.2156
+Precision@20: 0.0815, Recall@20: 0.3666, NDCG@20: 0.2333
+EarlyStopping counter: 9 out of 50
+
+Epoch: 107, Loss: 0.2791
+Precision@5:  0.1191, Recall@5:  0.1528, NDCG@5:  0.1684
+Precision@10: 0.0988, Recall@10: 0.2384, NDCG@10: 0.1906
+Precision@15: 0.0899, Recall@15: 0.3160, NDCG@15: 0.2151
+Precision@20: 0.0818, Recall@20: 0.3696, NDCG@20: 0.2336
+Save: result/ML-100K/nothing.pt
+
+Epoch: 108, Loss: 0.2785
+Precision@5:  0.1198, Recall@5:  0.1538, NDCG@5:  0.1694
+Precision@10: 0.0996, Recall@10: 0.2396, NDCG@10: 0.1915
+Precision@15: 0.0900, Recall@15: 0.3168, NDCG@15: 0.2157
+Precision@20: 0.0820, Recall@20: 0.3707, NDCG@20: 0.2344
+Save: result/ML-100K/nothing.pt
+
+Epoch: 109, Loss: 0.2785
+Precision@5:  0.1203, Recall@5:  0.1544, NDCG@5:  0.1693
+Precision@10: 0.1000, Recall@10: 0.2407, NDCG@10: 0.1917
+Precision@15: 0.0903, Recall@15: 0.3174, NDCG@15: 0.2157
+Precision@20: 0.0821, Recall@20: 0.3712, NDCG@20: 0.2342
+Save: result/ML-100K/nothing.pt
+
+Epoch: 110, Loss: 0.2796
+Precision@5:  0.1198, Recall@5:  0.1529, NDCG@5:  0.1686
+Precision@10: 0.1006, Recall@10: 0.2425, NDCG@10: 0.1922
+Precision@15: 0.0904, Recall@15: 0.3152, NDCG@15: 0.2150
+Precision@20: 0.0819, Recall@20: 0.3709, NDCG@20: 0.2338
+EarlyStopping counter: 1 out of 50
+
+Epoch: 111, Loss: 0.2806
+Precision@5:  0.1205, Recall@5:  0.1536, NDCG@5:  0.1693
+Precision@10: 0.1013, Recall@10: 0.2449, NDCG@10: 0.1934
+Precision@15: 0.0905, Recall@15: 0.3164, NDCG@15: 0.2157
+Precision@20: 0.0823, Recall@20: 0.3741, NDCG@20: 0.2350
+Save: result/ML-100K/nothing.pt
+
+Epoch: 112, Loss: 0.2730
+Precision@5:  0.1207, Recall@5:  0.1534, NDCG@5:  0.1694
+Precision@10: 0.1012, Recall@10: 0.2453, NDCG@10: 0.1935
+Precision@15: 0.0899, Recall@15: 0.3148, NDCG@15: 0.2150
+Precision@20: 0.0826, Recall@20: 0.3732, NDCG@20: 0.2350
+EarlyStopping counter: 1 out of 50
+
+Epoch: 113, Loss: 0.2761
+Precision@5:  0.1198, Recall@5:  0.1529, NDCG@5:  0.1693
+Precision@10: 0.1017, Recall@10: 0.2454, NDCG@10: 0.1940
+Precision@15: 0.0909, Recall@15: 0.3180, NDCG@15: 0.2166
+Precision@20: 0.0823, Recall@20: 0.3714, NDCG@20: 0.2349
+EarlyStopping counter: 2 out of 50
+
+Epoch: 114, Loss: 0.2747
+Precision@5:  0.1198, Recall@5:  0.1527, NDCG@5:  0.1695
+Precision@10: 0.1013, Recall@10: 0.2453, NDCG@10: 0.1942
+Precision@15: 0.0912, Recall@15: 0.3200, NDCG@15: 0.2176
+Precision@20: 0.0826, Recall@20: 0.3733, NDCG@20: 0.2359
+EarlyStopping counter: 3 out of 50
+
+Epoch: 115, Loss: 0.2722
+Precision@5:  0.1187, Recall@5:  0.1516, NDCG@5:  0.1686
+Precision@10: 0.1011, Recall@10: 0.2458, NDCG@10: 0.1939
+Precision@15: 0.0909, Recall@15: 0.3196, NDCG@15: 0.2171
+Precision@20: 0.0831, Recall@20: 0.3738, NDCG@20: 0.2361
+EarlyStopping counter: 4 out of 50
+
+Epoch: 116, Loss: 0.2764
+Precision@5:  0.1187, Recall@5:  0.1510, NDCG@5:  0.1685
+Precision@10: 0.1013, Recall@10: 0.2460, NDCG@10: 0.1944
+Precision@15: 0.0909, Recall@15: 0.3196, NDCG@15: 0.2174
+Precision@20: 0.0837, Recall@20: 0.3746, NDCG@20: 0.2369
+Save: result/ML-100K/nothing.pt
+
+Epoch: 117, Loss: 0.2721
+Precision@5:  0.1176, Recall@5:  0.1504, NDCG@5:  0.1677
+Precision@10: 0.1010, Recall@10: 0.2455, NDCG@10: 0.1938
+Precision@15: 0.0906, Recall@15: 0.3198, NDCG@15: 0.2171
+Precision@20: 0.0840, Recall@20: 0.3763, NDCG@20: 0.2372
+Save: result/ML-100K/nothing.pt
+
+Epoch: 118, Loss: 0.2686
+Precision@5:  0.1187, Recall@5:  0.1511, NDCG@5:  0.1686
+Precision@10: 0.1004, Recall@10: 0.2447, NDCG@10: 0.1936
+Precision@15: 0.0912, Recall@15: 0.3201, NDCG@15: 0.2176
+Precision@20: 0.0839, Recall@20: 0.3773, NDCG@20: 0.2375
+Save: result/ML-100K/nothing.pt
+
+Epoch: 119, Loss: 0.2707
+Precision@5:  0.1189, Recall@5:  0.1502, NDCG@5:  0.1684
+Precision@10: 0.1001, Recall@10: 0.2453, NDCG@10: 0.1934
+Precision@15: 0.0909, Recall@15: 0.3198, NDCG@15: 0.2172
+Precision@20: 0.0840, Recall@20: 0.3772, NDCG@20: 0.2375
+EarlyStopping counter: 1 out of 50
+
+Epoch: 120, Loss: 0.2718
+Precision@5:  0.1194, Recall@5:  0.1515, NDCG@5:  0.1688
+Precision@10: 0.1013, Recall@10: 0.2470, NDCG@10: 0.1943
+Precision@15: 0.0906, Recall@15: 0.3185, NDCG@15: 0.2167
+Precision@20: 0.0840, Recall@20: 0.3771, NDCG@20: 0.2374
+EarlyStopping counter: 2 out of 50
+
+Epoch: 121, Loss: 0.2694
+Precision@5:  0.1191, Recall@5:  0.1509, NDCG@5:  0.1691
+Precision@10: 0.1015, Recall@10: 0.2488, NDCG@10: 0.1952
+Precision@15: 0.0914, Recall@15: 0.3207, NDCG@15: 0.2181
+Precision@20: 0.0842, Recall@20: 0.3773, NDCG@20: 0.2381
+Save: result/ML-100K/nothing.pt
+
+Epoch: 122, Loss: 0.2725
+Precision@5:  0.1205, Recall@5:  0.1521, NDCG@5:  0.1700
+Precision@10: 0.1021, Recall@10: 0.2510, NDCG@10: 0.1961
+Precision@15: 0.0912, Recall@15: 0.3201, NDCG@15: 0.2180
+Precision@20: 0.0842, Recall@20: 0.3769, NDCG@20: 0.2381
+EarlyStopping counter: 1 out of 50
+
+Epoch: 123, Loss: 0.2683
+Precision@5:  0.1207, Recall@5:  0.1534, NDCG@5:  0.1701
+Precision@10: 0.1024, Recall@10: 0.2503, NDCG@10: 0.1958
+Precision@15: 0.0915, Recall@15: 0.3211, NDCG@15: 0.2181
+Precision@20: 0.0842, Recall@20: 0.3761, NDCG@20: 0.2377
+EarlyStopping counter: 2 out of 50
+
+Epoch: 124, Loss: 0.2676
+Precision@5:  0.1209, Recall@5:  0.1532, NDCG@5:  0.1703
+Precision@10: 0.1018, Recall@10: 0.2495, NDCG@10: 0.1955
+Precision@15: 0.0913, Recall@15: 0.3219, NDCG@15: 0.2183
+Precision@20: 0.0839, Recall@20: 0.3765, NDCG@20: 0.2378
+EarlyStopping counter: 3 out of 50
+
+Epoch: 125, Loss: 0.2679
+Precision@5:  0.1205, Recall@5:  0.1521, NDCG@5:  0.1688
+Precision@10: 0.1013, Recall@10: 0.2466, NDCG@10: 0.1938
+Precision@15: 0.0912, Recall@15: 0.3220, NDCG@15: 0.2176
+Precision@20: 0.0835, Recall@20: 0.3752, NDCG@20: 0.2365
+EarlyStopping counter: 4 out of 50
+
+Epoch: 126, Loss: 0.2668
+Precision@5:  0.1198, Recall@5:  0.1519, NDCG@5:  0.1686
+Precision@10: 0.1019, Recall@10: 0.2472, NDCG@10: 0.1943
+Precision@15: 0.0914, Recall@15: 0.3215, NDCG@15: 0.2177
+Precision@20: 0.0838, Recall@20: 0.3745, NDCG@20: 0.2366
+EarlyStopping counter: 5 out of 50
+
+Epoch: 127, Loss: 0.2657
+Precision@5:  0.1212, Recall@5:  0.1538, NDCG@5:  0.1708
+Precision@10: 0.1017, Recall@10: 0.2474, NDCG@10: 0.1954
+Precision@15: 0.0917, Recall@15: 0.3223, NDCG@15: 0.2190
+Precision@20: 0.0838, Recall@20: 0.3748, NDCG@20: 0.2378
+EarlyStopping counter: 6 out of 50
+
+Epoch: 128, Loss: 0.2670
+Precision@5:  0.1207, Recall@5:  0.1525, NDCG@5:  0.1696
+Precision@10: 0.1019, Recall@10: 0.2474, NDCG@10: 0.1949
+Precision@15: 0.0918, Recall@15: 0.3220, NDCG@15: 0.2185
+Precision@20: 0.0842, Recall@20: 0.3771, NDCG@20: 0.2379
+EarlyStopping counter: 7 out of 50
+
+Epoch: 129, Loss: 0.2600
+Precision@5:  0.1212, Recall@5:  0.1532, NDCG@5:  0.1699
+Precision@10: 0.1017, Recall@10: 0.2472, NDCG@10: 0.1947
+Precision@15: 0.0917, Recall@15: 0.3204, NDCG@15: 0.2181
+Precision@20: 0.0844, Recall@20: 0.3787, NDCG@20: 0.2385
+Save: result/ML-100K/nothing.pt
+
+Epoch: 130, Loss: 0.2635
+Precision@5:  0.1227, Recall@5:  0.1542, NDCG@5:  0.1705
+Precision@10: 0.1020, Recall@10: 0.2484, NDCG@10: 0.1946
+Precision@15: 0.0920, Recall@15: 0.3210, NDCG@15: 0.2179
+Precision@20: 0.0847, Recall@20: 0.3791, NDCG@20: 0.2382
+Save: result/ML-100K/nothing.pt
+
+Epoch: 131, Loss: 0.2638
+Precision@5:  0.1227, Recall@5:  0.1543, NDCG@5:  0.1707
+Precision@10: 0.1021, Recall@10: 0.2489, NDCG@10: 0.1949
+Precision@15: 0.0923, Recall@15: 0.3221, NDCG@15: 0.2185
+Precision@20: 0.0844, Recall@20: 0.3783, NDCG@20: 0.2381
+EarlyStopping counter: 1 out of 50
+
+Epoch: 132, Loss: 0.2647
+Precision@5:  0.1230, Recall@5:  0.1546, NDCG@5:  0.1707
+Precision@10: 0.1035, Recall@10: 0.2502, NDCG@10: 0.1958
+Precision@15: 0.0918, Recall@15: 0.3198, NDCG@15: 0.2176
+Precision@20: 0.0842, Recall@20: 0.3777, NDCG@20: 0.2377
+EarlyStopping counter: 2 out of 50
+
+Epoch: 133, Loss: 0.2606
+Precision@5:  0.1225, Recall@5:  0.1542, NDCG@5:  0.1705
+Precision@10: 0.1026, Recall@10: 0.2460, NDCG@10: 0.1944
+Precision@15: 0.0920, Recall@15: 0.3189, NDCG@15: 0.2175
+Precision@20: 0.0846, Recall@20: 0.3790, NDCG@20: 0.2382
+EarlyStopping counter: 3 out of 50
+
+Epoch: 134, Loss: 0.2617
+Precision@5:  0.1216, Recall@5:  0.1533, NDCG@5:  0.1706
+Precision@10: 0.1028, Recall@10: 0.2468, NDCG@10: 0.1953
+Precision@15: 0.0918, Recall@15: 0.3196, NDCG@15: 0.2182
+Precision@20: 0.0852, Recall@20: 0.3822, NDCG@20: 0.2398
+Save: result/ML-100K/nothing.pt
+
+Epoch: 135, Loss: 0.2617
+Precision@5:  0.1218, Recall@5:  0.1529, NDCG@5:  0.1711
+Precision@10: 0.1031, Recall@10: 0.2463, NDCG@10: 0.1958
+Precision@15: 0.0923, Recall@15: 0.3196, NDCG@15: 0.2189
+Precision@20: 0.0844, Recall@20: 0.3795, NDCG@20: 0.2393
+EarlyStopping counter: 1 out of 50
+
+Epoch: 136, Loss: 0.2582
+Precision@5:  0.1218, Recall@5:  0.1533, NDCG@5:  0.1714
+Precision@10: 0.1028, Recall@10: 0.2463, NDCG@10: 0.1958
+Precision@15: 0.0919, Recall@15: 0.3187, NDCG@15: 0.2187
+Precision@20: 0.0844, Recall@20: 0.3806, NDCG@20: 0.2397
+EarlyStopping counter: 2 out of 50
+
+Epoch: 137, Loss: 0.2608
+Precision@5:  0.1218, Recall@5:  0.1534, NDCG@5:  0.1714
+Precision@10: 0.1038, Recall@10: 0.2509, NDCG@10: 0.1975
+Precision@15: 0.0923, Recall@15: 0.3195, NDCG@15: 0.2193
+Precision@20: 0.0848, Recall@20: 0.3821, NDCG@20: 0.2405
+EarlyStopping counter: 3 out of 50
+
+Epoch: 138, Loss: 0.2586
+Precision@5:  0.1218, Recall@5:  0.1537, NDCG@5:  0.1716
+Precision@10: 0.1037, Recall@10: 0.2534, NDCG@10: 0.1980
+Precision@15: 0.0921, Recall@15: 0.3202, NDCG@15: 0.2193
+Precision@20: 0.0847, Recall@20: 0.3821, NDCG@20: 0.2403
+EarlyStopping counter: 4 out of 50
+
+Epoch: 139, Loss: 0.2578
+Precision@5:  0.1214, Recall@5:  0.1522, NDCG@5:  0.1713
+Precision@10: 0.1041, Recall@10: 0.2544, NDCG@10: 0.1988
+Precision@15: 0.0920, Recall@15: 0.3198, NDCG@15: 0.2195
+Precision@20: 0.0849, Recall@20: 0.3831, NDCG@20: 0.2410
+Save: result/ML-100K/nothing.pt
+
+Epoch: 140, Loss: 0.2586
+Precision@5:  0.1214, Recall@5:  0.1524, NDCG@5:  0.1715
+Precision@10: 0.1043, Recall@10: 0.2560, NDCG@10: 0.1995
+Precision@15: 0.0923, Recall@15: 0.3200, NDCG@15: 0.2199
+Precision@20: 0.0851, Recall@20: 0.3854, NDCG@20: 0.2418
+Save: result/ML-100K/nothing.pt
+
+Epoch: 141, Loss: 0.2584
+Precision@5:  0.1216, Recall@5:  0.1512, NDCG@5:  0.1714
+Precision@10: 0.1041, Recall@10: 0.2542, NDCG@10: 0.1989
+Precision@15: 0.0922, Recall@15: 0.3203, NDCG@15: 0.2198
+Precision@20: 0.0853, Recall@20: 0.3858, NDCG@20: 0.2420
+Save: result/ML-100K/nothing.pt
+
+Epoch: 142, Loss: 0.2572
+Precision@5:  0.1212, Recall@5:  0.1508, NDCG@5:  0.1713
+Precision@10: 0.1047, Recall@10: 0.2555, NDCG@10: 0.1997
+Precision@15: 0.0924, Recall@15: 0.3207, NDCG@15: 0.2203
+Precision@20: 0.0849, Recall@20: 0.3838, NDCG@20: 0.2417
+EarlyStopping counter: 1 out of 50
+
+Epoch: 143, Loss: 0.2605
+Precision@5:  0.1223, Recall@5:  0.1528, NDCG@5:  0.1716
+Precision@10: 0.1038, Recall@10: 0.2538, NDCG@10: 0.1982
+Precision@15: 0.0926, Recall@15: 0.3214, NDCG@15: 0.2199
+Precision@20: 0.0852, Recall@20: 0.3842, NDCG@20: 0.2413
+EarlyStopping counter: 2 out of 50
+
+Epoch: 144, Loss: 0.2586
+Precision@5:  0.1227, Recall@5:  0.1539, NDCG@5:  0.1721
+Precision@10: 0.1041, Recall@10: 0.2539, NDCG@10: 0.1988
+Precision@15: 0.0931, Recall@15: 0.3249, NDCG@15: 0.2213
+Precision@20: 0.0849, Recall@20: 0.3850, NDCG@20: 0.2416
+EarlyStopping counter: 3 out of 50
+
+Epoch: 145, Loss: 0.2553
+Precision@5:  0.1230, Recall@5:  0.1539, NDCG@5:  0.1724
+Precision@10: 0.1036, Recall@10: 0.2519, NDCG@10: 0.1983
+Precision@15: 0.0935, Recall@15: 0.3263, NDCG@15: 0.2222
+Precision@20: 0.0854, Recall@20: 0.3860, NDCG@20: 0.2425
+Save: result/ML-100K/nothing.pt
+
+Epoch: 146, Loss: 0.2547
+Precision@5:  0.1239, Recall@5:  0.1550, NDCG@5:  0.1739
+Precision@10: 0.1030, Recall@10: 0.2499, NDCG@10: 0.1982
+Precision@15: 0.0938, Recall@15: 0.3252, NDCG@15: 0.2226
+Precision@20: 0.0858, Recall@20: 0.3878, NDCG@20: 0.2437
+Save: result/ML-100K/nothing.pt
+
+Epoch: 147, Loss: 0.2549
+Precision@5:  0.1241, Recall@5:  0.1541, NDCG@5:  0.1736
+Precision@10: 0.1037, Recall@10: 0.2511, NDCG@10: 0.1987
+Precision@15: 0.0937, Recall@15: 0.3275, NDCG@15: 0.2230
+Precision@20: 0.0856, Recall@20: 0.3882, NDCG@20: 0.2435
+Save: result/ML-100K/nothing.pt
+
+Epoch: 148, Loss: 0.2547
+Precision@5:  0.1236, Recall@5:  0.1552, NDCG@5:  0.1734
+Precision@10: 0.1038, Recall@10: 0.2504, NDCG@10: 0.1982
+Precision@15: 0.0937, Recall@15: 0.3258, NDCG@15: 0.2222
+Precision@20: 0.0857, Recall@20: 0.3884, NDCG@20: 0.2433
+Save: result/ML-100K/nothing.pt
+
+Epoch: 149, Loss: 0.2490
+Precision@5:  0.1225, Recall@5:  0.1532, NDCG@5:  0.1722
+Precision@10: 0.1039, Recall@10: 0.2514, NDCG@10: 0.1985
+Precision@15: 0.0938, Recall@15: 0.3251, NDCG@15: 0.2221
+Precision@20: 0.0859, Recall@20: 0.3867, NDCG@20: 0.2431
+EarlyStopping counter: 1 out of 50
+
+Epoch: 150, Loss: 0.2519
+Precision@5:  0.1236, Recall@5:  0.1563, NDCG@5:  0.1735
+Precision@10: 0.1043, Recall@10: 0.2519, NDCG@10: 0.1986
+Precision@15: 0.0941, Recall@15: 0.3274, NDCG@15: 0.2227
+Precision@20: 0.0857, Recall@20: 0.3882, NDCG@20: 0.2431
+EarlyStopping counter: 2 out of 50
+
+Epoch: 151, Loss: 0.2489
+Precision@5:  0.1243, Recall@5:  0.1567, NDCG@5:  0.1739
+Precision@10: 0.1044, Recall@10: 0.2521, NDCG@10: 0.1988
+Precision@15: 0.0946, Recall@15: 0.3279, NDCG@15: 0.2232
+Precision@20: 0.0856, Recall@20: 0.3891, NDCG@20: 0.2434
+Save: result/ML-100K/nothing.pt
+
+Epoch: 152, Loss: 0.2542
+Precision@5:  0.1247, Recall@5:  0.1569, NDCG@5:  0.1748
+Precision@10: 0.1041, Recall@10: 0.2537, NDCG@10: 0.1998
+Precision@15: 0.0944, Recall@15: 0.3271, NDCG@15: 0.2237
+Precision@20: 0.0859, Recall@20: 0.3876, NDCG@20: 0.2440
+EarlyStopping counter: 1 out of 50
+
+Epoch: 153, Loss: 0.2492
+Precision@5:  0.1241, Recall@5:  0.1565, NDCG@5:  0.1744
+Precision@10: 0.1048, Recall@10: 0.2530, NDCG@10: 0.2000
+Precision@15: 0.0946, Recall@15: 0.3282, NDCG@15: 0.2240
+Precision@20: 0.0856, Recall@20: 0.3879, NDCG@20: 0.2439
+EarlyStopping counter: 2 out of 50
+
+Epoch: 154, Loss: 0.2541
+Precision@5:  0.1234, Recall@5:  0.1549, NDCG@5:  0.1742
+Precision@10: 0.1053, Recall@10: 0.2540, NDCG@10: 0.2009
+Precision@15: 0.0944, Recall@15: 0.3276, NDCG@15: 0.2242
+Precision@20: 0.0854, Recall@20: 0.3868, NDCG@20: 0.2440
+EarlyStopping counter: 3 out of 50
+
+Epoch: 155, Loss: 0.2487
+Precision@5:  0.1236, Recall@5:  0.1552, NDCG@5:  0.1747
+Precision@10: 0.1049, Recall@10: 0.2523, NDCG@10: 0.2005
+Precision@15: 0.0948, Recall@15: 0.3293, NDCG@15: 0.2249
+Precision@20: 0.0855, Recall@20: 0.3879, NDCG@20: 0.2444
+EarlyStopping counter: 4 out of 50
+
+Epoch: 156, Loss: 0.2489
+Precision@5:  0.1239, Recall@5:  0.1563, NDCG@5:  0.1754
+Precision@10: 0.1047, Recall@10: 0.2512, NDCG@10: 0.2004
+Precision@15: 0.0948, Recall@15: 0.3304, NDCG@15: 0.2254
+Precision@20: 0.0854, Recall@20: 0.3877, NDCG@20: 0.2446
+EarlyStopping counter: 5 out of 50
+
+Epoch: 157, Loss: 0.2468
+Precision@5:  0.1225, Recall@5:  0.1549, NDCG@5:  0.1741
+Precision@10: 0.1050, Recall@10: 0.2532, NDCG@10: 0.2006
+Precision@15: 0.0950, Recall@15: 0.3301, NDCG@15: 0.2249
+Precision@20: 0.0854, Recall@20: 0.3873, NDCG@20: 0.2440
+EarlyStopping counter: 6 out of 50
+
+Epoch: 158, Loss: 0.2464
+Precision@5:  0.1234, Recall@5:  0.1559, NDCG@5:  0.1747
+Precision@10: 0.1040, Recall@10: 0.2524, NDCG@10: 0.2001
+Precision@15: 0.0954, Recall@15: 0.3322, NDCG@15: 0.2258
+Precision@20: 0.0857, Recall@20: 0.3872, NDCG@20: 0.2444
+EarlyStopping counter: 7 out of 50
+
+Epoch: 159, Loss: 0.2473
+Precision@5:  0.1239, Recall@5:  0.1563, NDCG@5:  0.1752
+Precision@10: 0.1038, Recall@10: 0.2538, NDCG@10: 0.2004
+Precision@15: 0.0953, Recall@15: 0.3325, NDCG@15: 0.2259
+Precision@20: 0.0856, Recall@20: 0.3876, NDCG@20: 0.2445
+EarlyStopping counter: 8 out of 50
+
+Epoch: 160, Loss: 0.2493
+Precision@5:  0.1245, Recall@5:  0.1572, NDCG@5:  0.1759
+Precision@10: 0.1050, Recall@10: 0.2547, NDCG@10: 0.2014
+Precision@15: 0.0947, Recall@15: 0.3322, NDCG@15: 0.2259
+Precision@20: 0.0857, Recall@20: 0.3874, NDCG@20: 0.2448
+EarlyStopping counter: 9 out of 50
+
+Epoch: 161, Loss: 0.2470
+Precision@5:  0.1256, Recall@5:  0.1564, NDCG@5:  0.1766
+Precision@10: 0.1052, Recall@10: 0.2546, NDCG@10: 0.2019
+Precision@15: 0.0946, Recall@15: 0.3322, NDCG@15: 0.2262
+Precision@20: 0.0854, Recall@20: 0.3878, NDCG@20: 0.2452
+EarlyStopping counter: 10 out of 50
+
+Epoch: 162, Loss: 0.2471
+Precision@5:  0.1261, Recall@5:  0.1582, NDCG@5:  0.1773
+Precision@10: 0.1047, Recall@10: 0.2548, NDCG@10: 0.2019
+Precision@15: 0.0947, Recall@15: 0.3318, NDCG@15: 0.2263
+Precision@20: 0.0858, Recall@20: 0.3878, NDCG@20: 0.2455
+EarlyStopping counter: 11 out of 50
+
+Epoch: 163, Loss: 0.2484
+Precision@5:  0.1261, Recall@5:  0.1580, NDCG@5:  0.1775
+Precision@10: 0.1053, Recall@10: 0.2570, NDCG@10: 0.2029
+Precision@15: 0.0949, Recall@15: 0.3314, NDCG@15: 0.2265
+Precision@20: 0.0857, Recall@20: 0.3873, NDCG@20: 0.2455
+EarlyStopping counter: 12 out of 50
+
+Epoch: 164, Loss: 0.2475
+Precision@5:  0.1259, Recall@5:  0.1568, NDCG@5:  0.1764
+Precision@10: 0.1047, Recall@10: 0.2529, NDCG@10: 0.2007
+Precision@15: 0.0947, Recall@15: 0.3279, NDCG@15: 0.2247
+Precision@20: 0.0858, Recall@20: 0.3880, NDCG@20: 0.2447
+EarlyStopping counter: 13 out of 50
+
+Epoch: 165, Loss: 0.2475
+Precision@5:  0.1247, Recall@5:  0.1547, NDCG@5:  0.1750
+Precision@10: 0.1046, Recall@10: 0.2520, NDCG@10: 0.2001
+Precision@15: 0.0944, Recall@15: 0.3260, NDCG@15: 0.2237
+Precision@20: 0.0856, Recall@20: 0.3883, NDCG@20: 0.2443
+EarlyStopping counter: 14 out of 50
+
+Epoch: 166, Loss: 0.2469
+Precision@5:  0.1259, Recall@5:  0.1562, NDCG@5:  0.1764
+Precision@10: 0.1048, Recall@10: 0.2537, NDCG@10: 0.2011
+Precision@15: 0.0947, Recall@15: 0.3294, NDCG@15: 0.2251
+Precision@20: 0.0857, Recall@20: 0.3882, NDCG@20: 0.2449
+EarlyStopping counter: 15 out of 50
+
+Epoch: 167, Loss: 0.2432
+Precision@5:  0.1263, Recall@5:  0.1595, NDCG@5:  0.1775
+Precision@10: 0.1054, Recall@10: 0.2548, NDCG@10: 0.2018
+Precision@15: 0.0947, Recall@15: 0.3298, NDCG@15: 0.2254
+Precision@20: 0.0857, Recall@20: 0.3887, NDCG@20: 0.2451
+EarlyStopping counter: 16 out of 50
+
+Epoch: 168, Loss: 0.2460
+Precision@5:  0.1268, Recall@5:  0.1617, NDCG@5:  0.1787
+Precision@10: 0.1053, Recall@10: 0.2553, NDCG@10: 0.2023
+Precision@15: 0.0950, Recall@15: 0.3304, NDCG@15: 0.2263
+Precision@20: 0.0857, Recall@20: 0.3877, NDCG@20: 0.2455
+EarlyStopping counter: 17 out of 50
+
+Epoch: 169, Loss: 0.2474
+Precision@5:  0.1259, Recall@5:  0.1578, NDCG@5:  0.1775
+Precision@10: 0.1055, Recall@10: 0.2554, NDCG@10: 0.2026
+Precision@15: 0.0947, Recall@15: 0.3300, NDCG@15: 0.2262
+Precision@20: 0.0859, Recall@20: 0.3883, NDCG@20: 0.2460
+EarlyStopping counter: 18 out of 50
+
+Epoch: 170, Loss: 0.2429
+Precision@5:  0.1268, Recall@5:  0.1591, NDCG@5:  0.1784
+Precision@10: 0.1059, Recall@10: 0.2572, NDCG@10: 0.2035
+Precision@15: 0.0953, Recall@15: 0.3303, NDCG@15: 0.2268
+Precision@20: 0.0864, Recall@20: 0.3911, NDCG@20: 0.2471
+Save: result/ML-100K/nothing.pt
+
+Epoch: 171, Loss: 0.2420
+Precision@5:  0.1265, Recall@5:  0.1603, NDCG@5:  0.1784
+Precision@10: 0.1064, Recall@10: 0.2586, NDCG@10: 0.2037
+Precision@15: 0.0949, Recall@15: 0.3301, NDCG@15: 0.2263
+Precision@20: 0.0865, Recall@20: 0.3909, NDCG@20: 0.2469
+EarlyStopping counter: 1 out of 50
+
+Epoch: 172, Loss: 0.2410
+Precision@5:  0.1263, Recall@5:  0.1597, NDCG@5:  0.1777
+Precision@10: 0.1059, Recall@10: 0.2565, NDCG@10: 0.2026
+Precision@15: 0.0950, Recall@15: 0.3288, NDCG@15: 0.2256
+Precision@20: 0.0870, Recall@20: 0.3921, NDCG@20: 0.2470
+Save: result/ML-100K/nothing.pt
+
+Epoch: 173, Loss: 0.2416
+Precision@5:  0.1261, Recall@5:  0.1596, NDCG@5:  0.1775
+Precision@10: 0.1060, Recall@10: 0.2564, NDCG@10: 0.2025
+Precision@15: 0.0950, Recall@15: 0.3287, NDCG@15: 0.2254
+Precision@20: 0.0870, Recall@20: 0.3934, NDCG@20: 0.2472
+Save: result/ML-100K/nothing.pt
+
+Epoch: 174, Loss: 0.2418
+Precision@5:  0.1263, Recall@5:  0.1595, NDCG@5:  0.1778
+Precision@10: 0.1056, Recall@10: 0.2553, NDCG@10: 0.2025
+Precision@15: 0.0946, Recall@15: 0.3284, NDCG@15: 0.2256
+Precision@20: 0.0866, Recall@20: 0.3917, NDCG@20: 0.2471
+EarlyStopping counter: 1 out of 50
+
+Epoch: 175, Loss: 0.2412
+Precision@5:  0.1268, Recall@5:  0.1600, NDCG@5:  0.1787
+Precision@10: 0.1058, Recall@10: 0.2563, NDCG@10: 0.2032
+Precision@15: 0.0946, Recall@15: 0.3293, NDCG@15: 0.2263
+Precision@20: 0.0871, Recall@20: 0.3963, NDCG@20: 0.2487
+Save: result/ML-100K/nothing.pt
+
+Epoch: 176, Loss: 0.2416
+Precision@5:  0.1252, Recall@5:  0.1571, NDCG@5:  0.1772
+Precision@10: 0.1060, Recall@10: 0.2553, NDCG@10: 0.2032
+Precision@15: 0.0948, Recall@15: 0.3295, NDCG@15: 0.2265
+Precision@20: 0.0870, Recall@20: 0.3944, NDCG@20: 0.2483
+EarlyStopping counter: 1 out of 50
+
+Epoch: 177, Loss: 0.2382
+Precision@5:  0.1254, Recall@5:  0.1589, NDCG@5:  0.1769
+Precision@10: 0.1059, Recall@10: 0.2556, NDCG@10: 0.2024
+Precision@15: 0.0949, Recall@15: 0.3296, NDCG@15: 0.2258
+Precision@20: 0.0869, Recall@20: 0.3942, NDCG@20: 0.2475
+EarlyStopping counter: 2 out of 50
+
+Epoch: 178, Loss: 0.2378
+Precision@5:  0.1254, Recall@5:  0.1587, NDCG@5:  0.1766
+Precision@10: 0.1060, Recall@10: 0.2552, NDCG@10: 0.2023
+Precision@15: 0.0947, Recall@15: 0.3290, NDCG@15: 0.2255
+Precision@20: 0.0867, Recall@20: 0.3954, NDCG@20: 0.2476
+EarlyStopping counter: 3 out of 50
+
+Epoch: 179, Loss: 0.2378
+Precision@5:  0.1252, Recall@5:  0.1567, NDCG@5:  0.1757
+Precision@10: 0.1060, Recall@10: 0.2538, NDCG@10: 0.2016
+Precision@15: 0.0951, Recall@15: 0.3295, NDCG@15: 0.2255
+Precision@20: 0.0870, Recall@20: 0.3947, NDCG@20: 0.2474
+EarlyStopping counter: 4 out of 50
+
+Epoch: 180, Loss: 0.2401
+Precision@5:  0.1245, Recall@5:  0.1572, NDCG@5:  0.1758
+Precision@10: 0.1062, Recall@10: 0.2560, NDCG@10: 0.2025
+Precision@15: 0.0947, Recall@15: 0.3278, NDCG@15: 0.2252
+Precision@20: 0.0869, Recall@20: 0.3955, NDCG@20: 0.2478
+EarlyStopping counter: 5 out of 50
+
+Epoch: 181, Loss: 0.2385
+Precision@5:  0.1254, Recall@5:  0.1576, NDCG@5:  0.1768
+Precision@10: 0.1060, Recall@10: 0.2553, NDCG@10: 0.2027
+Precision@15: 0.0945, Recall@15: 0.3273, NDCG@15: 0.2256
+Precision@20: 0.0868, Recall@20: 0.3952, NDCG@20: 0.2482
+EarlyStopping counter: 6 out of 50
+
+Epoch: 182, Loss: 0.2372
+Precision@5:  0.1263, Recall@5:  0.1594, NDCG@5:  0.1778
+Precision@10: 0.1064, Recall@10: 0.2546, NDCG@10: 0.2028
+Precision@15: 0.0951, Recall@15: 0.3284, NDCG@15: 0.2261
+Precision@20: 0.0870, Recall@20: 0.3962, NDCG@20: 0.2486
+EarlyStopping counter: 7 out of 50
+
+Epoch: 183, Loss: 0.2383
+Precision@5:  0.1259, Recall@5:  0.1585, NDCG@5:  0.1784
+Precision@10: 0.1068, Recall@10: 0.2559, NDCG@10: 0.2042
+Precision@15: 0.0949, Recall@15: 0.3277, NDCG@15: 0.2267
+Precision@20: 0.0872, Recall@20: 0.3962, NDCG@20: 0.2496
+EarlyStopping counter: 8 out of 50
+
+Epoch: 184, Loss: 0.2345
+Precision@5:  0.1259, Recall@5:  0.1585, NDCG@5:  0.1789
+Precision@10: 0.1069, Recall@10: 0.2539, NDCG@10: 0.2043
+Precision@15: 0.0947, Recall@15: 0.3262, NDCG@15: 0.2269
+Precision@20: 0.0873, Recall@20: 0.3969, NDCG@20: 0.2503
+Save: result/ML-100K/nothing.pt
+
+Epoch: 185, Loss: 0.2349
+Precision@5:  0.1252, Recall@5:  0.1584, NDCG@5:  0.1786
+Precision@10: 0.1077, Recall@10: 0.2577, NDCG@10: 0.2057
+Precision@15: 0.0949, Recall@15: 0.3267, NDCG@15: 0.2272
+Precision@20: 0.0869, Recall@20: 0.3951, NDCG@20: 0.2498
+EarlyStopping counter: 1 out of 50
+
+Epoch: 186, Loss: 0.2361
+Precision@5:  0.1252, Recall@5:  0.1580, NDCG@5:  0.1781
+Precision@10: 0.1075, Recall@10: 0.2554, NDCG@10: 0.2047
+Precision@15: 0.0947, Recall@15: 0.3279, NDCG@15: 0.2270
+Precision@20: 0.0868, Recall@20: 0.3943, NDCG@20: 0.2492
+EarlyStopping counter: 2 out of 50
+
+Epoch: 187, Loss: 0.2351
+Precision@5:  0.1256, Recall@5:  0.1581, NDCG@5:  0.1783
+Precision@10: 0.1071, Recall@10: 0.2529, NDCG@10: 0.2039
+Precision@15: 0.0946, Recall@15: 0.3270, NDCG@15: 0.2267
+Precision@20: 0.0871, Recall@20: 0.3950, NDCG@20: 0.2495
+EarlyStopping counter: 3 out of 50
+
+Epoch: 188, Loss: 0.2321
+Precision@5:  0.1256, Recall@5:  0.1582, NDCG@5:  0.1780
+Precision@10: 0.1082, Recall@10: 0.2562, NDCG@10: 0.2048
+Precision@15: 0.0947, Recall@15: 0.3276, NDCG@15: 0.2266
+Precision@20: 0.0871, Recall@20: 0.3946, NDCG@20: 0.2490
+EarlyStopping counter: 4 out of 50
+
+Epoch: 189, Loss: 0.2319
+Precision@5:  0.1254, Recall@5:  0.1584, NDCG@5:  0.1775
+Precision@10: 0.1080, Recall@10: 0.2552, NDCG@10: 0.2041
+Precision@15: 0.0950, Recall@15: 0.3307, NDCG@15: 0.2271
+Precision@20: 0.0873, Recall@20: 0.3969, NDCG@20: 0.2494
+EarlyStopping counter: 5 out of 50
+
+Epoch: 190, Loss: 0.2317
+Precision@5:  0.1254, Recall@5:  0.1583, NDCG@5:  0.1779
+Precision@10: 0.1074, Recall@10: 0.2524, NDCG@10: 0.2034
+Precision@15: 0.0950, Recall@15: 0.3325, NDCG@15: 0.2277
+Precision@20: 0.0873, Recall@20: 0.3963, NDCG@20: 0.2495
+EarlyStopping counter: 6 out of 50
+
+Epoch: 191, Loss: 0.2323
+Precision@5:  0.1252, Recall@5:  0.1568, NDCG@5:  0.1769
+Precision@10: 0.1078, Recall@10: 0.2566, NDCG@10: 0.2044
+Precision@15: 0.0953, Recall@15: 0.3318, NDCG@15: 0.2275
+Precision@20: 0.0876, Recall@20: 0.3964, NDCG@20: 0.2495
+EarlyStopping counter: 7 out of 50
+
+Epoch: 192, Loss: 0.2321
+Precision@5:  0.1259, Recall@5:  0.1580, NDCG@5:  0.1775
+Precision@10: 0.1078, Recall@10: 0.2541, NDCG@10: 0.2039
+Precision@15: 0.0955, Recall@15: 0.3316, NDCG@15: 0.2277
+Precision@20: 0.0881, Recall@20: 0.3974, NDCG@20: 0.2502
+Save: result/ML-100K/nothing.pt
+
+Epoch: 193, Loss: 0.2319
+Precision@5:  0.1261, Recall@5:  0.1585, NDCG@5:  0.1779
+Precision@10: 0.1075, Recall@10: 0.2552, NDCG@10: 0.2041
+Precision@15: 0.0958, Recall@15: 0.3340, NDCG@15: 0.2285
+Precision@20: 0.0881, Recall@20: 0.3972, NDCG@20: 0.2501
+EarlyStopping counter: 1 out of 50
+
+Epoch: 194, Loss: 0.2315
+Precision@5:  0.1259, Recall@5:  0.1598, NDCG@5:  0.1776
+Precision@10: 0.1071, Recall@10: 0.2548, NDCG@10: 0.2032
+Precision@15: 0.0956, Recall@15: 0.3336, NDCG@15: 0.2277
+Precision@20: 0.0880, Recall@20: 0.3979, NDCG@20: 0.2497
+Save: result/ML-100K/nothing.pt
+
+Epoch: 195, Loss: 0.2305
+Precision@5:  0.1254, Recall@5:  0.1586, NDCG@5:  0.1769
+Precision@10: 0.1076, Recall@10: 0.2572, NDCG@10: 0.2039
+Precision@15: 0.0956, Recall@15: 0.3342, NDCG@15: 0.2278
+Precision@20: 0.0882, Recall@20: 0.3990, NDCG@20: 0.2499
+Save: result/ML-100K/nothing.pt
+
+Epoch: 196, Loss: 0.2306
+Precision@5:  0.1254, Recall@5:  0.1592, NDCG@5:  0.1769
+Precision@10: 0.1075, Recall@10: 0.2560, NDCG@10: 0.2034
+Precision@15: 0.0954, Recall@15: 0.3349, NDCG@15: 0.2277
+Precision@20: 0.0878, Recall@20: 0.3952, NDCG@20: 0.2487
+EarlyStopping counter: 1 out of 50
+
+Epoch: 197, Loss: 0.2347
+Precision@5:  0.1259, Recall@5:  0.1582, NDCG@5:  0.1778
+Precision@10: 0.1082, Recall@10: 0.2573, NDCG@10: 0.2050
+Precision@15: 0.0954, Recall@15: 0.3350, NDCG@15: 0.2287
+Precision@20: 0.0884, Recall@20: 0.3959, NDCG@20: 0.2503
+EarlyStopping counter: 2 out of 50
+
+Epoch: 198, Loss: 0.2299
+Precision@5:  0.1259, Recall@5:  0.1589, NDCG@5:  0.1775
+Precision@10: 0.1080, Recall@10: 0.2566, NDCG@10: 0.2044
+Precision@15: 0.0956, Recall@15: 0.3338, NDCG@15: 0.2282
+Precision@20: 0.0886, Recall@20: 0.3946, NDCG@20: 0.2499
+EarlyStopping counter: 3 out of 50
+
+Epoch: 199, Loss: 0.2299
+Precision@5:  0.1265, Recall@5:  0.1602, NDCG@5:  0.1780
+Precision@10: 0.1078, Recall@10: 0.2555, NDCG@10: 0.2039
+Precision@15: 0.0955, Recall@15: 0.3344, NDCG@15: 0.2282
+Precision@20: 0.0889, Recall@20: 0.3972, NDCG@20: 0.2505
+EarlyStopping counter: 4 out of 50
+
+Epoch: 200, Loss: 0.2324
+Precision@5:  0.1261, Recall@5:  0.1588, NDCG@5:  0.1771
+Precision@10: 0.1083, Recall@10: 0.2574, NDCG@10: 0.2044
+Precision@15: 0.0951, Recall@15: 0.3354, NDCG@15: 0.2281
+Precision@20: 0.0887, Recall@20: 0.3968, NDCG@20: 0.2501
+EarlyStopping counter: 5 out of 50
+
+Epoch: 201, Loss: 0.2293
+Precision@5:  0.1261, Recall@5:  0.1589, NDCG@5:  0.1771
+Precision@10: 0.1080, Recall@10: 0.2567, NDCG@10: 0.2041
+Precision@15: 0.0955, Recall@15: 0.3366, NDCG@15: 0.2286
+Precision@20: 0.0884, Recall@20: 0.3946, NDCG@20: 0.2496
+EarlyStopping counter: 6 out of 50
+
+Epoch: 202, Loss: 0.2300
+Precision@5:  0.1268, Recall@5:  0.1593, NDCG@5:  0.1777
+Precision@10: 0.1077, Recall@10: 0.2567, NDCG@10: 0.2041
+Precision@15: 0.0950, Recall@15: 0.3341, NDCG@15: 0.2279
+Precision@20: 0.0883, Recall@20: 0.3944, NDCG@20: 0.2496
+EarlyStopping counter: 7 out of 50
+
+Epoch: 203, Loss: 0.2279
+Precision@5:  0.1263, Recall@5:  0.1601, NDCG@5:  0.1782
+Precision@10: 0.1082, Recall@10: 0.2577, NDCG@10: 0.2051
+Precision@15: 0.0955, Recall@15: 0.3354, NDCG@15: 0.2289
+Precision@20: 0.0881, Recall@20: 0.3945, NDCG@20: 0.2500
+EarlyStopping counter: 8 out of 50
+
+Epoch: 204, Loss: 0.2263
+Precision@5:  0.1265, Recall@5:  0.1594, NDCG@5:  0.1776
+Precision@10: 0.1076, Recall@10: 0.2573, NDCG@10: 0.2042
+Precision@15: 0.0958, Recall@15: 0.3362, NDCG@15: 0.2287
+Precision@20: 0.0883, Recall@20: 0.3950, NDCG@20: 0.2497
+EarlyStopping counter: 9 out of 50
+
+Epoch: 205, Loss: 0.2270
+Precision@5:  0.1263, Recall@5:  0.1579, NDCG@5:  0.1768
+Precision@10: 0.1073, Recall@10: 0.2554, NDCG@10: 0.2033
+Precision@15: 0.0957, Recall@15: 0.3363, NDCG@15: 0.2285
+Precision@20: 0.0882, Recall@20: 0.3950, NDCG@20: 0.2494
+EarlyStopping counter: 10 out of 50
+
+Epoch: 206, Loss: 0.2270
+Precision@5:  0.1263, Recall@5:  0.1594, NDCG@5:  0.1779
+Precision@10: 0.1075, Recall@10: 0.2550, NDCG@10: 0.2041
+Precision@15: 0.0952, Recall@15: 0.3345, NDCG@15: 0.2286
+Precision@20: 0.0880, Recall@20: 0.3962, NDCG@20: 0.2503
+EarlyStopping counter: 11 out of 50
+
+Epoch: 207, Loss: 0.2239
+Precision@5:  0.1268, Recall@5:  0.1589, NDCG@5:  0.1779
+Precision@10: 0.1075, Recall@10: 0.2558, NDCG@10: 0.2041
+Precision@15: 0.0954, Recall@15: 0.3334, NDCG@15: 0.2283
+Precision@20: 0.0880, Recall@20: 0.3948, NDCG@20: 0.2498
+EarlyStopping counter: 12 out of 50
+
+Epoch: 208, Loss: 0.2277
+Precision@5:  0.1268, Recall@5:  0.1597, NDCG@5:  0.1791
+Precision@10: 0.1080, Recall@10: 0.2560, NDCG@10: 0.2055
+Precision@15: 0.0953, Recall@15: 0.3344, NDCG@15: 0.2296
+Precision@20: 0.0878, Recall@20: 0.3944, NDCG@20: 0.2507
+EarlyStopping counter: 13 out of 50
+
+Epoch: 209, Loss: 0.2274
+Precision@5:  0.1256, Recall@5:  0.1590, NDCG@5:  0.1775
+Precision@10: 0.1081, Recall@10: 0.2589, NDCG@10: 0.2052
+Precision@15: 0.0952, Recall@15: 0.3329, NDCG@15: 0.2282
+Precision@20: 0.0883, Recall@20: 0.3968, NDCG@20: 0.2505
+EarlyStopping counter: 14 out of 50
+
+Epoch: 210, Loss: 0.2258
+Precision@5:  0.1250, Recall@5:  0.1566, NDCG@5:  0.1764
+Precision@10: 0.1073, Recall@10: 0.2550, NDCG@10: 0.2038
+Precision@15: 0.0956, Recall@15: 0.3320, NDCG@15: 0.2281
+Precision@20: 0.0884, Recall@20: 0.3971, NDCG@20: 0.2506
+EarlyStopping counter: 15 out of 50
+
+Epoch: 211, Loss: 0.2246
+Precision@5:  0.1259, Recall@5:  0.1588, NDCG@5:  0.1781
+Precision@10: 0.1080, Recall@10: 0.2555, NDCG@10: 0.2048
+Precision@15: 0.0955, Recall@15: 0.3319, NDCG@15: 0.2286
+Precision@20: 0.0884, Recall@20: 0.3969, NDCG@20: 0.2511
+EarlyStopping counter: 16 out of 50
+
+Epoch: 212, Loss: 0.2255
+Precision@5:  0.1254, Recall@5:  0.1581, NDCG@5:  0.1770
+Precision@10: 0.1081, Recall@10: 0.2563, NDCG@10: 0.2045
+Precision@15: 0.0956, Recall@15: 0.3326, NDCG@15: 0.2283
+Precision@20: 0.0884, Recall@20: 0.3964, NDCG@20: 0.2505
+EarlyStopping counter: 17 out of 50
+
+Epoch: 213, Loss: 0.2238
+Precision@5:  0.1268, Recall@5:  0.1600, NDCG@5:  0.1783
+Precision@10: 0.1085, Recall@10: 0.2599, NDCG@10: 0.2059
+Precision@15: 0.0955, Recall@15: 0.3330, NDCG@15: 0.2286
+Precision@20: 0.0883, Recall@20: 0.3958, NDCG@20: 0.2506
+EarlyStopping counter: 18 out of 50
+
+Epoch: 214, Loss: 0.2236
+Precision@5:  0.1252, Recall@5:  0.1586, NDCG@5:  0.1769
+Precision@10: 0.1076, Recall@10: 0.2588, NDCG@10: 0.2047
+Precision@15: 0.0958, Recall@15: 0.3349, NDCG@15: 0.2286
+Precision@20: 0.0882, Recall@20: 0.3956, NDCG@20: 0.2498
+EarlyStopping counter: 19 out of 50
+
+Epoch: 215, Loss: 0.2244
+Precision@5:  0.1250, Recall@5:  0.1582, NDCG@5:  0.1771
+Precision@10: 0.1080, Recall@10: 0.2608, NDCG@10: 0.2059
+Precision@15: 0.0959, Recall@15: 0.3348, NDCG@15: 0.2292
+Precision@20: 0.0885, Recall@20: 0.3968, NDCG@20: 0.2510
+EarlyStopping counter: 20 out of 50
+
+Epoch: 216, Loss: 0.2236
+Precision@5:  0.1254, Recall@5:  0.1578, NDCG@5:  0.1779
+Precision@10: 0.1080, Recall@10: 0.2589, NDCG@10: 0.2060
+Precision@15: 0.0957, Recall@15: 0.3341, NDCG@15: 0.2295
+Precision@20: 0.0885, Recall@20: 0.3975, NDCG@20: 0.2516
+EarlyStopping counter: 21 out of 50
+
+Epoch: 217, Loss: 0.2230
+Precision@5:  0.1254, Recall@5:  0.1595, NDCG@5:  0.1784
+Precision@10: 0.1077, Recall@10: 0.2606, NDCG@10: 0.2064
+Precision@15: 0.0956, Recall@15: 0.3329, NDCG@15: 0.2293
+Precision@20: 0.0882, Recall@20: 0.3982, NDCG@20: 0.2517
+EarlyStopping counter: 22 out of 50
+
+Epoch: 218, Loss: 0.2253
+Precision@5:  0.1256, Recall@5:  0.1592, NDCG@5:  0.1785
+Precision@10: 0.1080, Recall@10: 0.2606, NDCG@10: 0.2068
+Precision@15: 0.0953, Recall@15: 0.3336, NDCG@15: 0.2296
+Precision@20: 0.0881, Recall@20: 0.3956, NDCG@20: 0.2514
+EarlyStopping counter: 23 out of 50
+
+Epoch: 219, Loss: 0.2202
+Precision@5:  0.1270, Recall@5:  0.1603, NDCG@5:  0.1799
+Precision@10: 0.1081, Recall@10: 0.2593, NDCG@10: 0.2068
+Precision@15: 0.0951, Recall@15: 0.3315, NDCG@15: 0.2293
+Precision@20: 0.0885, Recall@20: 0.3983, NDCG@20: 0.2524
+EarlyStopping counter: 24 out of 50
+
+Epoch: 220, Loss: 0.2216
+Precision@5:  0.1270, Recall@5:  0.1622, NDCG@5:  0.1807
+Precision@10: 0.1069, Recall@10: 0.2592, NDCG@10: 0.2067
+Precision@15: 0.0958, Recall@15: 0.3334, NDCG@15: 0.2305
+Precision@20: 0.0882, Recall@20: 0.3962, NDCG@20: 0.2523
+EarlyStopping counter: 25 out of 50
+
+Epoch: 221, Loss: 0.2213
+Precision@5:  0.1274, Recall@5:  0.1619, NDCG@5:  0.1805
+Precision@10: 0.1075, Recall@10: 0.2600, NDCG@10: 0.2069
+Precision@15: 0.0956, Recall@15: 0.3311, NDCG@15: 0.2297
+Precision@20: 0.0885, Recall@20: 0.3979, NDCG@20: 0.2525
+EarlyStopping counter: 26 out of 50
+
+Epoch: 222, Loss: 0.2182
+Precision@5:  0.1272, Recall@5:  0.1612, NDCG@5:  0.1805
+Precision@10: 0.1072, Recall@10: 0.2595, NDCG@10: 0.2068
+Precision@15: 0.0959, Recall@15: 0.3327, NDCG@15: 0.2303
+Precision@20: 0.0883, Recall@20: 0.3964, NDCG@20: 0.2522
+EarlyStopping counter: 27 out of 50
+
+Epoch: 223, Loss: 0.2224
+Precision@5:  0.1272, Recall@5:  0.1620, NDCG@5:  0.1809
+Precision@10: 0.1080, Recall@10: 0.2618, NDCG@10: 0.2078
+Precision@15: 0.0960, Recall@15: 0.3334, NDCG@15: 0.2307
+Precision@20: 0.0887, Recall@20: 0.3993, NDCG@20: 0.2532
+Save: result/ML-100K/nothing.pt
+
+Epoch: 224, Loss: 0.2217
+Precision@5:  0.1250, Recall@5:  0.1598, NDCG@5:  0.1792
+Precision@10: 0.1081, Recall@10: 0.2630, NDCG@10: 0.2080
+Precision@15: 0.0956, Recall@15: 0.3323, NDCG@15: 0.2301
+Precision@20: 0.0887, Recall@20: 0.4008, NDCG@20: 0.2535
+Save: result/ML-100K/nothing.pt
+
+Epoch: 225, Loss: 0.2168
+Precision@5:  0.1254, Recall@5:  0.1599, NDCG@5:  0.1791
+Precision@10: 0.1083, Recall@10: 0.2633, NDCG@10: 0.2080
+Precision@15: 0.0955, Recall@15: 0.3326, NDCG@15: 0.2299
+Precision@20: 0.0889, Recall@20: 0.3995, NDCG@20: 0.2531
+EarlyStopping counter: 1 out of 50
+
+Epoch: 226, Loss: 0.2218
+Precision@5:  0.1247, Recall@5:  0.1577, NDCG@5:  0.1783
+Precision@10: 0.1092, Recall@10: 0.2654, NDCG@10: 0.2091
+Precision@15: 0.0956, Recall@15: 0.3335, NDCG@15: 0.2305
+Precision@20: 0.0894, Recall@20: 0.4016, NDCG@20: 0.2541
+Save: result/ML-100K/nothing.pt
+
+Epoch: 227, Loss: 0.2191
+Precision@5:  0.1263, Recall@5:  0.1593, NDCG@5:  0.1783
+Precision@10: 0.1084, Recall@10: 0.2640, NDCG@10: 0.2074
+Precision@15: 0.0962, Recall@15: 0.3347, NDCG@15: 0.2300
+Precision@20: 0.0893, Recall@20: 0.3997, NDCG@20: 0.2527
+EarlyStopping counter: 1 out of 50
+
+Epoch: 228, Loss: 0.2196
+Precision@5:  0.1252, Recall@5:  0.1576, NDCG@5:  0.1774
+Precision@10: 0.1084, Recall@10: 0.2639, NDCG@10: 0.2073
+Precision@15: 0.0965, Recall@15: 0.3366, NDCG@15: 0.2306
+Precision@20: 0.0891, Recall@20: 0.3981, NDCG@20: 0.2522
+EarlyStopping counter: 2 out of 50
+
+Epoch: 229, Loss: 0.2174
+Precision@5:  0.1254, Recall@5:  0.1580, NDCG@5:  0.1781
+Precision@10: 0.1071, Recall@10: 0.2589, NDCG@10: 0.2059
+Precision@15: 0.0960, Recall@15: 0.3354, NDCG@15: 0.2304
+Precision@20: 0.0889, Recall@20: 0.3987, NDCG@20: 0.2526
+EarlyStopping counter: 3 out of 50
+
+Epoch: 230, Loss: 0.2191
+Precision@5:  0.1261, Recall@5:  0.1587, NDCG@5:  0.1788
+Precision@10: 0.1076, Recall@10: 0.2605, NDCG@10: 0.2069
+Precision@15: 0.0962, Recall@15: 0.3361, NDCG@15: 0.2310
+Precision@20: 0.0886, Recall@20: 0.3989, NDCG@20: 0.2528
+EarlyStopping counter: 4 out of 50
+
+Epoch: 231, Loss: 0.2168
+Precision@5:  0.1265, Recall@5:  0.1591, NDCG@5:  0.1785
+Precision@10: 0.1083, Recall@10: 0.2623, NDCG@10: 0.2070
+Precision@15: 0.0961, Recall@15: 0.3351, NDCG@15: 0.2301
+Precision@20: 0.0890, Recall@20: 0.4000, NDCG@20: 0.2526
+EarlyStopping counter: 5 out of 50
+
+Epoch: 232, Loss: 0.2190
+Precision@5:  0.1268, Recall@5:  0.1611, NDCG@5:  0.1799
+Precision@10: 0.1073, Recall@10: 0.2590, NDCG@10: 0.2065
+Precision@15: 0.0962, Recall@15: 0.3361, NDCG@15: 0.2312
+Precision@20: 0.0884, Recall@20: 0.3965, NDCG@20: 0.2523
+EarlyStopping counter: 6 out of 50
+
+Epoch: 233, Loss: 0.2181
+Precision@5:  0.1299, Recall@5:  0.1661, NDCG@5:  0.1824
+Precision@10: 0.1080, Recall@10: 0.2612, NDCG@10: 0.2072
+Precision@15: 0.0962, Recall@15: 0.3347, NDCG@15: 0.2307
+Precision@20: 0.0886, Recall@20: 0.3973, NDCG@20: 0.2524
+EarlyStopping counter: 7 out of 50
+
+Epoch: 234, Loss: 0.2159
+Precision@5:  0.1295, Recall@5:  0.1636, NDCG@5:  0.1806
+Precision@10: 0.1085, Recall@10: 0.2640, NDCG@10: 0.2073
+Precision@15: 0.0962, Recall@15: 0.3349, NDCG@15: 0.2300
+Precision@20: 0.0889, Recall@20: 0.3983, NDCG@20: 0.2522
+EarlyStopping counter: 8 out of 50
+
+Epoch: 235, Loss: 0.2160
+Precision@5:  0.1279, Recall@5:  0.1609, NDCG@5:  0.1795
+Precision@10: 0.1088, Recall@10: 0.2647, NDCG@10: 0.2079
+Precision@15: 0.0964, Recall@15: 0.3341, NDCG@15: 0.2301
+Precision@20: 0.0888, Recall@20: 0.3992, NDCG@20: 0.2524
+EarlyStopping counter: 9 out of 50
+
+Epoch: 236, Loss: 0.2164
+Precision@5:  0.1281, Recall@5:  0.1615, NDCG@5:  0.1801
+Precision@10: 0.1087, Recall@10: 0.2640, NDCG@10: 0.2080
+Precision@15: 0.0967, Recall@15: 0.3350, NDCG@15: 0.2309
+Precision@20: 0.0892, Recall@20: 0.4019, NDCG@20: 0.2538
+Save: result/ML-100K/nothing.pt
+
+Epoch: 237, Loss: 0.2142
+Precision@5:  0.1279, Recall@5:  0.1626, NDCG@5:  0.1802
+Precision@10: 0.1082, Recall@10: 0.2615, NDCG@10: 0.2070
+Precision@15: 0.0962, Recall@15: 0.3357, NDCG@15: 0.2307
+Precision@20: 0.0891, Recall@20: 0.3999, NDCG@20: 0.2532
+EarlyStopping counter: 1 out of 50
+
+Epoch: 238, Loss: 0.2140
+Precision@5:  0.1292, Recall@5:  0.1625, NDCG@5:  0.1812
+Precision@10: 0.1081, Recall@10: 0.2624, NDCG@10: 0.2076
+Precision@15: 0.0963, Recall@15: 0.3358, NDCG@15: 0.2312
+Precision@20: 0.0889, Recall@20: 0.3987, NDCG@20: 0.2532
+EarlyStopping counter: 2 out of 50
+
+Epoch: 239, Loss: 0.2163
+Precision@5:  0.1288, Recall@5:  0.1627, NDCG@5:  0.1805
+Precision@10: 0.1087, Recall@10: 0.2643, NDCG@10: 0.2079
+Precision@15: 0.0963, Recall@15: 0.3365, NDCG@15: 0.2309
+Precision@20: 0.0886, Recall@20: 0.3979, NDCG@20: 0.2524
+EarlyStopping counter: 3 out of 50
+
+Epoch: 240, Loss: 0.2150
+Precision@5:  0.1290, Recall@5:  0.1632, NDCG@5:  0.1805
+Precision@10: 0.1086, Recall@10: 0.2654, NDCG@10: 0.2081
+Precision@15: 0.0965, Recall@15: 0.3373, NDCG@15: 0.2311
+Precision@20: 0.0884, Recall@20: 0.3969, NDCG@20: 0.2521
+EarlyStopping counter: 4 out of 50
+
+Epoch: 241, Loss: 0.2147
+Precision@5:  0.1286, Recall@5:  0.1633, NDCG@5:  0.1802
+Precision@10: 0.1083, Recall@10: 0.2627, NDCG@10: 0.2072
+Precision@15: 0.0968, Recall@15: 0.3369, NDCG@15: 0.2311
+Precision@20: 0.0891, Recall@20: 0.3991, NDCG@20: 0.2528
+EarlyStopping counter: 5 out of 50
+
+Epoch: 242, Loss: 0.2145
+Precision@5:  0.1292, Recall@5:  0.1637, NDCG@5:  0.1811
+Precision@10: 0.1085, Recall@10: 0.2607, NDCG@10: 0.2072
+Precision@15: 0.0961, Recall@15: 0.3346, NDCG@15: 0.2307
+Precision@20: 0.0886, Recall@20: 0.3978, NDCG@20: 0.2527
+EarlyStopping counter: 6 out of 50
+
+Epoch: 243, Loss: 0.2108
+Precision@5:  0.1297, Recall@5:  0.1656, NDCG@5:  0.1820
+Precision@10: 0.1090, Recall@10: 0.2616, NDCG@10: 0.2079
+Precision@15: 0.0965, Recall@15: 0.3378, NDCG@15: 0.2319
+Precision@20: 0.0886, Recall@20: 0.3985, NDCG@20: 0.2532
+EarlyStopping counter: 7 out of 50
+
+Epoch: 244, Loss: 0.2111
+Precision@5:  0.1310, Recall@5:  0.1669, NDCG@5:  0.1828
+Precision@10: 0.1085, Recall@10: 0.2612, NDCG@10: 0.2076
+Precision@15: 0.0961, Recall@15: 0.3372, NDCG@15: 0.2316
+Precision@20: 0.0890, Recall@20: 0.3984, NDCG@20: 0.2533
+EarlyStopping counter: 8 out of 50
+
+Epoch: 245, Loss: 0.2120
+Precision@5:  0.1292, Recall@5:  0.1668, NDCG@5:  0.1813
+Precision@10: 0.1091, Recall@10: 0.2637, NDCG@10: 0.2079
+Precision@15: 0.0964, Recall@15: 0.3368, NDCG@15: 0.2311
+Precision@20: 0.0886, Recall@20: 0.3969, NDCG@20: 0.2522
+EarlyStopping counter: 9 out of 50
+
+Epoch: 246, Loss: 0.2146
+Precision@5:  0.1292, Recall@5:  0.1671, NDCG@5:  0.1809
+Precision@10: 0.1097, Recall@10: 0.2658, NDCG@10: 0.2082
+Precision@15: 0.0966, Recall@15: 0.3388, NDCG@15: 0.2311
+Precision@20: 0.0888, Recall@20: 0.3992, NDCG@20: 0.2522
+EarlyStopping counter: 10 out of 50
+
+Epoch: 247, Loss: 0.2127
+Precision@5:  0.1281, Recall@5:  0.1660, NDCG@5:  0.1803
+Precision@10: 0.1100, Recall@10: 0.2673, NDCG@10: 0.2090
+Precision@15: 0.0967, Recall@15: 0.3379, NDCG@15: 0.2313
+Precision@20: 0.0892, Recall@20: 0.4014, NDCG@20: 0.2533
+EarlyStopping counter: 11 out of 50
+
+Epoch: 248, Loss: 0.2127
+Precision@5:  0.1279, Recall@5:  0.1672, NDCG@5:  0.1815
+Precision@10: 0.1102, Recall@10: 0.2672, NDCG@10: 0.2099
+Precision@15: 0.0971, Recall@15: 0.3391, NDCG@15: 0.2327
+Precision@20: 0.0895, Recall@20: 0.4018, NDCG@20: 0.2545
+EarlyStopping counter: 12 out of 50
+
+Epoch: 249, Loss: 0.2138
+Precision@5:  0.1286, Recall@5:  0.1672, NDCG@5:  0.1818
+Precision@10: 0.1096, Recall@10: 0.2671, NDCG@10: 0.2097
+Precision@15: 0.0973, Recall@15: 0.3393, NDCG@15: 0.2330
+Precision@20: 0.0896, Recall@20: 0.4027, NDCG@20: 0.2549
+Save: result/ML-100K/nothing.pt
+
+Epoch: 250, Loss: 0.2078
+Precision@5:  0.1295, Recall@5:  0.1673, NDCG@5:  0.1820
+Precision@10: 0.1088, Recall@10: 0.2654, NDCG@10: 0.2085
+Precision@15: 0.0965, Recall@15: 0.3361, NDCG@15: 0.2315
+Precision@20: 0.0896, Recall@20: 0.4016, NDCG@20: 0.2543
+EarlyStopping counter: 1 out of 50
+
+Epoch: 251, Loss: 0.2109
+Precision@5:  0.1292, Recall@5:  0.1678, NDCG@5:  0.1817
+Precision@10: 0.1094, Recall@10: 0.2660, NDCG@10: 0.2088
+Precision@15: 0.0973, Recall@15: 0.3381, NDCG@15: 0.2323
+Precision@20: 0.0900, Recall@20: 0.4039, NDCG@20: 0.2549
+Save: result/ML-100K/nothing.pt
+
+Epoch: 252, Loss: 0.2098
+Precision@5:  0.1303, Recall@5:  0.1681, NDCG@5:  0.1826
+Precision@10: 0.1094, Recall@10: 0.2650, NDCG@10: 0.2087
+Precision@15: 0.0967, Recall@15: 0.3370, NDCG@15: 0.2318
+Precision@20: 0.0895, Recall@20: 0.3997, NDCG@20: 0.2538
+EarlyStopping counter: 1 out of 50
+
+Epoch: 253, Loss: 0.2085
+Precision@5:  0.1297, Recall@5:  0.1675, NDCG@5:  0.1820
+Precision@10: 0.1100, Recall@10: 0.2666, NDCG@10: 0.2092
+Precision@15: 0.0973, Recall@15: 0.3385, NDCG@15: 0.2324
+Precision@20: 0.0897, Recall@20: 0.4005, NDCG@20: 0.2541
+EarlyStopping counter: 2 out of 50
+
+Epoch: 254, Loss: 0.2045
+Precision@5:  0.1295, Recall@5:  0.1664, NDCG@5:  0.1818
+Precision@10: 0.1097, Recall@10: 0.2654, NDCG@10: 0.2090
+Precision@15: 0.0970, Recall@15: 0.3382, NDCG@15: 0.2322
+Precision@20: 0.0897, Recall@20: 0.4022, NDCG@20: 0.2544
+EarlyStopping counter: 3 out of 50
+
+Epoch: 255, Loss: 0.2092
+Precision@5:  0.1301, Recall@5:  0.1671, NDCG@5:  0.1820
+Precision@10: 0.1097, Recall@10: 0.2661, NDCG@10: 0.2089
+Precision@15: 0.0959, Recall@15: 0.3365, NDCG@15: 0.2310
+Precision@20: 0.0896, Recall@20: 0.4006, NDCG@20: 0.2539
+EarlyStopping counter: 4 out of 50
+
+Epoch: 256, Loss: 0.2084
+Precision@5:  0.1308, Recall@5:  0.1676, NDCG@5:  0.1828
+Precision@10: 0.1104, Recall@10: 0.2665, NDCG@10: 0.2096
+Precision@15: 0.0962, Recall@15: 0.3383, NDCG@15: 0.2320
+Precision@20: 0.0892, Recall@20: 0.3994, NDCG@20: 0.2536
+EarlyStopping counter: 5 out of 50
+
+Epoch: 257, Loss: 0.2075
+Precision@5:  0.1306, Recall@5:  0.1675, NDCG@5:  0.1824
+Precision@10: 0.1106, Recall@10: 0.2672, NDCG@10: 0.2096
+Precision@15: 0.0962, Recall@15: 0.3381, NDCG@15: 0.2316
+Precision@20: 0.0893, Recall@20: 0.3992, NDCG@20: 0.2534
+EarlyStopping counter: 6 out of 50
+
+Epoch: 258, Loss: 0.2066
+Precision@5:  0.1303, Recall@5:  0.1677, NDCG@5:  0.1822
+Precision@10: 0.1103, Recall@10: 0.2660, NDCG@10: 0.2091
+Precision@15: 0.0967, Recall@15: 0.3393, NDCG@15: 0.2320
+Precision@20: 0.0894, Recall@20: 0.4001, NDCG@20: 0.2535
+EarlyStopping counter: 7 out of 50
+
+Epoch: 259, Loss: 0.2043
+Precision@5:  0.1299, Recall@5:  0.1680, NDCG@5:  0.1821
+Precision@10: 0.1106, Recall@10: 0.2683, NDCG@10: 0.2100
+Precision@15: 0.0967, Recall@15: 0.3389, NDCG@15: 0.2323
+Precision@20: 0.0892, Recall@20: 0.3988, NDCG@20: 0.2535
+EarlyStopping counter: 8 out of 50
+
+Epoch: 260, Loss: 0.2082
+Precision@5:  0.1288, Recall@5:  0.1660, NDCG@5:  0.1811
+Precision@10: 0.1112, Recall@10: 0.2709, NDCG@10: 0.2110
+Precision@15: 0.0969, Recall@15: 0.3397, NDCG@15: 0.2327
+Precision@20: 0.0893, Recall@20: 0.4016, NDCG@20: 0.2542
+EarlyStopping counter: 9 out of 50
+
+Epoch: 261, Loss: 0.2052
+Precision@5:  0.1283, Recall@5:  0.1651, NDCG@5:  0.1802
+Precision@10: 0.1109, Recall@10: 0.2685, NDCG@10: 0.2100
+Precision@15: 0.0967, Recall@15: 0.3383, NDCG@15: 0.2319
+Precision@20: 0.0893, Recall@20: 0.4011, NDCG@20: 0.2538
+EarlyStopping counter: 10 out of 50
+
+Epoch: 262, Loss: 0.2048
+Precision@5:  0.1288, Recall@5:  0.1658, NDCG@5:  0.1813
+Precision@10: 0.1109, Recall@10: 0.2683, NDCG@10: 0.2107
+Precision@15: 0.0964, Recall@15: 0.3382, NDCG@15: 0.2324
+Precision@20: 0.0892, Recall@20: 0.4013, NDCG@20: 0.2545
+EarlyStopping counter: 11 out of 50
+
+Epoch: 263, Loss: 0.2050
+Precision@5:  0.1286, Recall@5:  0.1648, NDCG@5:  0.1815
+Precision@10: 0.1111, Recall@10: 0.2686, NDCG@10: 0.2113
+Precision@15: 0.0969, Recall@15: 0.3393, NDCG@15: 0.2334
+Precision@20: 0.0893, Recall@20: 0.4014, NDCG@20: 0.2551
+EarlyStopping counter: 12 out of 50
+
+Epoch: 264, Loss: 0.2091
+Precision@5:  0.1288, Recall@5:  0.1648, NDCG@5:  0.1811
+Precision@10: 0.1109, Recall@10: 0.2681, NDCG@10: 0.2106
+Precision@15: 0.0966, Recall@15: 0.3397, NDCG@15: 0.2330
+Precision@20: 0.0898, Recall@20: 0.4039, NDCG@20: 0.2556
+Save: result/ML-100K/nothing.pt
+
+Epoch: 265, Loss: 0.2033
+Precision@5:  0.1292, Recall@5:  0.1663, NDCG@5:  0.1816
+Precision@10: 0.1110, Recall@10: 0.2687, NDCG@10: 0.2109
+Precision@15: 0.0965, Recall@15: 0.3379, NDCG@15: 0.2325
+Precision@20: 0.0896, Recall@20: 0.4020, NDCG@20: 0.2550
+EarlyStopping counter: 1 out of 50
+
+Epoch: 266, Loss: 0.2056
+Precision@5:  0.1299, Recall@5:  0.1668, NDCG@5:  0.1825
+Precision@10: 0.1104, Recall@10: 0.2676, NDCG@10: 0.2107
+Precision@15: 0.0968, Recall@15: 0.3384, NDCG@15: 0.2331
+Precision@20: 0.0899, Recall@20: 0.4039, NDCG@20: 0.2560
+Save: result/ML-100K/nothing.pt
+
+Epoch: 267, Loss: 0.2052
+Precision@5:  0.1295, Recall@5:  0.1673, NDCG@5:  0.1827
+Precision@10: 0.1102, Recall@10: 0.2670, NDCG@10: 0.2107
+Precision@15: 0.0970, Recall@15: 0.3390, NDCG@15: 0.2336
+Precision@20: 0.0900, Recall@20: 0.4060, NDCG@20: 0.2567
+Save: result/ML-100K/nothing.pt
+
+Epoch: 268, Loss: 0.2054
+Precision@5:  0.1301, Recall@5:  0.1662, NDCG@5:  0.1832
+Precision@10: 0.1097, Recall@10: 0.2656, NDCG@10: 0.2107
+Precision@15: 0.0972, Recall@15: 0.3404, NDCG@15: 0.2345
+Precision@20: 0.0900, Recall@20: 0.4049, NDCG@20: 0.2570
+EarlyStopping counter: 1 out of 50
+
+Epoch: 269, Loss: 0.2018
+Precision@5:  0.1301, Recall@5:  0.1673, NDCG@5:  0.1834
+Precision@10: 0.1102, Recall@10: 0.2677, NDCG@10: 0.2114
+Precision@15: 0.0972, Recall@15: 0.3398, NDCG@15: 0.2343
+Precision@20: 0.0898, Recall@20: 0.4022, NDCG@20: 0.2562
+EarlyStopping counter: 2 out of 50
+
+Epoch: 270, Loss: 0.2029
+Precision@5:  0.1306, Recall@5:  0.1675, NDCG@5:  0.1837
+Precision@10: 0.1099, Recall@10: 0.2673, NDCG@10: 0.2112
+Precision@15: 0.0978, Recall@15: 0.3414, NDCG@15: 0.2351
+Precision@20: 0.0899, Recall@20: 0.4029, NDCG@20: 0.2567
+EarlyStopping counter: 3 out of 50
+
+Epoch: 271, Loss: 0.2010
+Precision@5:  0.1301, Recall@5:  0.1660, NDCG@5:  0.1830
+Precision@10: 0.1094, Recall@10: 0.2675, NDCG@10: 0.2109
+Precision@15: 0.0973, Recall@15: 0.3408, NDCG@15: 0.2347
+Precision@20: 0.0900, Recall@20: 0.4028, NDCG@20: 0.2566
+EarlyStopping counter: 4 out of 50
+
+Epoch: 272, Loss: 0.2022
+Precision@5:  0.1306, Recall@5:  0.1660, NDCG@5:  0.1830
+Precision@10: 0.1088, Recall@10: 0.2656, NDCG@10: 0.2098
+Precision@15: 0.0970, Recall@15: 0.3402, NDCG@15: 0.2338
+Precision@20: 0.0899, Recall@20: 0.4024, NDCG@20: 0.2560
+EarlyStopping counter: 5 out of 50
+
+Epoch: 273, Loss: 0.2019
+Precision@5:  0.1299, Recall@5:  0.1656, NDCG@5:  0.1827
+Precision@10: 0.1090, Recall@10: 0.2661, NDCG@10: 0.2103
+Precision@15: 0.0976, Recall@15: 0.3427, NDCG@15: 0.2350
+Precision@20: 0.0900, Recall@20: 0.4031, NDCG@20: 0.2565
+EarlyStopping counter: 6 out of 50
+
+Epoch: 274, Loss: 0.2005
+Precision@5:  0.1301, Recall@5:  0.1673, NDCG@5:  0.1831
+Precision@10: 0.1100, Recall@10: 0.2686, NDCG@10: 0.2113
+Precision@15: 0.0977, Recall@15: 0.3433, NDCG@15: 0.2353
+Precision@20: 0.0905, Recall@20: 0.4044, NDCG@20: 0.2571
+EarlyStopping counter: 7 out of 50
+
+Epoch: 275, Loss: 0.2000
+Precision@5:  0.1308, Recall@5:  0.1673, NDCG@5:  0.1833
+Precision@10: 0.1094, Recall@10: 0.2678, NDCG@10: 0.2107
+Precision@15: 0.0976, Recall@15: 0.3436, NDCG@15: 0.2351
+Precision@20: 0.0900, Recall@20: 0.4037, NDCG@20: 0.2566
+EarlyStopping counter: 8 out of 50
+
+Epoch: 276, Loss: 0.2020
+Precision@5:  0.1299, Recall@5:  0.1674, NDCG@5:  0.1827
+Precision@10: 0.1094, Recall@10: 0.2667, NDCG@10: 0.2102
+Precision@15: 0.0979, Recall@15: 0.3448, NDCG@15: 0.2354
+Precision@20: 0.0897, Recall@20: 0.4020, NDCG@20: 0.2559
+EarlyStopping counter: 9 out of 50
+
+Epoch: 277, Loss: 0.2015
+Precision@5:  0.1290, Recall@5:  0.1655, NDCG@5:  0.1818
+Precision@10: 0.1096, Recall@10: 0.2690, NDCG@10: 0.2111
+Precision@15: 0.0977, Recall@15: 0.3441, NDCG@15: 0.2353
+Precision@20: 0.0899, Recall@20: 0.4039, NDCG@20: 0.2566
+EarlyStopping counter: 10 out of 50
+
+Epoch: 278, Loss: 0.1996
+Precision@5:  0.1297, Recall@5:  0.1669, NDCG@5:  0.1821
+Precision@10: 0.1100, Recall@10: 0.2685, NDCG@10: 0.2109
+Precision@15: 0.0982, Recall@15: 0.3455, NDCG@15: 0.2357
+Precision@20: 0.0899, Recall@20: 0.4026, NDCG@20: 0.2561
+EarlyStopping counter: 11 out of 50
+
+Epoch: 279, Loss: 0.2012
+Precision@5:  0.1308, Recall@5:  0.1682, NDCG@5:  0.1833
+Precision@10: 0.1099, Recall@10: 0.2668, NDCG@10: 0.2106
+Precision@15: 0.0984, Recall@15: 0.3459, NDCG@15: 0.2360
+Precision@20: 0.0899, Recall@20: 0.4035, NDCG@20: 0.2564
+EarlyStopping counter: 12 out of 50
+
+Epoch: 280, Loss: 0.1969
+Precision@5:  0.1303, Recall@5:  0.1674, NDCG@5:  0.1828
+Precision@10: 0.1101, Recall@10: 0.2689, NDCG@10: 0.2110
+Precision@15: 0.0982, Recall@15: 0.3456, NDCG@15: 0.2358
+Precision@20: 0.0899, Recall@20: 0.4037, NDCG@20: 0.2563
+EarlyStopping counter: 13 out of 50
+
+Epoch: 281, Loss: 0.1976
+Precision@5:  0.1306, Recall@5:  0.1673, NDCG@5:  0.1846
+Precision@10: 0.1104, Recall@10: 0.2701, NDCG@10: 0.2131
+Precision@15: 0.0985, Recall@15: 0.3456, NDCG@15: 0.2376
+Precision@20: 0.0898, Recall@20: 0.4057, NDCG@20: 0.2584
+EarlyStopping counter: 14 out of 50
+
+Epoch: 282, Loss: 0.1992
+Precision@5:  0.1301, Recall@5:  0.1664, NDCG@5:  0.1838
+Precision@10: 0.1105, Recall@10: 0.2712, NDCG@10: 0.2130
+Precision@15: 0.0980, Recall@15: 0.3443, NDCG@15: 0.2366
+Precision@20: 0.0900, Recall@20: 0.4049, NDCG@20: 0.2579
+EarlyStopping counter: 15 out of 50
+
+Epoch: 283, Loss: 0.1973
+Precision@5:  0.1306, Recall@5:  0.1669, NDCG@5:  0.1853
+Precision@10: 0.1108, Recall@10: 0.2708, NDCG@10: 0.2142
+Precision@15: 0.0983, Recall@15: 0.3447, NDCG@15: 0.2380
+Precision@20: 0.0899, Recall@20: 0.4052, NDCG@20: 0.2591
+EarlyStopping counter: 16 out of 50
+
+Epoch: 284, Loss: 0.1960
+Precision@5:  0.1308, Recall@5:  0.1668, NDCG@5:  0.1842
+Precision@10: 0.1101, Recall@10: 0.2695, NDCG@10: 0.2124
+Precision@15: 0.0979, Recall@15: 0.3441, NDCG@15: 0.2367
+Precision@20: 0.0902, Recall@20: 0.4059, NDCG@20: 0.2584
+EarlyStopping counter: 17 out of 50
+
+Epoch: 285, Loss: 0.1943
+Precision@5:  0.1308, Recall@5:  0.1676, NDCG@5:  0.1845
+Precision@10: 0.1097, Recall@10: 0.2699, NDCG@10: 0.2124
+Precision@15: 0.0982, Recall@15: 0.3453, NDCG@15: 0.2370
+Precision@20: 0.0900, Recall@20: 0.4056, NDCG@20: 0.2582
+EarlyStopping counter: 18 out of 50
+
+Epoch: 286, Loss: 0.2027
+Precision@5:  0.1308, Recall@5:  0.1674, NDCG@5:  0.1846
+Precision@10: 0.1103, Recall@10: 0.2719, NDCG@10: 0.2133
+Precision@15: 0.0982, Recall@15: 0.3447, NDCG@15: 0.2370
+Precision@20: 0.0898, Recall@20: 0.4062, NDCG@20: 0.2583
+Save: result/ML-100K/nothing.pt
+
+Epoch: 287, Loss: 0.1998
+Precision@5:  0.1310, Recall@5:  0.1705, NDCG@5:  0.1861
+Precision@10: 0.1099, Recall@10: 0.2705, NDCG@10: 0.2132
+Precision@15: 0.0986, Recall@15: 0.3457, NDCG@15: 0.2379
+Precision@20: 0.0902, Recall@20: 0.4071, NDCG@20: 0.2592
+Save: result/ML-100K/nothing.pt
+
+Epoch: 288, Loss: 0.1976
+Precision@5:  0.1312, Recall@5:  0.1711, NDCG@5:  0.1862
+Precision@10: 0.1106, Recall@10: 0.2722, NDCG@10: 0.2141
+Precision@15: 0.0982, Recall@15: 0.3451, NDCG@15: 0.2375
+Precision@20: 0.0895, Recall@20: 0.4043, NDCG@20: 0.2582
+EarlyStopping counter: 1 out of 50
+
+Epoch: 289, Loss: 0.1954
+Precision@5:  0.1321, Recall@5:  0.1714, NDCG@5:  0.1864
+Precision@10: 0.1100, Recall@10: 0.2711, NDCG@10: 0.2132
+Precision@15: 0.0986, Recall@15: 0.3467, NDCG@15: 0.2379
+Precision@20: 0.0899, Recall@20: 0.4063, NDCG@20: 0.2586
+EarlyStopping counter: 2 out of 50
+
+Epoch: 290, Loss: 0.1957
+Precision@5:  0.1315, Recall@5:  0.1710, NDCG@5:  0.1870
+Precision@10: 0.1100, Recall@10: 0.2719, NDCG@10: 0.2143
+Precision@15: 0.0982, Recall@15: 0.3446, NDCG@15: 0.2381
+Precision@20: 0.0894, Recall@20: 0.4044, NDCG@20: 0.2587
+EarlyStopping counter: 3 out of 50
+
+Epoch: 291, Loss: 0.1951
+Precision@5:  0.1321, Recall@5:  0.1727, NDCG@5:  0.1870
+Precision@10: 0.1104, Recall@10: 0.2714, NDCG@10: 0.2137
+Precision@15: 0.0988, Recall@15: 0.3482, NDCG@15: 0.2387
+Precision@20: 0.0896, Recall@20: 0.4032, NDCG@20: 0.2580
+EarlyStopping counter: 4 out of 50
+
+Epoch: 292, Loss: 0.1960
+Precision@5:  0.1315, Recall@5:  0.1715, NDCG@5:  0.1873
+Precision@10: 0.1104, Recall@10: 0.2714, NDCG@10: 0.2145
+Precision@15: 0.0983, Recall@15: 0.3460, NDCG@15: 0.2386
+Precision@20: 0.0894, Recall@20: 0.4022, NDCG@20: 0.2585
+EarlyStopping counter: 5 out of 50
+
+Epoch: 293, Loss: 0.1938
+Precision@5:  0.1312, Recall@5:  0.1728, NDCG@5:  0.1865
+Precision@10: 0.1110, Recall@10: 0.2721, NDCG@10: 0.2142
+Precision@15: 0.0987, Recall@15: 0.3467, NDCG@15: 0.2382
+Precision@20: 0.0898, Recall@20: 0.4042, NDCG@20: 0.2583
+EarlyStopping counter: 6 out of 50
+
+Epoch: 294, Loss: 0.1917
+Precision@5:  0.1326, Recall@5:  0.1736, NDCG@5:  0.1876
+Precision@10: 0.1109, Recall@10: 0.2728, NDCG@10: 0.2146
+Precision@15: 0.0987, Recall@15: 0.3475, NDCG@15: 0.2387
+Precision@20: 0.0894, Recall@20: 0.4032, NDCG@20: 0.2582
+EarlyStopping counter: 7 out of 50
+
+Epoch: 295, Loss: 0.1944
+Precision@5:  0.1333, Recall@5:  0.1743, NDCG@5:  0.1890
+Precision@10: 0.1106, Recall@10: 0.2719, NDCG@10: 0.2150
+Precision@15: 0.0982, Recall@15: 0.3461, NDCG@15: 0.2389
+Precision@20: 0.0896, Recall@20: 0.4043, NDCG@20: 0.2593
+EarlyStopping counter: 8 out of 50
+
+Epoch: 296, Loss: 0.1955
+Precision@5:  0.1324, Recall@5:  0.1738, NDCG@5:  0.1884
+Precision@10: 0.1108, Recall@10: 0.2716, NDCG@10: 0.2149
+Precision@15: 0.0985, Recall@15: 0.3472, NDCG@15: 0.2391
+Precision@20: 0.0896, Recall@20: 0.4047, NDCG@20: 0.2593
+EarlyStopping counter: 9 out of 50
+
+Epoch: 297, Loss: 0.1930
+Precision@5:  0.1321, Recall@5:  0.1732, NDCG@5:  0.1880
+Precision@10: 0.1100, Recall@10: 0.2701, NDCG@10: 0.2140
+Precision@15: 0.0982, Recall@15: 0.3464, NDCG@15: 0.2385
+Precision@20: 0.0895, Recall@20: 0.4040, NDCG@20: 0.2589
+EarlyStopping counter: 10 out of 50
+
+Epoch: 298, Loss: 0.1894
+Precision@5:  0.1326, Recall@5:  0.1748, NDCG@5:  0.1892
+Precision@10: 0.1100, Recall@10: 0.2703, NDCG@10: 0.2147
+Precision@15: 0.0985, Recall@15: 0.3469, NDCG@15: 0.2395
+Precision@20: 0.0892, Recall@20: 0.4023, NDCG@20: 0.2590
+EarlyStopping counter: 11 out of 50
+
+Epoch: 299, Loss: 0.1917
+Precision@5:  0.1339, Recall@5:  0.1755, NDCG@5:  0.1903
+Precision@10: 0.1094, Recall@10: 0.2699, NDCG@10: 0.2145
+Precision@15: 0.0988, Recall@15: 0.3500, NDCG@15: 0.2405
+Precision@20: 0.0891, Recall@20: 0.3990, NDCG@20: 0.2584
+EarlyStopping counter: 12 out of 50
+
+Epoch: 300, Loss: 0.1910
+Precision@5:  0.1342, Recall@5:  0.1761, NDCG@5:  0.1899
+Precision@10: 0.1102, Recall@10: 0.2711, NDCG@10: 0.2146
+Precision@15: 0.0983, Recall@15: 0.3474, NDCG@15: 0.2391
+Precision@20: 0.0899, Recall@20: 0.4034, NDCG@20: 0.2592
+EarlyStopping counter: 13 out of 50
+
+Epoch: 301, Loss: 0.1903
+Precision@5:  0.1344, Recall@5:  0.1752, NDCG@5:  0.1897
+Precision@10: 0.1102, Recall@10: 0.2707, NDCG@10: 0.2145
+Precision@15: 0.0982, Recall@15: 0.3470, NDCG@15: 0.2391
+Precision@20: 0.0899, Recall@20: 0.4045, NDCG@20: 0.2594
+EarlyStopping counter: 14 out of 50
+
+Epoch: 302, Loss: 0.1911
+Precision@5:  0.1335, Recall@5:  0.1751, NDCG@5:  0.1897
+Precision@10: 0.1103, Recall@10: 0.2711, NDCG@10: 0.2150
+Precision@15: 0.0981, Recall@15: 0.3475, NDCG@15: 0.2395
+Precision@20: 0.0900, Recall@20: 0.4057, NDCG@20: 0.2601
+EarlyStopping counter: 15 out of 50
+
+Epoch: 303, Loss: 0.1919
+Precision@5:  0.1342, Recall@5:  0.1765, NDCG@5:  0.1904
+Precision@10: 0.1101, Recall@10: 0.2711, NDCG@10: 0.2153
+Precision@15: 0.0985, Recall@15: 0.3486, NDCG@15: 0.2403
+Precision@20: 0.0896, Recall@20: 0.4036, NDCG@20: 0.2599
+EarlyStopping counter: 16 out of 50
+
+Epoch: 304, Loss: 0.1890
+Precision@5:  0.1339, Recall@5:  0.1750, NDCG@5:  0.1898
+Precision@10: 0.1103, Recall@10: 0.2705, NDCG@10: 0.2150
+Precision@15: 0.0983, Recall@15: 0.3493, NDCG@15: 0.2401
+Precision@20: 0.0896, Recall@20: 0.4026, NDCG@20: 0.2595
+EarlyStopping counter: 17 out of 50
+
+Epoch: 305, Loss: 0.1901
+Precision@5:  0.1328, Recall@5:  0.1748, NDCG@5:  0.1895
+Precision@10: 0.1104, Recall@10: 0.2716, NDCG@10: 0.2156
+Precision@15: 0.0985, Recall@15: 0.3495, NDCG@15: 0.2405
+Precision@20: 0.0900, Recall@20: 0.4060, NDCG@20: 0.2606
+EarlyStopping counter: 18 out of 50
+
+Epoch: 306, Loss: 0.1891
+Precision@5:  0.1337, Recall@5:  0.1747, NDCG@5:  0.1907
+Precision@10: 0.1100, Recall@10: 0.2707, NDCG@10: 0.2157
+Precision@15: 0.0985, Recall@15: 0.3490, NDCG@15: 0.2409
+Precision@20: 0.0900, Recall@20: 0.4051, NDCG@20: 0.2611
+EarlyStopping counter: 19 out of 50
+
+Epoch: 307, Loss: 0.1880
+Precision@5:  0.1328, Recall@5:  0.1731, NDCG@5:  0.1897
+Precision@10: 0.1105, Recall@10: 0.2722, NDCG@10: 0.2162
+Precision@15: 0.0986, Recall@15: 0.3496, NDCG@15: 0.2411
+Precision@20: 0.0897, Recall@20: 0.4046, NDCG@20: 0.2607
+EarlyStopping counter: 20 out of 50
+
+Epoch: 308, Loss: 0.1878
+Precision@5:  0.1317, Recall@5:  0.1719, NDCG@5:  0.1885
+Precision@10: 0.1105, Recall@10: 0.2723, NDCG@10: 0.2159
+Precision@15: 0.0982, Recall@15: 0.3478, NDCG@15: 0.2401
+Precision@20: 0.0894, Recall@20: 0.4006, NDCG@20: 0.2594
+EarlyStopping counter: 21 out of 50
+
+Epoch: 309, Loss: 0.1869
+Precision@5:  0.1333, Recall@5:  0.1764, NDCG@5:  0.1900
+Precision@10: 0.1100, Recall@10: 0.2725, NDCG@10: 0.2152
+Precision@15: 0.0983, Recall@15: 0.3481, NDCG@15: 0.2398
+Precision@20: 0.0899, Recall@20: 0.4027, NDCG@20: 0.2597
+EarlyStopping counter: 22 out of 50
+
+Epoch: 310, Loss: 0.1911
+Precision@5:  0.1328, Recall@5:  0.1749, NDCG@5:  0.1891
+Precision@10: 0.1110, Recall@10: 0.2743, NDCG@10: 0.2157
+Precision@15: 0.0988, Recall@15: 0.3480, NDCG@15: 0.2397
+Precision@20: 0.0901, Recall@20: 0.4050, NDCG@20: 0.2600
+EarlyStopping counter: 23 out of 50
+
+Epoch: 311, Loss: 0.1895
+Precision@5:  0.1335, Recall@5:  0.1755, NDCG@5:  0.1889
+Precision@10: 0.1108, Recall@10: 0.2731, NDCG@10: 0.2150
+Precision@15: 0.0991, Recall@15: 0.3487, NDCG@15: 0.2396
+Precision@20: 0.0897, Recall@20: 0.4037, NDCG@20: 0.2592
+EarlyStopping counter: 24 out of 50
+
+Epoch: 312, Loss: 0.1896
+Precision@5:  0.1337, Recall@5:  0.1742, NDCG@5:  0.1888
+Precision@10: 0.1108, Recall@10: 0.2733, NDCG@10: 0.2149
+Precision@15: 0.0990, Recall@15: 0.3494, NDCG@15: 0.2396
+Precision@20: 0.0903, Recall@20: 0.4051, NDCG@20: 0.2597
+EarlyStopping counter: 25 out of 50
+
+Epoch: 313, Loss: 0.1861
+Precision@5:  0.1333, Recall@5:  0.1751, NDCG@5:  0.1887
+Precision@10: 0.1103, Recall@10: 0.2737, NDCG@10: 0.2148
+Precision@15: 0.0992, Recall@15: 0.3500, NDCG@15: 0.2399
+Precision@20: 0.0903, Recall@20: 0.4060, NDCG@20: 0.2599
+EarlyStopping counter: 26 out of 50
+
+Epoch: 314, Loss: 0.1892
+Precision@5:  0.1333, Recall@5:  0.1753, NDCG@5:  0.1887
+Precision@10: 0.1103, Recall@10: 0.2731, NDCG@10: 0.2145
+Precision@15: 0.0988, Recall@15: 0.3497, NDCG@15: 0.2394
+Precision@20: 0.0898, Recall@20: 0.4044, NDCG@20: 0.2591
+EarlyStopping counter: 27 out of 50
+
+Epoch: 315, Loss: 0.1866
+Precision@5:  0.1330, Recall@5:  0.1739, NDCG@5:  0.1880
+Precision@10: 0.1108, Recall@10: 0.2750, NDCG@10: 0.2151
+Precision@15: 0.0988, Recall@15: 0.3499, NDCG@15: 0.2396
+Precision@20: 0.0901, Recall@20: 0.4068, NDCG@20: 0.2599
+EarlyStopping counter: 28 out of 50
+
+Epoch: 316, Loss: 0.1850
+Precision@5:  0.1319, Recall@5:  0.1728, NDCG@5:  0.1871
+Precision@10: 0.1111, Recall@10: 0.2761, NDCG@10: 0.2155
+Precision@15: 0.0992, Recall@15: 0.3507, NDCG@15: 0.2398
+Precision@20: 0.0901, Recall@20: 0.4067, NDCG@20: 0.2597
+EarlyStopping counter: 29 out of 50
+
+Epoch: 317, Loss: 0.1854
+Precision@5:  0.1333, Recall@5:  0.1755, NDCG@5:  0.1888
+Precision@10: 0.1113, Recall@10: 0.2759, NDCG@10: 0.2158
+Precision@15: 0.0991, Recall@15: 0.3492, NDCG@15: 0.2397
+Precision@20: 0.0905, Recall@20: 0.4074, NDCG@20: 0.2603
+Save: result/ML-100K/nothing.pt
+
+Epoch: 318, Loss: 0.1872
+Precision@5:  0.1335, Recall@5:  0.1755, NDCG@5:  0.1880
+Precision@10: 0.1106, Recall@10: 0.2736, NDCG@10: 0.2140
+Precision@15: 0.0985, Recall@15: 0.3479, NDCG@15: 0.2382
+Precision@20: 0.0903, Recall@20: 0.4068, NDCG@20: 0.2592
+EarlyStopping counter: 1 out of 50
+
+Epoch: 319, Loss: 0.1880
+Precision@5:  0.1348, Recall@5:  0.1765, NDCG@5:  0.1888
+Precision@10: 0.1099, Recall@10: 0.2726, NDCG@10: 0.2135
+Precision@15: 0.0991, Recall@15: 0.3503, NDCG@15: 0.2392
+Precision@20: 0.0901, Recall@20: 0.4068, NDCG@20: 0.2593
+EarlyStopping counter: 2 out of 50
+
+Epoch: 320, Loss: 0.1829
+Precision@5:  0.1351, Recall@5:  0.1762, NDCG@5:  0.1893
+Precision@10: 0.1106, Recall@10: 0.2731, NDCG@10: 0.2144
+Precision@15: 0.0992, Recall@15: 0.3503, NDCG@15: 0.2397
+Precision@20: 0.0909, Recall@20: 0.4078, NDCG@20: 0.2603
+Save: result/ML-100K/nothing.pt
+
+Epoch: 321, Loss: 0.1843
+Precision@5:  0.1348, Recall@5:  0.1761, NDCG@5:  0.1888
+Precision@10: 0.1102, Recall@10: 0.2715, NDCG@10: 0.2136
+Precision@15: 0.0991, Recall@15: 0.3501, NDCG@15: 0.2394
+Precision@20: 0.0906, Recall@20: 0.4079, NDCG@20: 0.2600
+Save: result/ML-100K/nothing.pt
+
+Epoch: 322, Loss: 0.1847
+Precision@5:  0.1348, Recall@5:  0.1759, NDCG@5:  0.1891
+Precision@10: 0.1111, Recall@10: 0.2732, NDCG@10: 0.2146
+Precision@15: 0.0986, Recall@15: 0.3494, NDCG@15: 0.2391
+Precision@20: 0.0907, Recall@20: 0.4079, NDCG@20: 0.2602
+EarlyStopping counter: 1 out of 50
+
+Epoch: 323, Loss: 0.1834
+Precision@5:  0.1351, Recall@5:  0.1754, NDCG@5:  0.1891
+Precision@10: 0.1105, Recall@10: 0.2730, NDCG@10: 0.2143
+Precision@15: 0.0987, Recall@15: 0.3487, NDCG@15: 0.2390
+Precision@20: 0.0909, Recall@20: 0.4088, NDCG@20: 0.2605
+Save: result/ML-100K/nothing.pt
+
+Epoch: 324, Loss: 0.1812
+Precision@5:  0.1353, Recall@5:  0.1758, NDCG@5:  0.1896
+Precision@10: 0.1108, Recall@10: 0.2736, NDCG@10: 0.2149
+Precision@15: 0.0984, Recall@15: 0.3481, NDCG@15: 0.2390
+Precision@20: 0.0906, Recall@20: 0.4079, NDCG@20: 0.2604
+EarlyStopping counter: 1 out of 50
+
+Epoch: 325, Loss: 0.1794
+Precision@5:  0.1357, Recall@5:  0.1766, NDCG@5:  0.1895
+Precision@10: 0.1110, Recall@10: 0.2730, NDCG@10: 0.2147
+Precision@15: 0.0984, Recall@15: 0.3479, NDCG@15: 0.2388
+Precision@20: 0.0905, Recall@20: 0.4094, NDCG@20: 0.2606
+Save: result/ML-100K/nothing.pt
+
+Epoch: 326, Loss: 0.1805
+Precision@5:  0.1346, Recall@5:  0.1758, NDCG@5:  0.1898
+Precision@10: 0.1108, Recall@10: 0.2724, NDCG@10: 0.2152
+Precision@15: 0.0985, Recall@15: 0.3490, NDCG@15: 0.2398
+Precision@20: 0.0906, Recall@20: 0.4079, NDCG@20: 0.2611
+EarlyStopping counter: 1 out of 50
+
+Epoch: 327, Loss: 0.1848
+Precision@5:  0.1344, Recall@5:  0.1756, NDCG@5:  0.1895
+Precision@10: 0.1111, Recall@10: 0.2737, NDCG@10: 0.2155
+Precision@15: 0.0984, Recall@15: 0.3493, NDCG@15: 0.2397
+Precision@20: 0.0907, Recall@20: 0.4090, NDCG@20: 0.2612
+EarlyStopping counter: 2 out of 50
+
+Epoch: 328, Loss: 0.1825
+Precision@5:  0.1342, Recall@5:  0.1768, NDCG@5:  0.1893
+Precision@10: 0.1111, Recall@10: 0.2745, NDCG@10: 0.2155
+Precision@15: 0.0984, Recall@15: 0.3494, NDCG@15: 0.2396
+Precision@20: 0.0906, Recall@20: 0.4092, NDCG@20: 0.2611
+EarlyStopping counter: 3 out of 50
+
+Epoch: 329, Loss: 0.1797
+Precision@5:  0.1337, Recall@5:  0.1756, NDCG@5:  0.1891
+Precision@10: 0.1109, Recall@10: 0.2751, NDCG@10: 0.2158
+Precision@15: 0.0984, Recall@15: 0.3493, NDCG@15: 0.2399
+Precision@20: 0.0910, Recall@20: 0.4116, NDCG@20: 0.2621
+Save: result/ML-100K/nothing.pt
+
+Epoch: 330, Loss: 0.1822
+Precision@5:  0.1337, Recall@5:  0.1760, NDCG@5:  0.1900
+Precision@10: 0.1115, Recall@10: 0.2774, NDCG@10: 0.2173
+Precision@15: 0.0986, Recall@15: 0.3506, NDCG@15: 0.2409
+Precision@20: 0.0918, Recall@20: 0.4151, NDCG@20: 0.2640
+Save: result/ML-100K/nothing.pt
+
+Epoch: 331, Loss: 0.1807
+Precision@5:  0.1344, Recall@5:  0.1762, NDCG@5:  0.1902
+Precision@10: 0.1122, Recall@10: 0.2779, NDCG@10: 0.2176
+Precision@15: 0.0989, Recall@15: 0.3524, NDCG@15: 0.2413
+Precision@20: 0.0918, Recall@20: 0.4161, NDCG@20: 0.2640
+Save: result/ML-100K/nothing.pt
+
+Epoch: 332, Loss: 0.1773
+Precision@5:  0.1339, Recall@5:  0.1765, NDCG@5:  0.1891
+Precision@10: 0.1122, Recall@10: 0.2783, NDCG@10: 0.2168
+Precision@15: 0.0993, Recall@15: 0.3532, NDCG@15: 0.2408
+Precision@20: 0.0916, Recall@20: 0.4148, NDCG@20: 0.2628
+EarlyStopping counter: 1 out of 50
+
+Epoch: 333, Loss: 0.1793
+Precision@5:  0.1344, Recall@5:  0.1765, NDCG@5:  0.1889
+Precision@10: 0.1112, Recall@10: 0.2764, NDCG@10: 0.2155
+Precision@15: 0.0994, Recall@15: 0.3522, NDCG@15: 0.2403
+Precision@20: 0.0917, Recall@20: 0.4148, NDCG@20: 0.2625
+EarlyStopping counter: 2 out of 50
+
+Epoch: 334, Loss: 0.1787
+Precision@5:  0.1333, Recall@5:  0.1757, NDCG@5:  0.1885
+Precision@10: 0.1116, Recall@10: 0.2753, NDCG@10: 0.2158
+Precision@15: 0.0994, Recall@15: 0.3510, NDCG@15: 0.2403
+Precision@20: 0.0915, Recall@20: 0.4129, NDCG@20: 0.2623
+EarlyStopping counter: 3 out of 50
+
+Epoch: 335, Loss: 0.1807
+Precision@5:  0.1326, Recall@5:  0.1762, NDCG@5:  0.1873
+Precision@10: 0.1114, Recall@10: 0.2752, NDCG@10: 0.2148
+Precision@15: 0.0995, Recall@15: 0.3537, NDCG@15: 0.2402
+Precision@20: 0.0914, Recall@20: 0.4129, NDCG@20: 0.2615
+EarlyStopping counter: 4 out of 50
+
+Epoch: 336, Loss: 0.1761
+Precision@5:  0.1319, Recall@5:  0.1743, NDCG@5:  0.1867
+Precision@10: 0.1121, Recall@10: 0.2779, NDCG@10: 0.2159
+Precision@15: 0.0996, Recall@15: 0.3528, NDCG@15: 0.2402
+Precision@20: 0.0914, Recall@20: 0.4139, NDCG@20: 0.2619
+EarlyStopping counter: 5 out of 50
+
+Epoch: 337, Loss: 0.1776
+Precision@5:  0.1321, Recall@5:  0.1740, NDCG@5:  0.1876
+Precision@10: 0.1113, Recall@10: 0.2749, NDCG@10: 0.2156
+Precision@15: 0.0994, Recall@15: 0.3536, NDCG@15: 0.2411
+Precision@20: 0.0915, Recall@20: 0.4157, NDCG@20: 0.2631
+EarlyStopping counter: 6 out of 50
+
+Epoch: 338, Loss: 0.1768
+Precision@5:  0.1326, Recall@5:  0.1749, NDCG@5:  0.1883
+Precision@10: 0.1114, Recall@10: 0.2746, NDCG@10: 0.2160
+Precision@15: 0.0992, Recall@15: 0.3521, NDCG@15: 0.2410
+Precision@20: 0.0910, Recall@20: 0.4131, NDCG@20: 0.2626
+EarlyStopping counter: 7 out of 50
+
+Epoch: 339, Loss: 0.1769
+Precision@5:  0.1317, Recall@5:  0.1740, NDCG@5:  0.1879
+Precision@10: 0.1121, Recall@10: 0.2758, NDCG@10: 0.2167
+Precision@15: 0.0997, Recall@15: 0.3541, NDCG@15: 0.2418
+Precision@20: 0.0910, Recall@20: 0.4128, NDCG@20: 0.2626
+EarlyStopping counter: 8 out of 50
+
+Epoch: 340, Loss: 0.1807
+Precision@5:  0.1312, Recall@5:  0.1731, NDCG@5:  0.1865
+Precision@10: 0.1111, Recall@10: 0.2748, NDCG@10: 0.2151
+Precision@15: 0.0995, Recall@15: 0.3545, NDCG@15: 0.2409
+Precision@20: 0.0911, Recall@20: 0.4148, NDCG@20: 0.2622
+EarlyStopping counter: 9 out of 50
+
+Epoch: 341, Loss: 0.1774
+Precision@5:  0.1312, Recall@5:  0.1732, NDCG@5:  0.1862
+Precision@10: 0.1114, Recall@10: 0.2772, NDCG@10: 0.2157
+Precision@15: 0.0991, Recall@15: 0.3542, NDCG@15: 0.2406
+Precision@20: 0.0917, Recall@20: 0.4178, NDCG@20: 0.2632
+Save: result/ML-100K/nothing.pt
+
+Epoch: 342, Loss: 0.1762
+Precision@5:  0.1317, Recall@5:  0.1727, NDCG@5:  0.1867
+Precision@10: 0.1119, Recall@10: 0.2778, NDCG@10: 0.2165
+Precision@15: 0.0989, Recall@15: 0.3535, NDCG@15: 0.2409
+Precision@20: 0.0917, Recall@20: 0.4172, NDCG@20: 0.2636
+EarlyStopping counter: 1 out of 50
+
+Epoch: 343, Loss: 0.1754
+Precision@5:  0.1326, Recall@5:  0.1747, NDCG@5:  0.1877
+Precision@10: 0.1121, Recall@10: 0.2793, NDCG@10: 0.2170
+Precision@15: 0.0990, Recall@15: 0.3532, NDCG@15: 0.2408
+Precision@20: 0.0914, Recall@20: 0.4163, NDCG@20: 0.2632
+EarlyStopping counter: 2 out of 50
+
+Epoch: 344, Loss: 0.1753
+Precision@5:  0.1310, Recall@5:  0.1719, NDCG@5:  0.1856
+Precision@10: 0.1114, Recall@10: 0.2784, NDCG@10: 0.2158
+Precision@15: 0.0993, Recall@15: 0.3535, NDCG@15: 0.2404
+Precision@20: 0.0913, Recall@20: 0.4171, NDCG@20: 0.2627
+EarlyStopping counter: 3 out of 50
+
+Epoch: 345, Loss: 0.1738
+Precision@5:  0.1310, Recall@5:  0.1713, NDCG@5:  0.1858
+Precision@10: 0.1114, Recall@10: 0.2770, NDCG@10: 0.2158
+Precision@15: 0.0994, Recall@15: 0.3536, NDCG@15: 0.2408
+Precision@20: 0.0914, Recall@20: 0.4167, NDCG@20: 0.2629
+EarlyStopping counter: 4 out of 50
+
+Epoch: 346, Loss: 0.1726
+Precision@5:  0.1319, Recall@5:  0.1711, NDCG@5:  0.1859
+Precision@10: 0.1119, Recall@10: 0.2785, NDCG@10: 0.2162
+Precision@15: 0.0993, Recall@15: 0.3530, NDCG@15: 0.2404
+Precision@20: 0.0909, Recall@20: 0.4157, NDCG@20: 0.2623
+EarlyStopping counter: 5 out of 50
+
+Epoch: 347, Loss: 0.1771
+Precision@5:  0.1315, Recall@5:  0.1717, NDCG@5:  0.1863
+Precision@10: 0.1124, Recall@10: 0.2796, NDCG@10: 0.2173
+Precision@15: 0.0991, Recall@15: 0.3525, NDCG@15: 0.2409
+Precision@20: 0.0908, Recall@20: 0.4140, NDCG@20: 0.2625
+EarlyStopping counter: 6 out of 50
+
+Epoch: 348, Loss: 0.1765
+Precision@5:  0.1315, Recall@5:  0.1720, NDCG@5:  0.1860
+Precision@10: 0.1116, Recall@10: 0.2768, NDCG@10: 0.2159
+Precision@15: 0.0989, Recall@15: 0.3521, NDCG@15: 0.2402
+Precision@20: 0.0909, Recall@20: 0.4138, NDCG@20: 0.2621
+EarlyStopping counter: 7 out of 50
+
+Epoch: 349, Loss: 0.1745
+Precision@5:  0.1321, Recall@5:  0.1728, NDCG@5:  0.1872
+Precision@10: 0.1123, Recall@10: 0.2787, NDCG@10: 0.2173
+Precision@15: 0.0988, Recall@15: 0.3521, NDCG@15: 0.2409
+Precision@20: 0.0912, Recall@20: 0.4168, NDCG@20: 0.2637
+EarlyStopping counter: 8 out of 50
+
+Epoch: 350, Loss: 0.1721
+Precision@5:  0.1321, Recall@5:  0.1730, NDCG@5:  0.1878
+Precision@10: 0.1127, Recall@10: 0.2793, NDCG@10: 0.2182
+Precision@15: 0.0985, Recall@15: 0.3523, NDCG@15: 0.2414
+Precision@20: 0.0908, Recall@20: 0.4148, NDCG@20: 0.2636
+EarlyStopping counter: 9 out of 50
+
+Epoch: 351, Loss: 0.1727
+Precision@5:  0.1324, Recall@5:  0.1740, NDCG@5:  0.1890
+Precision@10: 0.1119, Recall@10: 0.2768, NDCG@10: 0.2181
+Precision@15: 0.0988, Recall@15: 0.3527, NDCG@15: 0.2424
+Precision@20: 0.0908, Recall@20: 0.4134, NDCG@20: 0.2641
+EarlyStopping counter: 10 out of 50
+
+Epoch: 352, Loss: 0.1744
+Precision@5:  0.1324, Recall@5:  0.1737, NDCG@5:  0.1877
+Precision@10: 0.1122, Recall@10: 0.2781, NDCG@10: 0.2175
+Precision@15: 0.0997, Recall@15: 0.3558, NDCG@15: 0.2426
+Precision@20: 0.0907, Recall@20: 0.4122, NDCG@20: 0.2629
+EarlyStopping counter: 11 out of 50
+
+Epoch: 353, Loss: 0.1723
+Precision@5:  0.1317, Recall@5:  0.1732, NDCG@5:  0.1874
+Precision@10: 0.1124, Recall@10: 0.2781, NDCG@10: 0.2177
+Precision@15: 0.0993, Recall@15: 0.3544, NDCG@15: 0.2421
+Precision@20: 0.0906, Recall@20: 0.4130, NDCG@20: 0.2631
+EarlyStopping counter: 12 out of 50
+
+Epoch: 354, Loss: 0.1725
+Precision@5:  0.1324, Recall@5:  0.1737, NDCG@5:  0.1874
+Precision@10: 0.1128, Recall@10: 0.2795, NDCG@10: 0.2179
+Precision@15: 0.0998, Recall@15: 0.3558, NDCG@15: 0.2424
+Precision@20: 0.0906, Recall@20: 0.4138, NDCG@20: 0.2630
+EarlyStopping counter: 13 out of 50
+
+Epoch: 355, Loss: 0.1701
+Precision@5:  0.1324, Recall@5:  0.1748, NDCG@5:  0.1878
+Precision@10: 0.1121, Recall@10: 0.2774, NDCG@10: 0.2173
+Precision@15: 0.0997, Recall@15: 0.3550, NDCG@15: 0.2424
+Precision@20: 0.0906, Recall@20: 0.4125, NDCG@20: 0.2630
+EarlyStopping counter: 14 out of 50
+
+Epoch: 356, Loss: 0.1704
+Precision@5:  0.1326, Recall@5:  0.1749, NDCG@5:  0.1882
+Precision@10: 0.1130, Recall@10: 0.2797, NDCG@10: 0.2184
+Precision@15: 0.0997, Recall@15: 0.3549, NDCG@15: 0.2426
+Precision@20: 0.0911, Recall@20: 0.4142, NDCG@20: 0.2637
+EarlyStopping counter: 15 out of 50
+
+Epoch: 357, Loss: 0.1723
+Precision@5:  0.1330, Recall@5:  0.1746, NDCG@5:  0.1877
+Precision@10: 0.1122, Recall@10: 0.2774, NDCG@10: 0.2167
+Precision@15: 0.0999, Recall@15: 0.3552, NDCG@15: 0.2420
+Precision@20: 0.0909, Recall@20: 0.4143, NDCG@20: 0.2629
+EarlyStopping counter: 16 out of 50
+
+Epoch: 358, Loss: 0.1709
+Precision@5:  0.1319, Recall@5:  0.1741, NDCG@5:  0.1884
+Precision@10: 0.1123, Recall@10: 0.2764, NDCG@10: 0.2179
+Precision@15: 0.0993, Recall@15: 0.3522, NDCG@15: 0.2423
+Precision@20: 0.0907, Recall@20: 0.4150, NDCG@20: 0.2641
+EarlyStopping counter: 17 out of 50
+
+Epoch: 359, Loss: 0.1693
+Precision@5:  0.1324, Recall@5:  0.1746, NDCG@5:  0.1889
+Precision@10: 0.1114, Recall@10: 0.2747, NDCG@10: 0.2171
+Precision@15: 0.0994, Recall@15: 0.3530, NDCG@15: 0.2426
+Precision@20: 0.0905, Recall@20: 0.4130, NDCG@20: 0.2637
+EarlyStopping counter: 18 out of 50
+
+Epoch: 360, Loss: 0.1694
+Precision@5:  0.1312, Recall@5:  0.1735, NDCG@5:  0.1887
+Precision@10: 0.1122, Recall@10: 0.2774, NDCG@10: 0.2189
+Precision@15: 0.0996, Recall@15: 0.3531, NDCG@15: 0.2435
+Precision@20: 0.0906, Recall@20: 0.4147, NDCG@20: 0.2649
+EarlyStopping counter: 19 out of 50
+
+Epoch: 361, Loss: 0.1691
+Precision@5:  0.1310, Recall@5:  0.1732, NDCG@5:  0.1884
+Precision@10: 0.1121, Recall@10: 0.2756, NDCG@10: 0.2183
+Precision@15: 0.0994, Recall@15: 0.3537, NDCG@15: 0.2434
+Precision@20: 0.0904, Recall@20: 0.4142, NDCG@20: 0.2644
+EarlyStopping counter: 20 out of 50
+
+Epoch: 362, Loss: 0.1713
+Precision@5:  0.1312, Recall@5:  0.1742, NDCG@5:  0.1886
+Precision@10: 0.1125, Recall@10: 0.2791, NDCG@10: 0.2191
+Precision@15: 0.0996, Recall@15: 0.3555, NDCG@15: 0.2438
+Precision@20: 0.0905, Recall@20: 0.4157, NDCG@20: 0.2648
+EarlyStopping counter: 21 out of 50
+
+Epoch: 363, Loss: 0.1691
+Precision@5:  0.1308, Recall@5:  0.1740, NDCG@5:  0.1891
+Precision@10: 0.1134, Recall@10: 0.2802, NDCG@10: 0.2205
+Precision@15: 0.0994, Recall@15: 0.3554, NDCG@15: 0.2444
+Precision@20: 0.0905, Recall@20: 0.4166, NDCG@20: 0.2657
+EarlyStopping counter: 22 out of 50
+
+Epoch: 364, Loss: 0.1701
+Precision@5:  0.1324, Recall@5:  0.1761, NDCG@5:  0.1895
+Precision@10: 0.1127, Recall@10: 0.2785, NDCG@10: 0.2190
+Precision@15: 0.0992, Recall@15: 0.3535, NDCG@15: 0.2431
+Precision@20: 0.0906, Recall@20: 0.4176, NDCG@20: 0.2652
+EarlyStopping counter: 23 out of 50
+
+Epoch: 365, Loss: 0.1682
+Precision@5:  0.1326, Recall@5:  0.1753, NDCG@5:  0.1901
+Precision@10: 0.1125, Recall@10: 0.2794, NDCG@10: 0.2197
+Precision@15: 0.0997, Recall@15: 0.3537, NDCG@15: 0.2439
+Precision@20: 0.0907, Recall@20: 0.4175, NDCG@20: 0.2657
+EarlyStopping counter: 24 out of 50
+
+Epoch: 366, Loss: 0.1658
+Precision@5:  0.1324, Recall@5:  0.1758, NDCG@5:  0.1894
+Precision@10: 0.1129, Recall@10: 0.2786, NDCG@10: 0.2190
+Precision@15: 0.1003, Recall@15: 0.3560, NDCG@15: 0.2439
+Precision@20: 0.0907, Recall@20: 0.4191, NDCG@20: 0.2653
+Save: result/ML-100K/nothing.pt
+
+Epoch: 367, Loss: 0.1664
+Precision@5:  0.1324, Recall@5:  0.1742, NDCG@5:  0.1892
+Precision@10: 0.1127, Recall@10: 0.2796, NDCG@10: 0.2194
+Precision@15: 0.0997, Recall@15: 0.3540, NDCG@15: 0.2434
+Precision@20: 0.0905, Recall@20: 0.4164, NDCG@20: 0.2649
+EarlyStopping counter: 1 out of 50
+
+Epoch: 368, Loss: 0.1655
+Precision@5:  0.1321, Recall@5:  0.1727, NDCG@5:  0.1892
+Precision@10: 0.1125, Recall@10: 0.2778, NDCG@10: 0.2193
+Precision@15: 0.1005, Recall@15: 0.3572, NDCG@15: 0.2450
+Precision@20: 0.0904, Recall@20: 0.4171, NDCG@20: 0.2654
+EarlyStopping counter: 2 out of 50
+
+Epoch: 369, Loss: 0.1662
+Precision@5:  0.1319, Recall@5:  0.1735, NDCG@5:  0.1889
+Precision@10: 0.1121, Recall@10: 0.2769, NDCG@10: 0.2185
+Precision@15: 0.0998, Recall@15: 0.3550, NDCG@15: 0.2438
+Precision@20: 0.0905, Recall@20: 0.4157, NDCG@20: 0.2648
+EarlyStopping counter: 3 out of 50
+
+Epoch: 370, Loss: 0.1649
+Precision@5:  0.1321, Recall@5:  0.1739, NDCG@5:  0.1889
+Precision@10: 0.1127, Recall@10: 0.2777, NDCG@10: 0.2187
+Precision@15: 0.1001, Recall@15: 0.3555, NDCG@15: 0.2439
+Precision@20: 0.0902, Recall@20: 0.4156, NDCG@20: 0.2644
+EarlyStopping counter: 4 out of 50
+
+Epoch: 371, Loss: 0.1655
+Precision@5:  0.1328, Recall@5:  0.1745, NDCG@5:  0.1894
+Precision@10: 0.1129, Recall@10: 0.2802, NDCG@10: 0.2195
+Precision@15: 0.1000, Recall@15: 0.3550, NDCG@15: 0.2437
+Precision@20: 0.0900, Recall@20: 0.4168, NDCG@20: 0.2646
+EarlyStopping counter: 5 out of 50
+
+Epoch: 372, Loss: 0.1650
+Precision@5:  0.1335, Recall@5:  0.1743, NDCG@5:  0.1894
+Precision@10: 0.1130, Recall@10: 0.2793, NDCG@10: 0.2190
+Precision@15: 0.1005, Recall@15: 0.3561, NDCG@15: 0.2439
+Precision@20: 0.0901, Recall@20: 0.4172, NDCG@20: 0.2644
+EarlyStopping counter: 6 out of 50
+
+Epoch: 373, Loss: 0.1680
+Precision@5:  0.1335, Recall@5:  0.1743, NDCG@5:  0.1893
+Precision@10: 0.1128, Recall@10: 0.2771, NDCG@10: 0.2184
+Precision@15: 0.1002, Recall@15: 0.3552, NDCG@15: 0.2436
+Precision@20: 0.0903, Recall@20: 0.4172, NDCG@20: 0.2646
+EarlyStopping counter: 7 out of 50
+
+Epoch: 374, Loss: 0.1652
+Precision@5:  0.1335, Recall@5:  0.1742, NDCG@5:  0.1888
+Precision@10: 0.1127, Recall@10: 0.2760, NDCG@10: 0.2175
+Precision@15: 0.1003, Recall@15: 0.3568, NDCG@15: 0.2435
+Precision@20: 0.0899, Recall@20: 0.4167, NDCG@20: 0.2638
+EarlyStopping counter: 8 out of 50
+
+Epoch: 375, Loss: 0.1654
+Precision@5:  0.1324, Recall@5:  0.1735, NDCG@5:  0.1882
+Precision@10: 0.1129, Recall@10: 0.2776, NDCG@10: 0.2182
+Precision@15: 0.0995, Recall@15: 0.3541, NDCG@15: 0.2426
+Precision@20: 0.0901, Recall@20: 0.4163, NDCG@20: 0.2640
+EarlyStopping counter: 9 out of 50
+
+Epoch: 376, Loss: 0.1632
+Precision@5:  0.1324, Recall@5:  0.1733, NDCG@5:  0.1885
+Precision@10: 0.1120, Recall@10: 0.2763, NDCG@10: 0.2177
+Precision@15: 0.1000, Recall@15: 0.3552, NDCG@15: 0.2433
+Precision@20: 0.0900, Recall@20: 0.4153, NDCG@20: 0.2638
+EarlyStopping counter: 10 out of 50
+
+Epoch: 377, Loss: 0.1631
+Precision@5:  0.1317, Recall@5:  0.1735, NDCG@5:  0.1880
+Precision@10: 0.1129, Recall@10: 0.2788, NDCG@10: 0.2187
+Precision@15: 0.1000, Recall@15: 0.3551, NDCG@15: 0.2433
+Precision@20: 0.0898, Recall@20: 0.4148, NDCG@20: 0.2636
+EarlyStopping counter: 11 out of 50
+
+Epoch: 378, Loss: 0.1640
+Precision@5:  0.1324, Recall@5:  0.1732, NDCG@5:  0.1884
+Precision@10: 0.1123, Recall@10: 0.2774, NDCG@10: 0.2183
+Precision@15: 0.0998, Recall@15: 0.3536, NDCG@15: 0.2430
+Precision@20: 0.0898, Recall@20: 0.4145, NDCG@20: 0.2636
+EarlyStopping counter: 12 out of 50
+
+Epoch: 379, Loss: 0.1643
+Precision@5:  0.1317, Recall@5:  0.1727, NDCG@5:  0.1877
+Precision@10: 0.1121, Recall@10: 0.2766, NDCG@10: 0.2176
+Precision@15: 0.1002, Recall@15: 0.3549, NDCG@15: 0.2431
+Precision@20: 0.0901, Recall@20: 0.4154, NDCG@20: 0.2637
+EarlyStopping counter: 13 out of 50
+
+Epoch: 380, Loss: 0.1635
+Precision@5:  0.1328, Recall@5:  0.1756, NDCG@5:  0.1891
+Precision@10: 0.1114, Recall@10: 0.2753, NDCG@10: 0.2172
+Precision@15: 0.1001, Recall@15: 0.3547, NDCG@15: 0.2432
+Precision@20: 0.0901, Recall@20: 0.4157, NDCG@20: 0.2639
+EarlyStopping counter: 14 out of 50
+
+Epoch: 381, Loss: 0.1634
+Precision@5:  0.1328, Recall@5:  0.1747, NDCG@5:  0.1900
+Precision@10: 0.1115, Recall@10: 0.2768, NDCG@10: 0.2187
+Precision@15: 0.1000, Recall@15: 0.3540, NDCG@15: 0.2441
+Precision@20: 0.0901, Recall@20: 0.4163, NDCG@20: 0.2652
+EarlyStopping counter: 15 out of 50
+
+Epoch: 382, Loss: 0.1626
+Precision@5:  0.1328, Recall@5:  0.1759, NDCG@5:  0.1901
+Precision@10: 0.1114, Recall@10: 0.2751, NDCG@10: 0.2179
+Precision@15: 0.0994, Recall@15: 0.3535, NDCG@15: 0.2433
+Precision@20: 0.0901, Recall@20: 0.4156, NDCG@20: 0.2647
+EarlyStopping counter: 16 out of 50
+
+Epoch: 383, Loss: 0.1608
+Precision@5:  0.1326, Recall@5:  0.1744, NDCG@5:  0.1893
+Precision@10: 0.1113, Recall@10: 0.2755, NDCG@10: 0.2177
+Precision@15: 0.0994, Recall@15: 0.3538, NDCG@15: 0.2432
+Precision@20: 0.0899, Recall@20: 0.4147, NDCG@20: 0.2641
+EarlyStopping counter: 17 out of 50
+
+Epoch: 384, Loss: 0.1589
+Precision@5:  0.1333, Recall@5:  0.1759, NDCG@5:  0.1903
+Precision@10: 0.1120, Recall@10: 0.2760, NDCG@10: 0.2186
+Precision@15: 0.0997, Recall@15: 0.3542, NDCG@15: 0.2439
+Precision@20: 0.0903, Recall@20: 0.4160, NDCG@20: 0.2650
+EarlyStopping counter: 18 out of 50
+
+Epoch: 385, Loss: 0.1616
+Precision@5:  0.1337, Recall@5:  0.1764, NDCG@5:  0.1900
+Precision@10: 0.1120, Recall@10: 0.2757, NDCG@10: 0.2179
+Precision@15: 0.0996, Recall@15: 0.3523, NDCG@15: 0.2428
+Precision@20: 0.0902, Recall@20: 0.4160, NDCG@20: 0.2644
+EarlyStopping counter: 19 out of 50
+
+Epoch: 386, Loss: 0.1624
+Precision@5:  0.1326, Recall@5:  0.1750, NDCG@5:  0.1892
+Precision@10: 0.1114, Recall@10: 0.2759, NDCG@10: 0.2177
+Precision@15: 0.0999, Recall@15: 0.3544, NDCG@15: 0.2434
+Precision@20: 0.0902, Recall@20: 0.4168, NDCG@20: 0.2645
+EarlyStopping counter: 20 out of 50
+
+Epoch: 387, Loss: 0.1592
+Precision@5:  0.1312, Recall@5:  0.1717, NDCG@5:  0.1879
+Precision@10: 0.1121, Recall@10: 0.2753, NDCG@10: 0.2180
+Precision@15: 0.0998, Recall@15: 0.3528, NDCG@15: 0.2432
+Precision@20: 0.0901, Recall@20: 0.4153, NDCG@20: 0.2642
+EarlyStopping counter: 21 out of 50
+
+Epoch: 388, Loss: 0.1585
+Precision@5:  0.1312, Recall@5:  0.1719, NDCG@5:  0.1881
+Precision@10: 0.1114, Recall@10: 0.2749, NDCG@10: 0.2176
+Precision@15: 0.0999, Recall@15: 0.3527, NDCG@15: 0.2431
+Precision@20: 0.0903, Recall@20: 0.4176, NDCG@20: 0.2648
+EarlyStopping counter: 22 out of 50
+
+Epoch: 389, Loss: 0.1592
+Precision@5:  0.1312, Recall@5:  0.1713, NDCG@5:  0.1886
+Precision@10: 0.1122, Recall@10: 0.2763, NDCG@10: 0.2190
+Precision@15: 0.1002, Recall@15: 0.3541, NDCG@15: 0.2443
+Precision@20: 0.0900, Recall@20: 0.4165, NDCG@20: 0.2651
+EarlyStopping counter: 23 out of 50
+
+Epoch: 390, Loss: 0.1601
+Precision@5:  0.1324, Recall@5:  0.1734, NDCG@5:  0.1893
+Precision@10: 0.1122, Recall@10: 0.2785, NDCG@10: 0.2192
+Precision@15: 0.1005, Recall@15: 0.3528, NDCG@15: 0.2438
+Precision@20: 0.0900, Recall@20: 0.4183, NDCG@20: 0.2651
+EarlyStopping counter: 24 out of 50
+
+Epoch: 391, Loss: 0.1583
+Precision@5:  0.1328, Recall@5:  0.1725, NDCG@5:  0.1891
+Precision@10: 0.1120, Recall@10: 0.2776, NDCG@10: 0.2187
+Precision@15: 0.0998, Recall@15: 0.3515, NDCG@15: 0.2430
+Precision@20: 0.0902, Recall@20: 0.4190, NDCG@20: 0.2652
+EarlyStopping counter: 25 out of 50
+
+Epoch: 392, Loss: 0.1598
+Precision@5:  0.1319, Recall@5:  0.1721, NDCG@5:  0.1890
+Precision@10: 0.1121, Recall@10: 0.2787, NDCG@10: 0.2194
+Precision@15: 0.1000, Recall@15: 0.3511, NDCG@15: 0.2434
+Precision@20: 0.0904, Recall@20: 0.4176, NDCG@20: 0.2654
+EarlyStopping counter: 26 out of 50
+
+Epoch: 393, Loss: 0.1593
+Precision@5:  0.1319, Recall@5:  0.1721, NDCG@5:  0.1892
+Precision@10: 0.1121, Recall@10: 0.2791, NDCG@10: 0.2197
+Precision@15: 0.0994, Recall@15: 0.3512, NDCG@15: 0.2434
+Precision@20: 0.0908, Recall@20: 0.4208, NDCG@20: 0.2665
+Save: result/ML-100K/nothing.pt
+
+Epoch: 394, Loss: 0.1584
+Precision@5:  0.1319, Recall@5:  0.1735, NDCG@5:  0.1895
+Precision@10: 0.1115, Recall@10: 0.2750, NDCG@10: 0.2185
+Precision@15: 0.1000, Recall@15: 0.3536, NDCG@15: 0.2443
+Precision@20: 0.0907, Recall@20: 0.4195, NDCG@20: 0.2663
+EarlyStopping counter: 1 out of 50
+
+Epoch: 395, Loss: 0.1566
+Precision@5:  0.1330, Recall@5:  0.1751, NDCG@5:  0.1910
+Precision@10: 0.1120, Recall@10: 0.2761, NDCG@10: 0.2193
+Precision@15: 0.0997, Recall@15: 0.3539, NDCG@15: 0.2445
+Precision@20: 0.0906, Recall@20: 0.4198, NDCG@20: 0.2667
+EarlyStopping counter: 2 out of 50
+
+Epoch: 396, Loss: 0.1574
+Precision@5:  0.1335, Recall@5:  0.1760, NDCG@5:  0.1914
+Precision@10: 0.1122, Recall@10: 0.2756, NDCG@10: 0.2193
+Precision@15: 0.1000, Recall@15: 0.3534, NDCG@15: 0.2447
+Precision@20: 0.0903, Recall@20: 0.4177, NDCG@20: 0.2661
+EarlyStopping counter: 3 out of 50
+
+Epoch: 397, Loss: 0.1572
+Precision@5:  0.1337, Recall@5:  0.1757, NDCG@5:  0.1914
+Precision@10: 0.1124, Recall@10: 0.2780, NDCG@10: 0.2202
+Precision@15: 0.0997, Recall@15: 0.3536, NDCG@15: 0.2447
+Precision@20: 0.0903, Recall@20: 0.4170, NDCG@20: 0.2661
+EarlyStopping counter: 4 out of 50
+
+Epoch: 398, Loss: 0.1599
+Precision@5:  0.1335, Recall@5:  0.1748, NDCG@5:  0.1909
+Precision@10: 0.1127, Recall@10: 0.2774, NDCG@10: 0.2199
+Precision@15: 0.0996, Recall@15: 0.3540, NDCG@15: 0.2446
+Precision@20: 0.0905, Recall@20: 0.4168, NDCG@20: 0.2660
+EarlyStopping counter: 5 out of 50
+
+Epoch: 399, Loss: 0.1582
+Precision@5:  0.1330, Recall@5:  0.1743, NDCG@5:  0.1907
+Precision@10: 0.1128, Recall@10: 0.2785, NDCG@10: 0.2204
+Precision@15: 0.0999, Recall@15: 0.3546, NDCG@15: 0.2450
+Precision@20: 0.0903, Recall@20: 0.4182, NDCG@20: 0.2663
+EarlyStopping counter: 6 out of 50
+
+Epoch: 400, Loss: 0.1560
+Precision@5:  0.1351, Recall@5:  0.1788, NDCG@5:  0.1928
+Precision@10: 0.1124, Recall@10: 0.2778, NDCG@10: 0.2202
+Precision@15: 0.0999, Recall@15: 0.3539, NDCG@15: 0.2451
+Precision@20: 0.0904, Recall@20: 0.4181, NDCG@20: 0.2666
+EarlyStopping counter: 7 out of 50
+
+Epoch: 401, Loss: 0.1566
+Precision@5:  0.1342, Recall@5:  0.1783, NDCG@5:  0.1935
+Precision@10: 0.1121, Recall@10: 0.2775, NDCG@10: 0.2210
+Precision@15: 0.0994, Recall@15: 0.3530, NDCG@15: 0.2456
+Precision@20: 0.0903, Recall@20: 0.4176, NDCG@20: 0.2672
+EarlyStopping counter: 8 out of 50
+
+Epoch: 402, Loss: 0.1542
+Precision@5:  0.1335, Recall@5:  0.1742, NDCG@5:  0.1898
+Precision@10: 0.1124, Recall@10: 0.2781, NDCG@10: 0.2192
+Precision@15: 0.0997, Recall@15: 0.3525, NDCG@15: 0.2436
+Precision@20: 0.0903, Recall@20: 0.4188, NDCG@20: 0.2655
+EarlyStopping counter: 9 out of 50
+
+Epoch: 403, Loss: 0.1560
+Precision@5:  0.1344, Recall@5:  0.1750, NDCG@5:  0.1909
+Precision@10: 0.1124, Recall@10: 0.2797, NDCG@10: 0.2200
+Precision@15: 0.1001, Recall@15: 0.3534, NDCG@15: 0.2444
+Precision@20: 0.0899, Recall@20: 0.4153, NDCG@20: 0.2651
+EarlyStopping counter: 10 out of 50
+
+Epoch: 404, Loss: 0.1550
+Precision@5:  0.1337, Recall@5:  0.1746, NDCG@5:  0.1898
+Precision@10: 0.1122, Recall@10: 0.2792, NDCG@10: 0.2192
+Precision@15: 0.1003, Recall@15: 0.3539, NDCG@15: 0.2440
+Precision@20: 0.0904, Recall@20: 0.4206, NDCG@20: 0.2659
+EarlyStopping counter: 11 out of 50
+
+Epoch: 405, Loss: 0.1557
+Precision@5:  0.1333, Recall@5:  0.1736, NDCG@5:  0.1894
+Precision@10: 0.1129, Recall@10: 0.2801, NDCG@10: 0.2196
+Precision@15: 0.1005, Recall@15: 0.3536, NDCG@15: 0.2439
+Precision@20: 0.0906, Recall@20: 0.4213, NDCG@20: 0.2660
+Save: result/ML-100K/nothing.pt
+
+Epoch: 406, Loss: 0.1543
+Precision@5:  0.1333, Recall@5:  0.1743, NDCG@5:  0.1895
+Precision@10: 0.1124, Recall@10: 0.2770, NDCG@10: 0.2185
+Precision@15: 0.1003, Recall@15: 0.3526, NDCG@15: 0.2435
+Precision@20: 0.0907, Recall@20: 0.4195, NDCG@20: 0.2656
+EarlyStopping counter: 1 out of 50
+
+Epoch: 407, Loss: 0.1527
+Precision@5:  0.1337, Recall@5:  0.1749, NDCG@5:  0.1894
+Precision@10: 0.1125, Recall@10: 0.2788, NDCG@10: 0.2187
+Precision@15: 0.1003, Recall@15: 0.3536, NDCG@15: 0.2434
+Precision@20: 0.0903, Recall@20: 0.4166, NDCG@20: 0.2644
+EarlyStopping counter: 2 out of 50
+
+Epoch: 408, Loss: 0.1532
+Precision@5:  0.1333, Recall@5:  0.1747, NDCG@5:  0.1895
+Precision@10: 0.1122, Recall@10: 0.2770, NDCG@10: 0.2184
+Precision@15: 0.1003, Recall@15: 0.3528, NDCG@15: 0.2435
+Precision@20: 0.0905, Recall@20: 0.4201, NDCG@20: 0.2655
+EarlyStopping counter: 3 out of 50
+
+Epoch: 409, Loss: 0.1527
+Precision@5:  0.1328, Recall@5:  0.1736, NDCG@5:  0.1895
+Precision@10: 0.1128, Recall@10: 0.2778, NDCG@10: 0.2193
+Precision@15: 0.1003, Recall@15: 0.3542, NDCG@15: 0.2443
+Precision@20: 0.0905, Recall@20: 0.4194, NDCG@20: 0.2659
+EarlyStopping counter: 4 out of 50
+
+Epoch: 410, Loss: 0.1539
+Precision@5:  0.1330, Recall@5:  0.1747, NDCG@5:  0.1903
+Precision@10: 0.1128, Recall@10: 0.2779, NDCG@10: 0.2196
+Precision@15: 0.1001, Recall@15: 0.3546, NDCG@15: 0.2446
+Precision@20: 0.0901, Recall@20: 0.4176, NDCG@20: 0.2656
+EarlyStopping counter: 5 out of 50
+
+Epoch: 411, Loss: 0.1556
+Precision@5:  0.1326, Recall@5:  0.1745, NDCG@5:  0.1903
+Precision@10: 0.1128, Recall@10: 0.2783, NDCG@10: 0.2199
+Precision@15: 0.1003, Recall@15: 0.3545, NDCG@15: 0.2449
+Precision@20: 0.0902, Recall@20: 0.4191, NDCG@20: 0.2662
+EarlyStopping counter: 6 out of 50
+
+Epoch: 412, Loss: 0.1519
+Precision@5:  0.1333, Recall@5:  0.1755, NDCG@5:  0.1913
+Precision@10: 0.1128, Recall@10: 0.2765, NDCG@10: 0.2200
+Precision@15: 0.0998, Recall@15: 0.3523, NDCG@15: 0.2446
+Precision@20: 0.0901, Recall@20: 0.4180, NDCG@20: 0.2664
+EarlyStopping counter: 7 out of 50
+
+Epoch: 413, Loss: 0.1498
+Precision@5:  0.1330, Recall@5:  0.1748, NDCG@5:  0.1907
+Precision@10: 0.1125, Recall@10: 0.2782, NDCG@10: 0.2200
+Precision@15: 0.0997, Recall@15: 0.3517, NDCG@15: 0.2442
+Precision@20: 0.0901, Recall@20: 0.4191, NDCG@20: 0.2664
+EarlyStopping counter: 8 out of 50
+
+Epoch: 414, Loss: 0.1530
+Precision@5:  0.1342, Recall@5:  0.1755, NDCG@5:  0.1912
+Precision@10: 0.1127, Recall@10: 0.2779, NDCG@10: 0.2198
+Precision@15: 0.0997, Recall@15: 0.3524, NDCG@15: 0.2441
+Precision@20: 0.0901, Recall@20: 0.4176, NDCG@20: 0.2658
+EarlyStopping counter: 9 out of 50
+
+Epoch: 415, Loss: 0.1523
+Precision@5:  0.1346, Recall@5:  0.1745, NDCG@5:  0.1912
+Precision@10: 0.1130, Recall@10: 0.2798, NDCG@10: 0.2205
+Precision@15: 0.1000, Recall@15: 0.3549, NDCG@15: 0.2448
+Precision@20: 0.0900, Recall@20: 0.4159, NDCG@20: 0.2655
+EarlyStopping counter: 10 out of 50
+
+Epoch: 416, Loss: 0.1511
+Precision@5:  0.1346, Recall@5:  0.1750, NDCG@5:  0.1906
+Precision@10: 0.1127, Recall@10: 0.2799, NDCG@10: 0.2197
+Precision@15: 0.1000, Recall@15: 0.3555, NDCG@15: 0.2444
+Precision@20: 0.0900, Recall@20: 0.4159, NDCG@20: 0.2649
+EarlyStopping counter: 11 out of 50
+
+Epoch: 417, Loss: 0.1501
+Precision@5:  0.1348, Recall@5:  0.1768, NDCG@5:  0.1916
+Precision@10: 0.1127, Recall@10: 0.2795, NDCG@10: 0.2200
+Precision@15: 0.1000, Recall@15: 0.3544, NDCG@15: 0.2446
+Precision@20: 0.0899, Recall@20: 0.4160, NDCG@20: 0.2653
+EarlyStopping counter: 12 out of 50
+
+Epoch: 418, Loss: 0.1494
+Precision@5:  0.1344, Recall@5:  0.1770, NDCG@5:  0.1918
+Precision@10: 0.1127, Recall@10: 0.2794, NDCG@10: 0.2203
+Precision@15: 0.1003, Recall@15: 0.3551, NDCG@15: 0.2452
+Precision@20: 0.0898, Recall@20: 0.4167, NDCG@20: 0.2656
+EarlyStopping counter: 13 out of 50
+
+Epoch: 419, Loss: 0.1503
+Precision@5:  0.1339, Recall@5:  0.1768, NDCG@5:  0.1908
+Precision@10: 0.1129, Recall@10: 0.2777, NDCG@10: 0.2195
+Precision@15: 0.1006, Recall@15: 0.3570, NDCG@15: 0.2453
+Precision@20: 0.0899, Recall@20: 0.4177, NDCG@20: 0.2655
+EarlyStopping counter: 14 out of 50
+
+Epoch: 420, Loss: 0.1494
+Precision@5:  0.1344, Recall@5:  0.1774, NDCG@5:  0.1918
+Precision@10: 0.1127, Recall@10: 0.2786, NDCG@10: 0.2202
+Precision@15: 0.1001, Recall@15: 0.3558, NDCG@15: 0.2452
+Precision@20: 0.0902, Recall@20: 0.4202, NDCG@20: 0.2666
+EarlyStopping counter: 15 out of 50
+
+Epoch: 421, Loss: 0.1501
+Precision@5:  0.1342, Recall@5:  0.1765, NDCG@5:  0.1914
+Precision@10: 0.1130, Recall@10: 0.2788, NDCG@10: 0.2202
+Precision@15: 0.1001, Recall@15: 0.3553, NDCG@15: 0.2449
+Precision@20: 0.0905, Recall@20: 0.4219, NDCG@20: 0.2670
+Save: result/ML-100K/nothing.pt
+
+Epoch: 422, Loss: 0.1479
+Precision@5:  0.1346, Recall@5:  0.1769, NDCG@5:  0.1923
+Precision@10: 0.1125, Recall@10: 0.2789, NDCG@10: 0.2207
+Precision@15: 0.1003, Recall@15: 0.3567, NDCG@15: 0.2461
+Precision@20: 0.0904, Recall@20: 0.4204, NDCG@20: 0.2673
+EarlyStopping counter: 1 out of 50
+
+Epoch: 423, Loss: 0.1480
+Precision@5:  0.1337, Recall@5:  0.1750, NDCG@5:  0.1911
+Precision@10: 0.1133, Recall@10: 0.2795, NDCG@10: 0.2208
+Precision@15: 0.1003, Recall@15: 0.3554, NDCG@15: 0.2453
+Precision@20: 0.0902, Recall@20: 0.4192, NDCG@20: 0.2665
+EarlyStopping counter: 2 out of 50
+
+Epoch: 424, Loss: 0.1496
+Precision@5:  0.1342, Recall@5:  0.1760, NDCG@5:  0.1913
+Precision@10: 0.1133, Recall@10: 0.2797, NDCG@10: 0.2207
+Precision@15: 0.1002, Recall@15: 0.3543, NDCG@15: 0.2448
+Precision@20: 0.0900, Recall@20: 0.4200, NDCG@20: 0.2663
+EarlyStopping counter: 3 out of 50
+
+Epoch: 425, Loss: 0.1477
+Precision@5:  0.1333, Recall@5:  0.1736, NDCG@5:  0.1900
+Precision@10: 0.1132, Recall@10: 0.2787, NDCG@10: 0.2201
+Precision@15: 0.1005, Recall@15: 0.3563, NDCG@15: 0.2452
+Precision@20: 0.0901, Recall@20: 0.4185, NDCG@20: 0.2659
+EarlyStopping counter: 4 out of 50
+
+Epoch: 426, Loss: 0.1464
+Precision@5:  0.1328, Recall@5:  0.1726, NDCG@5:  0.1897
+Precision@10: 0.1131, Recall@10: 0.2788, NDCG@10: 0.2202
+Precision@15: 0.1003, Recall@15: 0.3562, NDCG@15: 0.2450
+Precision@20: 0.0903, Recall@20: 0.4183, NDCG@20: 0.2659
+EarlyStopping counter: 5 out of 50
+
+Epoch: 427, Loss: 0.1467
+Precision@5:  0.1326, Recall@5:  0.1729, NDCG@5:  0.1896
+Precision@10: 0.1132, Recall@10: 0.2787, NDCG@10: 0.2202
+Precision@15: 0.1000, Recall@15: 0.3549, NDCG@15: 0.2447
+Precision@20: 0.0904, Recall@20: 0.4208, NDCG@20: 0.2665
+EarlyStopping counter: 6 out of 50
+
+Epoch: 428, Loss: 0.1477
+Precision@5:  0.1337, Recall@5:  0.1737, NDCG@5:  0.1909
+Precision@10: 0.1132, Recall@10: 0.2797, NDCG@10: 0.2208
+Precision@15: 0.1004, Recall@15: 0.3563, NDCG@15: 0.2455
+Precision@20: 0.0904, Recall@20: 0.4189, NDCG@20: 0.2665
+EarlyStopping counter: 7 out of 50
+
+Epoch: 429, Loss: 0.1466
+Precision@5:  0.1326, Recall@5:  0.1727, NDCG@5:  0.1902
+Precision@10: 0.1130, Recall@10: 0.2789, NDCG@10: 0.2208
+Precision@15: 0.1001, Recall@15: 0.3567, NDCG@15: 0.2458
+Precision@20: 0.0906, Recall@20: 0.4209, NDCG@20: 0.2674
+EarlyStopping counter: 8 out of 50
+
+Epoch: 430, Loss: 0.1490
+Precision@5:  0.1328, Recall@5:  0.1736, NDCG@5:  0.1910
+Precision@10: 0.1128, Recall@10: 0.2789, NDCG@10: 0.2211
+Precision@15: 0.0999, Recall@15: 0.3551, NDCG@15: 0.2457
+Precision@20: 0.0902, Recall@20: 0.4179, NDCG@20: 0.2669
+EarlyStopping counter: 9 out of 50
+
+Epoch: 431, Loss: 0.1457
+Precision@5:  0.1335, Recall@5:  0.1731, NDCG@5:  0.1905
+Precision@10: 0.1132, Recall@10: 0.2783, NDCG@10: 0.2205
+Precision@15: 0.1000, Recall@15: 0.3561, NDCG@15: 0.2454
+Precision@20: 0.0900, Recall@20: 0.4170, NDCG@20: 0.2660
+EarlyStopping counter: 10 out of 50
+
+Epoch: 432, Loss: 0.1426
+Precision@5:  0.1330, Recall@5:  0.1738, NDCG@5:  0.1910
+Precision@10: 0.1129, Recall@10: 0.2798, NDCG@10: 0.2214
+Precision@15: 0.1001, Recall@15: 0.3562, NDCG@15: 0.2462
+Precision@20: 0.0901, Recall@20: 0.4199, NDCG@20: 0.2673
+EarlyStopping counter: 11 out of 50
+
+Epoch: 433, Loss: 0.1464
+Precision@5:  0.1328, Recall@5:  0.1724, NDCG@5:  0.1897
+Precision@10: 0.1123, Recall@10: 0.2774, NDCG@10: 0.2198
+Precision@15: 0.1004, Recall@15: 0.3581, NDCG@15: 0.2460
+Precision@20: 0.0901, Recall@20: 0.4194, NDCG@20: 0.2664
+EarlyStopping counter: 12 out of 50
+
+Epoch: 434, Loss: 0.1427
+Precision@5:  0.1319, Recall@5:  0.1717, NDCG@5:  0.1899
+Precision@10: 0.1127, Recall@10: 0.2784, NDCG@10: 0.2209
+Precision@15: 0.1003, Recall@15: 0.3560, NDCG@15: 0.2461
+Precision@20: 0.0901, Recall@20: 0.4195, NDCG@20: 0.2671
+EarlyStopping counter: 13 out of 50
+
+Epoch: 435, Loss: 0.1438
+Precision@5:  0.1326, Recall@5:  0.1733, NDCG@5:  0.1911
+Precision@10: 0.1128, Recall@10: 0.2796, NDCG@10: 0.2217
+Precision@15: 0.1004, Recall@15: 0.3566, NDCG@15: 0.2468
+Precision@20: 0.0902, Recall@20: 0.4207, NDCG@20: 0.2679
+EarlyStopping counter: 14 out of 50
+
+Epoch: 436, Loss: 0.1426
+Precision@5:  0.1319, Recall@5:  0.1715, NDCG@5:  0.1901
+Precision@10: 0.1129, Recall@10: 0.2785, NDCG@10: 0.2213
+Precision@15: 0.1006, Recall@15: 0.3594, NDCG@15: 0.2474
+Precision@20: 0.0903, Recall@20: 0.4215, NDCG@20: 0.2680
+EarlyStopping counter: 15 out of 50
+
+Epoch: 437, Loss: 0.1455
+Precision@5:  0.1312, Recall@5:  0.1708, NDCG@5:  0.1898
+Precision@10: 0.1128, Recall@10: 0.2805, NDCG@10: 0.2219
+Precision@15: 0.1006, Recall@15: 0.3581, NDCG@15: 0.2473
+Precision@20: 0.0904, Recall@20: 0.4217, NDCG@20: 0.2684
+EarlyStopping counter: 16 out of 50
+
+Epoch: 438, Loss: 0.1455
+Precision@5:  0.1324, Recall@5:  0.1731, NDCG@5:  0.1906
+Precision@10: 0.1135, Recall@10: 0.2818, NDCG@10: 0.2223
+Precision@15: 0.1003, Recall@15: 0.3564, NDCG@15: 0.2465
+Precision@20: 0.0903, Recall@20: 0.4215, NDCG@20: 0.2681
+EarlyStopping counter: 17 out of 50
+
+Epoch: 439, Loss: 0.1430
+Precision@5:  0.1319, Recall@5:  0.1733, NDCG@5:  0.1914
+Precision@10: 0.1128, Recall@10: 0.2801, NDCG@10: 0.2226
+Precision@15: 0.1005, Recall@15: 0.3564, NDCG@15: 0.2476
+Precision@20: 0.0904, Recall@20: 0.4203, NDCG@20: 0.2688
+EarlyStopping counter: 18 out of 50
+
+Epoch: 440, Loss: 0.1420
+Precision@5:  0.1321, Recall@5:  0.1732, NDCG@5:  0.1920
+Precision@10: 0.1131, Recall@10: 0.2805, NDCG@10: 0.2234
+Precision@15: 0.0999, Recall@15: 0.3556, NDCG@15: 0.2478
+Precision@20: 0.0895, Recall@20: 0.4171, NDCG@20: 0.2682
+EarlyStopping counter: 19 out of 50
+
+Epoch: 441, Loss: 0.1431
+Precision@5:  0.1317, Recall@5:  0.1718, NDCG@5:  0.1906
+Precision@10: 0.1130, Recall@10: 0.2792, NDCG@10: 0.2222
+Precision@15: 0.0999, Recall@15: 0.3552, NDCG@15: 0.2468
+Precision@20: 0.0899, Recall@20: 0.4210, NDCG@20: 0.2684
+EarlyStopping counter: 20 out of 50
+
+Epoch: 442, Loss: 0.1438
+Precision@5:  0.1312, Recall@5:  0.1731, NDCG@5:  0.1902
+Precision@10: 0.1133, Recall@10: 0.2811, NDCG@10: 0.2224
+Precision@15: 0.1000, Recall@15: 0.3556, NDCG@15: 0.2466
+Precision@20: 0.0894, Recall@20: 0.4180, NDCG@20: 0.2671
+EarlyStopping counter: 21 out of 50
+
+Epoch: 443, Loss: 0.1418
+Precision@5:  0.1330, Recall@5:  0.1743, NDCG@5:  0.1910
+Precision@10: 0.1129, Recall@10: 0.2799, NDCG@10: 0.2216
+Precision@15: 0.0994, Recall@15: 0.3546, NDCG@15: 0.2458
+Precision@20: 0.0896, Recall@20: 0.4196, NDCG@20: 0.2673
+EarlyStopping counter: 22 out of 50
+
+Epoch: 444, Loss: 0.1408
+Precision@5:  0.1328, Recall@5:  0.1732, NDCG@5:  0.1910
+Precision@10: 0.1129, Recall@10: 0.2792, NDCG@10: 0.2217
+Precision@15: 0.0995, Recall@15: 0.3566, NDCG@15: 0.2465
+Precision@20: 0.0898, Recall@20: 0.4185, NDCG@20: 0.2673
+EarlyStopping counter: 23 out of 50
+
+Epoch: 445, Loss: 0.1482
+Precision@5:  0.1319, Recall@5:  0.1705, NDCG@5:  0.1893
+Precision@10: 0.1131, Recall@10: 0.2788, NDCG@10: 0.2212
+Precision@15: 0.0997, Recall@15: 0.3579, NDCG@15: 0.2465
+Precision@20: 0.0894, Recall@20: 0.4154, NDCG@20: 0.2661
+EarlyStopping counter: 24 out of 50
+
+Epoch: 446, Loss: 0.1387
+Precision@5:  0.1310, Recall@5:  0.1702, NDCG@5:  0.1887
+Precision@10: 0.1128, Recall@10: 0.2781, NDCG@10: 0.2207
+Precision@15: 0.0993, Recall@15: 0.3571, NDCG@15: 0.2460
+Precision@20: 0.0894, Recall@20: 0.4168, NDCG@20: 0.2661
+EarlyStopping counter: 25 out of 50
+
+Epoch: 447, Loss: 0.1403
+Precision@5:  0.1330, Recall@5:  0.1734, NDCG@5:  0.1903
+Precision@10: 0.1132, Recall@10: 0.2793, NDCG@10: 0.2211
+Precision@15: 0.0994, Recall@15: 0.3560, NDCG@15: 0.2455
+Precision@20: 0.0894, Recall@20: 0.4162, NDCG@20: 0.2658
+EarlyStopping counter: 26 out of 50
+
+Epoch: 448, Loss: 0.1410
+Precision@5:  0.1330, Recall@5:  0.1736, NDCG@5:  0.1905
+Precision@10: 0.1134, Recall@10: 0.2809, NDCG@10: 0.2219
+Precision@15: 0.0988, Recall@15: 0.3548, NDCG@15: 0.2453
+Precision@20: 0.0894, Recall@20: 0.4159, NDCG@20: 0.2660
+EarlyStopping counter: 27 out of 50
+
+Epoch: 449, Loss: 0.1421
+Precision@5:  0.1321, Recall@5:  0.1735, NDCG@5:  0.1903
+Precision@10: 0.1131, Recall@10: 0.2804, NDCG@10: 0.2219
+Precision@15: 0.0995, Recall@15: 0.3551, NDCG@15: 0.2460
+Precision@20: 0.0896, Recall@20: 0.4166, NDCG@20: 0.2667
+EarlyStopping counter: 28 out of 50
+
+Epoch: 450, Loss: 0.1400
+Precision@5:  0.1317, Recall@5:  0.1734, NDCG@5:  0.1900
+Precision@10: 0.1135, Recall@10: 0.2815, NDCG@10: 0.2221
+Precision@15: 0.1000, Recall@15: 0.3580, NDCG@15: 0.2467
+Precision@20: 0.0894, Recall@20: 0.4143, NDCG@20: 0.2659
+EarlyStopping counter: 29 out of 50
+
+Epoch: 451, Loss: 0.1407
+Precision@5:  0.1321, Recall@5:  0.1744, NDCG@5:  0.1901
+Precision@10: 0.1137, Recall@10: 0.2825, NDCG@10: 0.2223
+Precision@15: 0.1000, Recall@15: 0.3577, NDCG@15: 0.2464
+Precision@20: 0.0893, Recall@20: 0.4136, NDCG@20: 0.2655
+EarlyStopping counter: 30 out of 50
+
+Epoch: 452, Loss: 0.1400
+Precision@5:  0.1319, Recall@5:  0.1742, NDCG@5:  0.1910
+Precision@10: 0.1133, Recall@10: 0.2814, NDCG@10: 0.2228
+Precision@15: 0.0992, Recall@15: 0.3556, NDCG@15: 0.2464
+Precision@20: 0.0898, Recall@20: 0.4168, NDCG@20: 0.2673
+EarlyStopping counter: 31 out of 50
+
+Epoch: 453, Loss: 0.1408
+Precision@5:  0.1317, Recall@5:  0.1754, NDCG@5:  0.1918
+Precision@10: 0.1134, Recall@10: 0.2812, NDCG@10: 0.2234
+Precision@15: 0.0990, Recall@15: 0.3543, NDCG@15: 0.2466
+Precision@20: 0.0896, Recall@20: 0.4157, NDCG@20: 0.2675
+EarlyStopping counter: 32 out of 50
+
+Epoch: 454, Loss: 0.1408
+Precision@5:  0.1317, Recall@5:  0.1743, NDCG@5:  0.1907
+Precision@10: 0.1133, Recall@10: 0.2807, NDCG@10: 0.2224
+Precision@15: 0.0987, Recall@15: 0.3546, NDCG@15: 0.2458
+Precision@20: 0.0893, Recall@20: 0.4150, NDCG@20: 0.2665
+EarlyStopping counter: 33 out of 50
+
+Epoch: 455, Loss: 0.1384
+Precision@5:  0.1312, Recall@5:  0.1736, NDCG@5:  0.1908
+Precision@10: 0.1138, Recall@10: 0.2809, NDCG@10: 0.2231
+Precision@15: 0.0994, Recall@15: 0.3560, NDCG@15: 0.2469
+Precision@20: 0.0896, Recall@20: 0.4158, NDCG@20: 0.2673
+EarlyStopping counter: 34 out of 50
+
+Epoch: 456, Loss: 0.1375
+Precision@5:  0.1308, Recall@5:  0.1735, NDCG@5:  0.1901
+Precision@10: 0.1138, Recall@10: 0.2812, NDCG@10: 0.2229
+Precision@15: 0.0989, Recall@15: 0.3542, NDCG@15: 0.2461
+Precision@20: 0.0893, Recall@20: 0.4151, NDCG@20: 0.2668
+EarlyStopping counter: 35 out of 50
+
+Epoch: 457, Loss: 0.1402
+Precision@5:  0.1310, Recall@5:  0.1739, NDCG@5:  0.1902
+Precision@10: 0.1133, Recall@10: 0.2809, NDCG@10: 0.2223
+Precision@15: 0.0993, Recall@15: 0.3545, NDCG@15: 0.2460
+Precision@20: 0.0895, Recall@20: 0.4159, NDCG@20: 0.2668
+EarlyStopping counter: 36 out of 50
+
+Epoch: 458, Loss: 0.1384
+Precision@5:  0.1308, Recall@5:  0.1740, NDCG@5:  0.1903
+Precision@10: 0.1134, Recall@10: 0.2808, NDCG@10: 0.2224
+Precision@15: 0.0991, Recall@15: 0.3546, NDCG@15: 0.2460
+Precision@20: 0.0902, Recall@20: 0.4195, NDCG@20: 0.2680
+EarlyStopping counter: 37 out of 50
+
+Epoch: 459, Loss: 0.1382
+Precision@5:  0.1317, Recall@5:  0.1742, NDCG@5:  0.1915
+Precision@10: 0.1139, Recall@10: 0.2814, NDCG@10: 0.2235
+Precision@15: 0.0991, Recall@15: 0.3550, NDCG@15: 0.2469
+Precision@20: 0.0896, Recall@20: 0.4165, NDCG@20: 0.2677
+EarlyStopping counter: 38 out of 50
+
+Epoch: 460, Loss: 0.1384
+Precision@5:  0.1324, Recall@5:  0.1747, NDCG@5:  0.1913
+Precision@10: 0.1141, Recall@10: 0.2815, NDCG@10: 0.2231
+Precision@15: 0.0990, Recall@15: 0.3529, NDCG@15: 0.2457
+Precision@20: 0.0895, Recall@20: 0.4154, NDCG@20: 0.2669
+EarlyStopping counter: 39 out of 50
+
+Epoch: 461, Loss: 0.1385
+Precision@5:  0.1324, Recall@5:  0.1758, NDCG@5:  0.1923
+Precision@10: 0.1137, Recall@10: 0.2806, NDCG@10: 0.2235
+Precision@15: 0.0992, Recall@15: 0.3554, NDCG@15: 0.2472
+Precision@20: 0.0894, Recall@20: 0.4120, NDCG@20: 0.2669
+EarlyStopping counter: 40 out of 50
+
+Epoch: 462, Loss: 0.1382
+Precision@5:  0.1326, Recall@5:  0.1761, NDCG@5:  0.1920
+Precision@10: 0.1139, Recall@10: 0.2799, NDCG@10: 0.2228
+Precision@15: 0.0992, Recall@15: 0.3568, NDCG@15: 0.2469
+Precision@20: 0.0895, Recall@20: 0.4135, NDCG@20: 0.2666
+EarlyStopping counter: 41 out of 50
+
+Epoch: 463, Loss: 0.1359
+Precision@5:  0.1317, Recall@5:  0.1739, NDCG@5:  0.1905
+Precision@10: 0.1141, Recall@10: 0.2810, NDCG@10: 0.2227
+Precision@15: 0.0994, Recall@15: 0.3558, NDCG@15: 0.2463
+Precision@20: 0.0891, Recall@20: 0.4127, NDCG@20: 0.2658
+EarlyStopping counter: 42 out of 50
+
+Epoch: 464, Loss: 0.1374
+Precision@5:  0.1324, Recall@5:  0.1743, NDCG@5:  0.1920
+Precision@10: 0.1135, Recall@10: 0.2793, NDCG@10: 0.2230
+Precision@15: 0.0998, Recall@15: 0.3575, NDCG@15: 0.2479
+Precision@20: 0.0891, Recall@20: 0.4131, NDCG@20: 0.2668
+EarlyStopping counter: 43 out of 50
+
+Epoch: 465, Loss: 0.1382
+Precision@5:  0.1310, Recall@5:  0.1739, NDCG@5:  0.1917
+Precision@10: 0.1139, Recall@10: 0.2798, NDCG@10: 0.2238
+Precision@15: 0.0990, Recall@15: 0.3551, NDCG@15: 0.2474
+Precision@20: 0.0888, Recall@20: 0.4119, NDCG@20: 0.2669
+EarlyStopping counter: 44 out of 50
+
+Epoch: 466, Loss: 0.1377
+Precision@5:  0.1306, Recall@5:  0.1723, NDCG@5:  0.1908
+Precision@10: 0.1135, Recall@10: 0.2781, NDCG@10: 0.2229
+Precision@15: 0.0986, Recall@15: 0.3536, NDCG@15: 0.2466
+Precision@20: 0.0890, Recall@20: 0.4148, NDCG@20: 0.2673
+EarlyStopping counter: 45 out of 50
+
+Epoch: 467, Loss: 0.1359
+Precision@5:  0.1315, Recall@5:  0.1729, NDCG@5:  0.1925
+Precision@10: 0.1138, Recall@10: 0.2794, NDCG@10: 0.2243
+Precision@15: 0.0994, Recall@15: 0.3557, NDCG@15: 0.2485
+Precision@20: 0.0891, Recall@20: 0.4127, NDCG@20: 0.2679
+EarlyStopping counter: 46 out of 50
+
+Epoch: 468, Loss: 0.1325
+Precision@5:  0.1319, Recall@5:  0.1752, NDCG@5:  0.1932
+Precision@10: 0.1134, Recall@10: 0.2795, NDCG@10: 0.2240
+Precision@15: 0.0993, Recall@15: 0.3549, NDCG@15: 0.2480
+Precision@20: 0.0892, Recall@20: 0.4143, NDCG@20: 0.2680
+EarlyStopping counter: 47 out of 50
+
+Epoch: 469, Loss: 0.1352
+Precision@5:  0.1319, Recall@5:  0.1748, NDCG@5:  0.1923
+Precision@10: 0.1133, Recall@10: 0.2784, NDCG@10: 0.2229
+Precision@15: 0.0994, Recall@15: 0.3539, NDCG@15: 0.2470
+Precision@20: 0.0892, Recall@20: 0.4143, NDCG@20: 0.2674
+EarlyStopping counter: 48 out of 50
+
+Epoch: 470, Loss: 0.1356
+Precision@5:  0.1324, Recall@5:  0.1742, NDCG@5:  0.1928
+Precision@10: 0.1133, Recall@10: 0.2793, NDCG@10: 0.2236
+Precision@15: 0.0994, Recall@15: 0.3547, NDCG@15: 0.2477
+Precision@20: 0.0894, Recall@20: 0.4137, NDCG@20: 0.2678
+EarlyStopping counter: 49 out of 50
+
+Epoch: 471, Loss: 0.1347
+Precision@5:  0.1326, Recall@5:  0.1756, NDCG@5:  0.1934
+Precision@10: 0.1127, Recall@10: 0.2778, NDCG@10: 0.2230
+Precision@15: 0.0994, Recall@15: 0.3544, NDCG@15: 0.2477
+Precision@20: 0.0892, Recall@20: 0.4149, NDCG@20: 0.2680
+EarlyStopping counter: 50 out of 50
+
+Early stopping at epoch 421. Best Validation Results:
+Precision@5:  0.1342, Recall@5:  0.1765, NDCG@5:  0.1914
+Precision@10: 0.1130, Recall@10: 0.2788, NDCG@10: 0.2202
+Precision@15: 0.1001, Recall@15: 0.3553, NDCG@15: 0.2449
+Precision@20: 0.0905, Recall@20: 0.4219, NDCG@20: 0.2670
+
+Training completed in 183.9344985485077 seconds.
+
+#############################################################################
+Final Test Results
+Precision@5:  0.2819, Recall@5:  0.1914, NDCG@5:  0.3322
+Precision@10: 0.2370, Recall@10: 0.2993, NDCG@10: 0.3408
+Precision@15: 0.2033, Recall@15: 0.3688, NDCG@15: 0.3508
+Precision@20: 0.1834, Recall@20: 0.4296, NDCG@20: 0.3661
+#############################################################################
