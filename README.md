@@ -1,4 +1,4 @@
-# [Under review] Leveraging Refined Negative Feedback with LLM for Recommender Systems
+# [WWW '25] Leveraging Refined Negative Feedback with LLM for Recommender Systems
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
