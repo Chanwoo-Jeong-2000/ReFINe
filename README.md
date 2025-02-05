@@ -44,3 +44,12 @@ Download **netflix.inter** from [here](https://recbole.s3-accelerate.amazonaws.c
 Download **movie_titles.csv** from [here](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?select=movie_titles.csv).
 
 Download **netflix_genres.csv** from [here](https://github.com/tommasocarraro/netflix-prize-with-genres).
+
+# Citation
+If you find ReFINe useful for your research or development, please cite the following our papers:
+```
+
+```
+
+# Acknowledgments
+This research was supported by the MSIT(Ministry of Science and ICT), Korea, under the ITRC(Information Technology Research Center) support program(IITP-2025-RS-2024-00438056) and the Artificial Intelligence Graduate School Program of Chung-Ang Univ.(No. 2021-0-01341) both supervised by the IITP(Institute for Information & Communications Technology Planning & Evaluation).
