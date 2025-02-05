@@ -1,5 +1,6 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14808051.svg)](https://doi.org/10.5281/zenodo.14808051)
 # [WWW '25] Leveraging Refined Negative Feedback with LLM for Recommender Systems
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14808051.svg)](https://doi.org/10.5281/zenodo.14808051)
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
