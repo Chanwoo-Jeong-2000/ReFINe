@@ -34,6 +34,11 @@ The batch size is set to 1024, embedding dimension to 64, the number of layers i
 The model is evaluated on the validation set at each epoch, and early stopping is applied if no improvement in recall@20 is observed over 50 consecutive epochs.
 The experiments are conducted using a single NVIDIA RTX A6000 GPU.
 
+# Compare with our results
+The **results4comparison** folder contains the results of our experiment.
+Each file includes the loss and performance metrics for every epoch.
+You can compare our results with your own reproduced results.
+
 # Datasets
 Download **ml-100k.inter** and **ml-100k.item** from [here](https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/MovieLens/ml-100k.zip).
 
