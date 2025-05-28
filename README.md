@@ -1,6 +1,6 @@
 # [WWW '25] Leveraging Refined Negative Feedback with LLM for Recommender Systems
 
-[![Paper](https://img.shields.io/badge/View%20Paper-PDF-blue?logo=adobeacrobatreader)](https://dl.acm.org/doi/10.1145/3701716.3715538)
+[![View Paper](https://img.shields.io/badge/View%20Paper-PDF-red?logo=adobeacrobatreader)](https://dl.acm.org/doi/10.1145/3701716.3715538)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14808051.svg)](https://doi.org/10.5281/zenodo.14808051)
 
 # Requirements
