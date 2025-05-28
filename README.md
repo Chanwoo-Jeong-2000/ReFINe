@@ -53,7 +53,13 @@ Download **netflix_genres.csv** from [here](https://github.com/tommasocarraro/ne
 # Citation
 If you find ReFINe useful for your research or development, please cite the following our papers:
 ```
-
+@inproceedings{jeong2025leveraging,
+  title={Leveraging Refined Negative Feedback with LLM for Recommender Systems},
+  author={Jeong, Chanwoo and Kang, Yujin and Cho, Yoon-Sik},
+  booktitle={Companion Proceedings of the ACM on Web Conference 2025},
+  pages={1028--1032},
+  year={2025}
+}
 ```
 
 # Acknowledgments
