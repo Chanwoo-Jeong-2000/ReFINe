@@ -51,7 +51,7 @@ Download **movie_titles.csv** from [here](https://www.kaggle.com/datasets/netfli
 
 Download **netflix_genres.csv** from [here](https://github.com/tommasocarraro/netflix-prize-with-genres).
 
-If you would like to access the dataset refined by LLM according to our methodology, you can download it [here]([https://github.com/tommasocarraro/netflix-prize-with-genres](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus/tree/main/dataset)).
+If you would like to access the dataset refined by LLM according to our methodology, you can download it [here](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus/tree/main/dataset).
 
 # Citation
 If you find ReFINe useful for your research or development, please cite the following our papers:
