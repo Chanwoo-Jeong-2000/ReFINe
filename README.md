@@ -3,9 +3,9 @@
 [![View Paper](https://img.shields.io/badge/View%20Paper-PDF-red?logo=adobeacrobatreader)](https://dl.acm.org/doi/10.1145/3701716.3715538)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14808051.svg)](https://doi.org/10.5281/zenodo.14808051)
 
-This study introduces the ReFINe model, which addresses negative feedback in recommender systems.  
-This paper has been accepted to [The Web Conference 2025 (WWW ’25)](https://www2025.thewebconf.org).  
-A follow-up work, ReFINe++, has also been published, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus) available.
+This study introduces the **ReFINe** model, which addresses negative feedback in recommender systems.  
+[This paper](https://dl.acm.org/doi/10.1145/3701716.3715538) has been accepted to [The Web Conference 2025 (WWW ’25)](https://www2025.thewebconf.org).  
+A follow-up work, **ReFINe++** model, has also been published, with its corresponding [paper](https://ieeexplore.ieee.org/document/11126013) and [code](https://github.com/Chanwoo-Jeong-2000/ReFINe_plus) available.
 
 # Requirements
 python 3.9.20, cuda 11.8, and the following installations:
